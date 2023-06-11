@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "2a62925b25c2a2ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "556760775efb387e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eda072536c424ba8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Content/03 - LLMNR Poisoning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d180669bb6b2549",
+    "type": "split",
+    "children": [
+      {
+        "id": "6397ec507b30008c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e523a338327a0917",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d412b8b600654e33",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "metaspl",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d21524b0432744bb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "fb49414dac9a790f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "right": {
+    "id": "efcca45e639a59e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3db1dc4824bf664",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86ffe71d468bca0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 - Content/03 - LLMNR Poisoning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4b5255eb5708d9e9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 - Content/03 - LLMNR Poisoning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "03da842766a09c6f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3836353631425198",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 - Content/03 - LLMNR Poisoning.md"
+              }
+            }
+          },
+          {
+            "id": "38739576ee2ec2ee",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "34afc6f56159b195",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "eda072536c424ba8",
+  "lastOpenFiles": [
+    "02 - Secondary Categories/02 - Active Directory.md",
+    "01 - Primary Categories/01 - Red Team.md",
+    "000 - Cybersecurity Materials.md",
+    "03 - CyberLens.md",
+    "04 - Tools & Techniques/04 - AutoRecon.md",
+    "04 - Tools & Techniques/04 - Responder.md",
+    "03 - Content/03 - LLMNR Poisoning.md",
+    "04 - Tools & Techniques/04 - Tools & Techniques.md",
+    "04 - Tools & Techniques/04 - Evil-WinRM.md",
+    "04 - Tools & Techniques/04 - Enum4Linux-NG.md",
+    "04 - Tools & Techniques/04 - Burp Suite.md",
+    "04 - Tools & Techniques/04 - FFUF.md",
+    "04 - Tools & Techniques/04 - Metasploit.md",
+    "02 - Secondary Categories/03 - Network Service Discovery.md",
+    "03 - Content/03 - SMB Enumeration.md",
+    "03 - Content/03 - HTTPS Enumeration.md",
+    "04 - Tools & Techniques/04 - Nikto.md",
+    "04 - Tools",
+    "03 - HTTP",
+    "03 - Content/03 - FTP Enumeration.md",
+    "03 - Content/03 - SNMP Enumeration.md",
+    "01 - Primary Categories/01 - Cyber Kill Chain.md",
+    "01 - Primary Categories/01 - Cheat Sheets.md",
+    "02 - Secondary Categories/01 - Cheat Sheets.md",
+    "05 - Personal/05 - Hacking Cheatsheet.md",
+    "03 - Content/03 - DNS Enumeration.md",
+    "02 - Secondary Categories/02 - Reconnaissance.md",
+    "02 - Secondary Categories/02 - Enumeration.md",
+    "04 - Tools/04 - Tools & Techniques.D",
+    "04 - Tools/04 - Tools & Techniques",
+    "01 - Primary Categories/01 - Cyber Kill Chain",
+    "Templates/Attachments/Pasted image 20230604210515.png",
+    "Templates/Attachments/Pasted image 20230604210448.png",
+    "Templates/Attachments/Pasted image 20230605113837.png",
+    "Templates/Attachments/Pasted image 20230604203432.png",
+    "Templates/Attachments/Pasted image 20230604210335.png",
+    "Templates/Attachments/Pasted image 20230604202811.png",
+    "Templates/Attachments",
+    "Templates/04 - Structural Elements",
+    "Templates",
+    "04 - Templates/Attachments/Pasted image 20230605113837.png",
+    "04 - Templates/Attachments/Pasted image 20230604210515.png",
+    "04 - Templates/Attachments/Pasted image 20230604210448.png",
+    "04 - Templates/Attachments/Pasted image 20230604210335.png",
+    "Untitled",
+    "06 - CTF Reports"
+  ]
+}
