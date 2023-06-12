@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eda072536c424ba8",
+            "id": "6df2ab89c0bf38b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - LLMNR Poisoning.md",
+                "file": "03 - Content/Website Recon and Footprinting.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "metaspl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - LLMNR Poisoning.md",
+                "file": "03 - Content/Website Recon and Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - LLMNR Poisoning.md",
+                "file": "03 - Content/Website Recon and Footprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - LLMNR Poisoning.md"
+                "file": "03 - Content/Website Recon and Footprinting.md"
               }
             }
           },
@@ -173,36 +173,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eda072536c424ba8",
+  "active": "6df2ab89c0bf38b5",
   "lastOpenFiles": [
-    "02 - Secondary Categories/02 - Active Directory.md",
-    "01 - Primary Categories/01 - Red Team.md",
-    "000 - Cybersecurity Materials.md",
-    "03 - CyberLens.md",
-    "04 - Tools & Techniques/04 - AutoRecon.md",
-    "04 - Tools & Techniques/04 - Responder.md",
-    "03 - Content/03 - LLMNR Poisoning.md",
-    "04 - Tools & Techniques/04 - Tools & Techniques.md",
-    "04 - Tools & Techniques/04 - Evil-WinRM.md",
-    "04 - Tools & Techniques/04 - Enum4Linux-NG.md",
-    "04 - Tools & Techniques/04 - Burp Suite.md",
-    "04 - Tools & Techniques/04 - FFUF.md",
-    "04 - Tools & Techniques/04 - Metasploit.md",
+    "03 - Content/Whois Enumeration.md",
+    "02 - Secondary Categories/02 - Reconnaissance.md",
+    "02 - Secondary Categories/02 - Windows.md",
+    "02 - Secondary Categories/02 - Networking.md",
     "02 - Secondary Categories/03 - Network Service Discovery.md",
-    "03 - Content/03 - SMB Enumeration.md",
-    "03 - Content/03 - HTTPS Enumeration.md",
-    "04 - Tools & Techniques/04 - Nikto.md",
+    "02 - Secondary Categories/02 - Windows Privilege Escalation.md",
+    "02 - Secondary Categories/02 - Gaining Access.md",
+    "02 - Secondary Categories/02 - Active Directory.md",
+    "02 - Secondary Categories/02 - Linux.md",
+    "02 - Secondary Categories/02 - Lateral Movement.md",
+    "02 - Secondary Categories/02 - MSFvenom Payload Generation.md",
+    "02 - Secondary Categories/02 - Linux Privilege Escalation.md",
+    "02 - Secondary Categories/02 - Maintaining access.md",
+    "02 - Secondary Categories/02 - Password Cracking.md",
+    "02 - Secondary Categories/02 - Scanning.md",
+    "01 - Primary Categories/01 - Red Team.md",
+    "02 - Secondary Categories/02 - Shells.md",
+    "02 - Secondary Categories/02 - Persistence.md",
+    "000 - Cybersecurity Materials.md",
+    "04 - Tools & Techniques/04 - Transfer Protocols.md",
+    "01 - Primary Categories/01 - Cheat Sheets.md",
+    "Reports/THM - HackPark.md",
+    "Untitled",
+    "04 - Tools & Techniques/04 - Tools & Techniques.md",
+    "03 - Content/03 - Linux Command Cheatsheet.md",
+    "04 - Tools & Techniques/04 - Metasploit.md",
+    "Reports/THM - CyberLens.md",
+    "Reports",
     "04 - Tools",
     "03 - HTTP",
-    "03 - Content/03 - FTP Enumeration.md",
-    "03 - Content/03 - SNMP Enumeration.md",
-    "01 - Primary Categories/01 - Cyber Kill Chain.md",
-    "01 - Primary Categories/01 - Cheat Sheets.md",
-    "02 - Secondary Categories/01 - Cheat Sheets.md",
-    "05 - Personal/05 - Hacking Cheatsheet.md",
-    "03 - Content/03 - DNS Enumeration.md",
-    "02 - Secondary Categories/02 - Reconnaissance.md",
-    "02 - Secondary Categories/02 - Enumeration.md",
     "04 - Tools/04 - Tools & Techniques.D",
     "04 - Tools/04 - Tools & Techniques",
     "01 - Primary Categories/01 - Cyber Kill Chain",
@@ -218,8 +220,6 @@
     "04 - Templates/Attachments/Pasted image 20230605113837.png",
     "04 - Templates/Attachments/Pasted image 20230604210515.png",
     "04 - Templates/Attachments/Pasted image 20230604210448.png",
-    "04 - Templates/Attachments/Pasted image 20230604210335.png",
-    "Untitled",
-    "06 - CTF Reports"
+    "04 - Templates/Attachments/Pasted image 20230604210335.png"
   ]
 }

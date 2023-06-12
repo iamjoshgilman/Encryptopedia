@@ -5,10 +5,7 @@ aliases: []
 tags: #🧩
 ---
 
-Primary Categories: [[06 - TryHackMe]] 
-Search Tag: #🧩  
-
-# [[03 - CyberLens]]  
+# [[THM - CyberLens]]  
 
 ```shell
 export IP=10.10.228.119

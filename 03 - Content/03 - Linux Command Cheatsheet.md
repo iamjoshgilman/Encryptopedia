@@ -58,7 +58,7 @@ Search Tag: #📖
 | `fg` | Puts a process into the foreground. | 
 | `curl` | Command-line utility to transfer data from or to a server. | 
 | `wget` | An alternative to `curl` that downloads files from FTP or HTTP(s) server. |
-| `python3 -m http.server` | Starts a Python3 web server on TCP port 8000. | 
+| `python -m SimpleHTTPServer 80` | Starts a Python web server on TCP port 80. | 
 | `ls` | Lists directory contents. | 
 | `cd` | Changes the directory. |
 | `clear` | Clears the terminal. | 

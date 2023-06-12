@@ -13,7 +13,7 @@ Search Tag: #🗺
 02 - Action on Objectives
 
 
-[[02 - Scanning]]
+
 [[02 - Gaining Access]]
 [[02 - Maintaining access]]
 [[02 - Clearing Tracks]]
