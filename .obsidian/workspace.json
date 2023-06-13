@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "556760775efb387e",
+        "id": "9cd191e0759bd082",
         "type": "tabs",
         "children": [
           {
-            "id": "6df2ab89c0bf38b5",
+            "id": "39e0866c252aa702",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Content/Website Recon and Footprinting.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/Website Recon and Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/Website Recon and Footprinting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "03 - Content/Website Recon and Footprinting.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,8 +165,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6df2ab89c0bf38b5",
+  "active": "e523a338327a0917",
   "lastOpenFiles": [
+    "Reports/test.md",
+    "Reports/TEst.md",
+    "Reports/Test.md",
+    "Reports/Test report.md",
+    "03 - Content/Website Recon and Footprinting.md",
     "03 - Content/Whois Enumeration.md",
     "02 - Secondary Categories/02 - Reconnaissance.md",
     "02 - Secondary Categories/02 - Windows.md",
@@ -196,12 +193,7 @@
     "000 - Cybersecurity Materials.md",
     "04 - Tools & Techniques/04 - Transfer Protocols.md",
     "01 - Primary Categories/01 - Cheat Sheets.md",
-    "Reports/THM - HackPark.md",
     "Untitled",
-    "04 - Tools & Techniques/04 - Tools & Techniques.md",
-    "03 - Content/03 - Linux Command Cheatsheet.md",
-    "04 - Tools & Techniques/04 - Metasploit.md",
-    "Reports/THM - CyberLens.md",
     "Reports",
     "04 - Tools",
     "03 - HTTP",
