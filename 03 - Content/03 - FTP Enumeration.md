@@ -67,13 +67,27 @@ ls -la
 
 ## FTP Commands
 
-- **ls** - List the files in the current directory on the FTP server.
-- **cd** - Change the directory on the FTP server.
-- **get** - Download a file from the FTP server.
-- **put** - Upload a file to the FTP server.
-- **delete** - Remove a file on the FTP server.
-- **pwd** - Print the current directory on the FTP server.
-- **quit** - Close the FTP connection.
+| Command | Description |
+|---------|-------------|
+| ls -lsa | List the files in the current directory on the FTP server, including file size, modification time, and permissions. |
+| cd      | Change the directory on the FTP server. |
+| get     | Download a file from the FTP server. |
+| put     | Upload a file to the FTP server. |
+| delete  | Remove a file on the FTP server. |
+| pwd     | Print the current directory on the FTP server. |
+| bye     | Close the FTP connection. |
+| mget    | Download multiple files from the server. |
+| mput    | Upload multiple files to the server. |
+| binary  | Set the file transfer type to binary, useful when transferring non-text files. |
+| ascii   | Set the file transfer type to ASCII, useful when transferring text files. |
+| passive | Enable passive mode. This can help when a firewall is blocking the FTP data connection. |
+| !       | Escape to the shell from an ftp connection. |
+| open    | Open a new FTP connection to a remote server. |
+| close   | Close the current FTP connection but leaves the client program open. |
+| user    | Specify the username to use on the FTP server. |
+| lcd     | Change the directory on the local machine. |
+| lpwd    | Print the current directory on the local machine. |
+| lls     | List the contents of the local directory. |
 
 ### Mitigation Strategies against FTP Enumeration
 - Disable anonymous logins

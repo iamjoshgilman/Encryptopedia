@@ -4,34 +4,32 @@ Search Tag: #🗺
 
 # [[01 - Red Team]]
 ***
-[[02 - Reconnaissance]]
-02 - Weaponization
-02 - Delivery
-02 - Exploitation
-02 - Installation
-02 - Command and control
-02 - Action on Objectives
-
-
-
-[[02 - Gaining Access]]
-[[02 - Maintaining access]]
-[[02 - Clearing Tracks]]
-
-
+- Reconnaissance
+	- [[03 - OSINT|OSINT]]
+	- [[03 - Network Service Discovery|Network Service Discovery]]
+	- [[03 - Social Engineering|Social Engineering Tactics]]
+- Weaponization
+	- [[03 - Payload Development|Payload Development]]
+	- [[03 - Exploit Code Writing|Exploit Code Writing]]
+- Delivery
+	- [[03 - Delivery Techniques|Delivery Techniques]]
+- Exploitation
+	- [[04 - Exploitation Tools|Exploitation Tools]]
+	- [[03 - Exploitation Techniques|Exploitation Techniques]]
+- Installation
+- Command & Control (C2)
+- Actions on Objectives
+	- [[03 - Lateral Movement|Lateral Movement]]
+	- [[03 - Data Exfiltration|Data Exfiltration]]
+	- [[03 - Privilege Escalation|Privilege Escalation]]
 
 
 
 ---
-## Operating Systems
+## Systems
 
 [[02 - Active Directory]]
 
-
-___
-# Tools
-
-[[04 - PowerView]]
 
 
 
