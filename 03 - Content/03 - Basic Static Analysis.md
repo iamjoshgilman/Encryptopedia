@@ -16,13 +16,16 @@ Search Tag: #📖
 ### Hashing the malware
 
 ![[Pasted image 20230722125546.png]]
+![[Pasted image 20230722125642.png]]
 
+```text
+92730427321a1c4ccfc0d0580834daef98121efa9bb8963da332bfd6cf1fda8a *Malware.Unknown.exe
+1d8562c0adcaee734d63f7baaca02f7c *Malware.Unknown.exe
+```
 
+Submitting to Virus total the SHA256
 
-
-
-
-
+![[Pasted image 20230722130058.png]]
 
 
 
