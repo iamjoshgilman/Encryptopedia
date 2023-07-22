@@ -5,7 +5,6 @@ Search Tag: #🗺
 ***
 
 [[03 - Python Fundamentals]]
-[[03 - Linux CLI]]
 [[02 - Linux ]]
 [[02 - Windows]]
 [[02 - Networking]]

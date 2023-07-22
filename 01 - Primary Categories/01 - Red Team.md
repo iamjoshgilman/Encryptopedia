@@ -4,25 +4,32 @@ Search Tag: #🗺
 
 # [[01 - Red Team]]
 ***
-- Reconnaissance
-	- [[03 - OSINT|OSINT]]
-	- [[03 - Network Service Discovery|Network Service Discovery]]
-	- [[03 - Social Engineering|Social Engineering Tactics]]
-- Weaponization
-	- [[03 - Payload Development|Payload Development]]
-	- [[03 - Exploit Code Writing|Exploit Code Writing]]
-- Delivery
-	- [[03 - Delivery Techniques|Delivery Techniques]]
-- Exploitation
-	- [[04 - Exploitation Tools|Exploitation Tools]]
-	- [[03 - Exploitation Techniques|Exploitation Techniques]]
-- Installation
-- Command & Control (C2)
-- Actions on Objectives
-	- [[03 - Lateral Movement|Lateral Movement]]
-	- [[03 - Data Exfiltration|Data Exfiltration]]
-	- [[03 - Privilege Escalation|Privilege Escalation]]
 
+## Planning and Preparation
+
+## Open-Source Intelligence Gathering (OSINT)
+
+## Reconnaissance and Enumeration
+
+[[03 - FTP Enumeration]]
+[[03 - SSH Enumeration]]
+[[03 - SMB Enumeration]]
+[[03 - DNS Enumeration]]
+[[03 - SMTP Enumeration]]
+[[03 - SNMP Enumeration]]
+
+
+## Vulnerability Assessment
+
+## Exploitation
+
+## Post-Exploitation
+
+## Data Analysis and Reporting
+
+## Clean-up
+
+## Tools and Resources
 
 
 ---

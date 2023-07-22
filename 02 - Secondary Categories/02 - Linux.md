@@ -6,6 +6,7 @@ Search Tag: #🗺
 ***
 
 [[03 - Linux Shortcuts]]
+[[03 - Linux CLI]]
 [[03 - Linux Command Cheatsheet]] 
 [[03 - Linux File System]]
 [[03 - Linux GREP Cheatsheet]]

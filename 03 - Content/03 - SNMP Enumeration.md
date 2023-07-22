@@ -14,44 +14,248 @@ Search Tag: #📖
 # SNMP - Simple Network Management Protocol
 ---
 
-## Overview
+## Basic Information
 
-The Simple Network Management Protocol (SNMP) is a protocol used for managing devices on IP networks. Devices that typically support SNMP include routers, switches, servers, workstations, printers, modem racks, and more.
+**SNMP - Simple Network Management Protocol** is a protocol used to monitor different devices in the network (like routers, switches, printers, IoTs...).
 
-## Uses of SNMP
+```
+PORT    STATE SERVICE REASON                 VERSION
+161/udp open  snmp    udp-response ttl 244   ciscoSystems SNMPv3 server (public)
+```
 
-SNMP is used for:
+*SNMP also uses the port **162/UDP** for **traps**. These are data **packets sent from the SNMP server to the client without being explicitly requested**.*
 
-1. **Collecting information**: SNMP is commonly used to monitor and manage network performance, find and solve network issues, and plan for network growth.
-2. **Modifying and applying new configurations** to the network devices.
 
-## Components of SNMP
+### MIB
 
-1. **SNMP Manager**: Also known as Network Management System (NMS). This is a centralized system used to monitor, control, and configure devices on a network.
+To ensure that SNMP access works across manufacturers and with different client-server combinations, the **Management Information Base (MIB)** was created. MIB is an **independent format for storing device information**. A MIB is a **text** file in which all queryable **SNMP objects** of a device are listed in a **standardized** tree hierarchy. It contains at **least one `Object Identifier` (`OID`)**, which, in addition to the necessary **unique address** and a **name**, also provides information about the type, access rights, and a description of the respective object\
+MIB files are written in the `Abstract Syntax Notation One` (`ASN.1`) based ASCII text format. The **MIBs do not contain data**, but they explain **where to find which information** and what it looks like, which returns values for the specific OID, or which data type is used.
 
-2. **SNMP Agent**: This is a software management component that resides in the managed device. The agent collects the information from the managed device in the form of SNMP MIBs and stores it locally.
+### OIDs
 
-3. **Management Information Base (MIB)**: This is a virtual database containing the specifications of the different aspects of the device that can be managed.
+**OIDs** stands for **O**bject **Id**entifiers. **OIDs uniquely identify managed objects in a MIB hierarchy**. This can be depicted as a tree, the levels of which are assigned by different organizations. Top level MIB object IDs (OIDs) belong to different standard organizations.\
+**Vendors define private branches including managed objects for their own products.**
 
-## SNMP Versions
+![[Pasted image 20230706134700.png]]
 
-SNMP has three versions:
+You can **navigate** through an **OID tree** from the web here: [http://www.oid-info.com/cgi-bin/display?tree=#focus](http://www.oid-info.com/cgi-bin/display?tree=#focus) or **see what a OID means** (like `1.3.6.1.2.1.1`) accessing [http://oid-info.com/get/1.3.6.1.2.1.1](http://oid-info.com/get/1.3.6.1.2.1.1).\
+There are some **well-known OIDs** like the ones inside [1.3.6.1.2.1](http://oid-info.com/get/1.3.6.1.2.1) that references MIB-2 defined Simple Network Management Protocol (SNMP) variables. And from the **OIDs pending from this one** you can obtain some interesting host data (system data, network data, processes data...)
 
-1. **SNMPv1**: The original version, which operates over protocols such as User Datagram Protocol (UDP), Internet Protocol (IP), AppleTalk Datagram-Delivery Protocol (DDP), and Novell Internet Packet Exchange (IPX). SNMPv1 has a few security features.
+### **OID Example**
 
-2. **SNMPv2**: Has enhancements over SNMPv1 in terms of performance, security, and manager-to-manager communications. However, SNMPv2 does not define a single security mechanism, leading to the development of SNMPv2c and SNMPv2u.
+**`1 . 3 . 6 . 1 . 4 . 1 . 1452 . 1 . 2 . 5 . 1 . 3. 21 . 1 . 4 . 7`**
 
-3. **SNMPv3**: This version introduces a full-fledged security system. It supports authentication (prevents unauthorized access), privacy (encrypts data to prevent snooping), and integrity (ensures that the data is not tampered during transit).
+Here is a breakdown of this address.
 
-## Security
+* 1 – this is called the ISO and it establishes that this is an OID. This is why all OIDs start with “1”
+* 3 – this is called ORG and it is used to specify the organization that built the device.
+* 6 – this is the dod or the Department of Defense which is the organization that established the Internet first.
+* 1 – this is the value of the internet to denote that all communications will happen through the Internet.
+* 4 – this value determines that this device is made by a private organization and not a government one.
+* 1 – this value denotes that the device is made by an enterprise or a business entity.
 
-SNMPv1 and SNMPv2c use a community-based form of security. The information is transmitted in plaintext, and anyone can read it if they know the community string, which acts like a password.
+These first six values tend to be the same for all devices and they give you the basic information about them. This sequence of numbers will be the same for all OIDs, except when the device is made by the government.
 
-SNMPv3, however, enhances security with encryption and user authentication.
+Moving on to the next set of numbers.
 
-## SNMP Enumeration
+* 1452 – gives the name of the organization that manufactured this device.
+* 1 – explains the type of device. In this case, it is an alarm clock.
+* 2 – determines that this device is a remote terminal unit.
 
-SNMP enumeration is the process of using SNMP to enumerate user accounts or devices on a network. This could help attackers identify potential targets. Therefore, it is crucial to secure SNMP to prevent unauthorized access.
+The rest of the values give specific information about the device.
+
+* 5 – denotes a discrete alarm point.
+* 1 – specific point in the device
+* 3 – port
+* 21 – address of the port
+* 1 – display for the port
+* 4 – point number
+* 7 – state of the point
+
+_**(Example take from**_ [_**here**_](https://www.netadmintools.com/snmp-mib-and-oids)_**)**_
+
+### SNMP Versions
+
+There are 2 important versions of SNMP:
+
+* **SNMPv1**: Main one, it is still the most frequent, the **authentication is based on a string** (community string) that travels in **plain-text** (all the information travels in plain text). **Version 2 and 2c** send the **traffic in plain text** also and uses a **community string as authentication**.
+* **SNMPv3**: Uses a better **authentication** form and the information travels **encrypted** using (**dictionary attack** could be performed but would be much harder to find the correct creds than in SNMPv1 and v2).
+
+### Community Strings
+
+As mentioned before, **in order to access the information saved on the MIB you need to know the community string on versions 1 and 2/2c and the credentials on version 3.**\
+The are **2 types of community strings**:
+
+* **`public`** mainly **read only** functions
+* **`private`** **Read/Write** in general
+
+Note that **the writability of an OID depends on the community string used**, so **even** if you find that "**public**" is being used, you could be able to **write some values.** Also, there **may** exist objects which are **always "Read Only".**\
+If you try to **write** an object a **`noSuchName` or `readOnly` error** is received\*\*.\*\*
+
+In versions 1 and 2/2c if you to use a **bad** community string the server wont **respond**. So, if it responds, a **valid community strings was used**.
+
+## Ports
+
+* The SNMP agent receives requests on UDP port **161**.
+* The manager receives notifications ([Traps](https://en.wikipedia.org/wiki/Simple\_Network\_Management\_Protocol#Trap) and [InformRequests](https://en.wikipedia.org/wiki/Simple\_Network\_Management\_Protocol#InformRequest)) on port **162**.
+* When used with [Transport Layer Security](https://en.wikipedia.org/wiki/Transport\_Layer\_Security) or [Datagram Transport Layer Security](https://en.wikipedia.org/wiki/Datagram\_Transport\_Layer\_Security), requests are received on port **10161** and notifications are sent to port **10162**.
+
+## Brute-Force Community String (v1 and v2c)
+
+To **guess the community string** you could perform a dictionary attack. Check [here different ways to perform a brute-force attack against SNMP](../../generic-methodologies-and-resources/brute-force.md#snmp). A frequently used community string is `public`.
+
+## Enumerating SNMP
+
+It is recommanded to install the following to see whats does mean **each OID gathered** from the device:
+
+```bash
+apt-get install snmp-mibs-downloader
+download-mibs
+# Finally comment the line saying "mibs :" in /etc/snmp/snmp.conf
+sudo vi /etc/snmp/snmp.conf
+```
+
+If you know a valid community string, you can access the data using **SNMPWalk** or **SNMP-Check**:
+
+```bash
+snmpbulkwalk -c [COMM_STRING] -v [VERSION] [IP] . #Don't forget the final dot
+snmpbulkwalk -c public -v2c 10.10.11.136 .
+
+snmpwalk -v [VERSION_SNMP] -c [COMM_STRING] [DIR_IP]
+snmpwalk -v [VERSION_SNMP] -c [COMM_STRING] [DIR_IP] 1.3.6.1.2.1.4.34.1.3 #Get IPv6, needed dec2hex
+snmpwalk -v [VERSION_SNMP] -c [COMM_STRING] [DIR_IP] NET-SNMP-EXTEND-MIB::nsExtendObjects #get extended
+snmpwalk -v [VERSION_SNMP] -c [COMM_STRING] [DIR_IP] .1 #Enum all
+
+snmp-check [DIR_IP] -p [PORT] -c [COMM_STRING]
+
+nmap --script "snmp* and not snmp-brute" <target>
+
+braa <community string>@<IP>:.1.3.6.* #Bruteforce specific OID
+```
+
+Thanks to extended queries (download-mibs), it is possible to enumerate even more about the system with the following command :
+
+```bash
+snmpwalk -v X -c public <IP> NET-SNMP-EXTEND-MIB::nsExtendOutputFull
+```
+
+**SNMP** has a lot of information about the host and things that you may find interesting are: **Network interfaces** (IPv4 and **IPv6** address), Usernames, Uptime, Server/OS version, and **processes**
+
+**running** (may contain passwords)....
+
+### Dangerous Settings
+
+**From** [**https://academy.hackthebox.com/module/112/section/1075**](https://academy.hackthebox.com/module/112/section/1075)
+
+| **Settings**                                     | **Description**                                                                       |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| `rwuser noauth`                                  | Provides access to the full OID tree without authentication.                          |
+| `rwcommunity <community string> <IPv4 address>`  | Provides access to the full OID tree regardless of where the requests were sent from. |
+| `rwcommunity6 <community string> <IPv6 address>` | Same access as with `rwcommunity` with the difference of using IPv6.                  |
+
+### Cisco
+
+Take a look to this page if you are Cisco equipment: [[03 - Cisco-SNMP]]
+
+## From SNMP to RCE
+
+If you have the **string** that allows you to **write values** inside the SNMP service, you may be able to abuse it to **execute commands**: [[03 - SNMP - RCE]]
+
+## **Massive SNMP**
+
+[Braa ](https://github.com/mteg/braa)is a mass SNMP scanner. The intended usage of such a tool is, of course, making SNMP queries – but unlike snmpwalk from net-snmp, it is able to query dozens or hundreds of hosts simultaneously, and in a single process. Thus, it consumes very few system resources and does the scanning VERY fast.
+
+Braa implements its OWN snmp stack, so it does NOT need any SNMP libraries like net-snmp.
+
+**Syntax:** braa \[Community-string]@\[IP of SNMP server]:\[iso id]
+
+```
+braa ignite123@192.168.1.125:.1.3.6.*
+```
+
+This can extract a lot MB of information that you cannot process manually.
+
+So, lets look for the most interesting information (from: [Rapid7s SNMP Data Harvesting](https://blog.rapid7.com/2016/05/05/snmp-data-harvesting-during-penetration-testing/))
+
+### Devices
+
+One of the first things I do is extract the sysDesc .1.3.6.1.2.1.1.1.0 MIB data from each file to determine what devices I have harvested information from. This can easily be done using the following grep command:
+
+```
+grep ".1.3.6.1.2.1.1.1.0" *.snmp
+```
+
+### Identify private string
+
+As an example, if I can identify the private community string used by an organization on their Cisco IOS routers, then I could possibly use that community string to extract the running configurations from those routers. The best method for finding such data has often been related to SNMP Trap data. So again, using the following grep we can parse through a lot of MIB data quickly searching for the key word of “trap”:
+
+```bash
+grep -i "trap" *.snmp
+```
+
+### Usernames/passwords
+
+Another area of interest is logs, I have discovered that there are some devices that hold logs within the MIB tables. These logs can also contain failed logon attempts. Think about the last time you logged into a device via Telnet or SSH and inadvertently entered your password as the username. I typically search for key words such as _fail_, _failed_ or _login_ and examine that data to see if there is anything of value.
+
+```bash
+grep -i "login\|fail" *.snmp
+```
+
+### Emails
+
+```bash
+grep -E -o "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b" *.snmp
+```
+
+## Modifying SNMP values
+
+You can use _**NetScanTools**_ to **modify values**. You will need to know the **private string** in order to do so.
+
+## Spoofing
+
+If there is an ACL that only allows some IPs to query the SMNP service, you can spoof one of this addresses inside the UDP packet an sniff the traffic.
+
+## Examine SNMP Configuration files
+
+* snmp.conf
+* snmpd.conf
+* snmp-config.xml
+
+## HackTricks Automatic Commands
+
+```
+Protocol_Name: SNMP    #Protocol Abbreviation if there is one.
+Port_Number:  161     #Comma separated if there is more than one.
+Protocol_Description: Simple Network Managment Protocol         #Protocol Abbreviation Spelled out
+
+Entry_1:
+  Name: Notes
+  Description: Notes for SNMP
+  Note: |
+    SNMP - Simple Network Management Protocol is a protocol used to monitor different devices in the network (like routers, switches, printers, IoTs...).
+
+    https://book.hacktricks.xyz/pentesting/pentesting-snmp
+
+Entry_2:
+  Name: SNMP Check
+  Description: Enumerate SNMP
+  Command: snmp-check {IP}
+
+Entry_3:
+  Name: OneSixtyOne
+  Description: Crack SNMP passwords
+  Command: onesixtyone -c /usr/share/seclists/Discovery/SNMP/common-snmp-community-strings-onesixtyone.txt {IP} -w 100
+
+Entry_4:
+  Name: Nmap
+  Description: Nmap snmp (no brute)
+  Command: nmap --script "snmp* and not snmp-brute" {IP}
+
+Entry_5:
+  Name: Hydra Brute Force
+  Description: Need Nothing
+  Command: hydra -P {Big_Passwordlist} -v {IP} snmp
+```
 
 ## Tools for SNMP Enumeration
 
@@ -60,8 +264,6 @@ SNMP enumeration is the process of using SNMP to enumerate user accounts or devi
 2. [[04 - snmp-check]] : Allows you to enumerate the SNMP devices and places the output in a very human readable friendly format.
 
 3. [[04 - onesixtyone]] : An SNMP scanner that sends multiple SNMP requests to multiple IP addresses, trying different community strings and waiting for replies.
-
-Please remember that these tools should only be used in a legal and authorized context. Unauthorized network scanning and device tampering can lead to serious legal consequences.
 
 ## Mitigations
 

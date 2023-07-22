@@ -30,6 +30,7 @@ tags: #🗺
 [[01 - Languages]]
 [[01 - Red Team]]
 [[01 - Blue Team]]
+[[01 - Malware Analysis]]
 [[01 - Cheat Sheets]]
 
 

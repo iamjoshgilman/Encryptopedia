@@ -1,129 +1,48 @@
 ---
-creation date: May 31st 2023
-last modified date: May 31st 2023
+creation date: June 19th 2023
+last modified date: June 19th 2023
 aliases: []
-tags: #📕
+tags: #📖
 ---
 
-Primary Categories: [[01 - Administration]] 
-Search Tag: #📕  
+Primary Categories: [[01 - Threat Intelligence]] | [[000 - Global Index]] 
+Secondary Categories: [[]] 
+Links: [[]] 
+Search Tag: #📖  
 
 # [[03 - MITRE ATT&CK Framework]]  
-___
+---
 
-1. Initial Access
-2. Execution
-3. Persistence
-4. Privilege Escalation
-5. Defense Evasion
-6. Credential Access
-7. Discovery
-8. Lateral Movement
-9. Collection
-10. Command and Control (C2)
-11. Exfiltration
-12. Impact
+## MITRE ATT&CK: Adversarial Tactics, Techniques, and Common Knowledge
 
-## Initial Access
-* Initial access is the first phase where the attacker attempts to gain entry to the target network or system.
+**MITRE's Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK)** is a comprehensive knowledge base and model that provides insights into cyber adversary behavior. Introduced in 2013, ATT&CK has become a widely respected and referenced resource in the cybersecurity community. It offers a structured framework for understanding the different phases of an adversary's attack lifecycle and the specific platforms they target.
 
-|Common Initial Access Techniques| Description|
-|----|----|
-|Phishing|Attackers send fraudulent emails to trick recipients into revealing sensitive information or installing malware.|
-|Drive-by Compromise|Exploiting vulnerabilities in a web browser to execute a malicious script.|
+ATT&CK consists of three main components:
 
-## Execution
-* This phase involves the attacker executing a malicious payload on a compromised system.
+1. **Tactics**: High-level objectives that adversaries aim to achieve during an attack. Examples include initial access, execution, persistence, defense evasion, credential access, and impact.
+2. **Techniques**: Specific methods and procedures used by adversaries to accomplish their tactics. There are over 250 documented techniques within ATT&CK, detailing the step-by-step actions an adversary might take to compromise a computer or network.
+3. **Procedures**: Detailed descriptions of how adversaries execute their techniques, including specific tools, malware, and commands they employ.
 
-|Common Execution Techniques| Description|
-|----|----|
-|Scripting|Attackers use scripts (like PowerShell) to automate their tasks and avoid detection.|
-|User Execution|Tricking users into running a malicious program.|
+ATT&CK serves as a valuable resource for identifying and understanding the behavior of Advanced Persistent Threats (APTs). It provides a standardized language and framework for security analysts to structure, compare, and analyze threat intelligence.
 
-## Persistence
-* Attackers establish a persistent presence in the victim's network to survive reboot and other interruptions.
+### ATT&CK for Threat Intelligence
 
-|Common Persistence Techniques| Description|
-|----|----|
-|Registry Modification|Changes to the registry to start the malware during system boot.|
-|Scheduled Task/Job|Scheduling tasks or jobs that execute the malicious program at regular intervals.|
+ATT&CK offers analysts a common language and structure to analyze and compare threat intelligence. It helps in identifying the behavior of APTs and exploring the different ways they compromise systems and networks. 
 
-## Privilege Escalation
-* Attackers seek to gain higher-level permissions on the system.
+To support threat intelligence analysis, MITRE provides various resources and materials, including:
 
-|Common Privilege Escalation Techniques| Description|
-|----|----|
-|Bypassing User Account Control|Tricking the Windows User Account Control (UAC) to grant admin privileges.|
-|Exploitation for Privilege Escalation|Exploiting a software vulnerability to gain elevated access.|
+- [Getting Started with ATT&CK: Threat Intelligence Blog Post](https://medium.com/mitre-attack/getting-started-with-attack-cti-4eb205be4b2f): This blog post describes how you can get started using ATT&CK for threat intelligence at three different levels of sophistication
+- [ATT&CKing Your Adversaries Presentation](https://www.slideshare.net/JamieWilliams130/attcking-your-adversaries-operationalizing-cyber-intelligence-in-your-own-environment-for-better-sleep-and-a-safer-tomorrow): This presentation covers how to use ATT&CK to take cyber threat intelligence and operationalize it into behaviors that can drive relevant detections.
+- [Blog posts on threat intelligence](https://medium.com/mitre-attack/using-att-ck-to-advance-cyber-threat-intelligence-part-2-6f21fdba80c): These blog posts explain the fundamentals of how to use ATT&CK for threat intelligence.
+- [ATT&CKing the Status Quo Presentation](https://www.youtube.com/watch?v=p7Hyd7d9k-c): This middle part of this presentation provides an introduction to using ATT&CK for threat intelligence. [Slides are also available](https://www.slideshare.net/KatieNickels/bsideslv-2018-katie-nickels-and-john-wunder-attcking-the-status-quo).
+- [ATT&CKing with Threat Intelligence Presentation](https://www.pscp.tv/w/1yoKMVDjbrkGQ): This presentation provides a perspective on how to use threat intelligence for ATT&CK-based adversary emulation. [Slides are also available](https://www.slideshare.net/ChristopherKorban/attcking-with-threat-intelligence).
+- [ATT&CK Navigator Use Case for Threat Intelligence](https://youtu.be/pcclNdwG8Vs): This demo provides an overview of the ATT&CK Navigator as well as a threat intelligence use case for how to compare group behaviors. A corresponding written tutorial on comparing Navigator layers is [available here](https://attack.mitre.org/docs/Comparing_Layers_in_Navigator.pdf).
 
-## Defense Evasion
-* Techniques used to avoid detection.
+### ATT&CK vs. Kill Chain
 
-|Common Defense Evasion Techniques| Description|
-|----|----|
-|Deobfuscate/Decode Files or Information|Attackers often obfuscate their code to evade detection.|
-|Disabling Security Tools|Disabling firewalls, antivirus, or other security tools on the system.|
+While similar to the Cyber Kill Chain framework proposed by Lockheed Martin, ATT&CK differs in its approach. The Cyber Kill Chain defines a well-defined sequence of events in an attack, whereas ATT&CK focuses on the techniques employed in specific attack scenarios. 
 
-## Credential Access
-* Attackers steal account names and passwords.
-
-|Common Credential Access Techniques| Description|
-|----|----|
-|Input Capture|Using keyloggers or similar tools to capture user inputs.|
-|Credential Dumping|Attacker obtains user credentials by reading system memory.|
-
-## Discovery
-* Attackers gather information about the system and internal network.
-
-|Common Discovery Techniques| Description|
-|----|----|
-|System Network Configuration Discovery|Learning about the network configuration.|
-|System Information Discovery|Collecting system details like OS, hostname, etc.|
-
-## Lateral Movement
-* Moving through a network, accessing other systems.
-
-|Common Lateral Movement Techniques| Description|
-|----|----|
-|Remote Desktop Protocol (RDP)|Using RDP to move between systems in a network.|
-|SSH Hijacking|Hijacking an existing SSH session to gain control.|
-
-## Collection
-* Gathering valuable data.
-
-|Common Collection Techniques| Description|
-|----|----|
-|Data Staged|Collecting data in a central location before exfiltration.|
-|Data from Information Repositories|Extracting data from databases or other repositories.|
-
-## Command and Control
-* Attacker controls compromised systems via a network connection.
-
-|Common Command and Control Techniques| Description|
-|----|----|
-|Commonly Used Port|Using commonly used network ports to hide malicious traffic.|
-|Web Service|Using a web service for C2, often to blend in with normal traffic.|
-
-## Exfiltration
-* Extracting the valuable data out of the network.
-
-|Common Exfiltration Techniques| Description|
-|----|----|
-|Data Compressed|Compressing data to facilitate transfer.|
-|Scheduled Transfer|Setting up automated data transfer out of the network.| 
-
-## Impact
-* The objective of the attack, typically resulting in disruption to systems and data.
-
-|Common Impact Techniques| Description|
-|----|----|
-|Data Destruction|Destroying or deleting data from the victim's system.|
-|Inhibit System Recovery|Disabling system recovery features or backup systems to make remediation more difficult.|
-|Denial of Service|Flooding a network or system with traffic or requests to render it inaccessible to its intended users.|
-
-
-
-
+The ATT&CK framework provides a detailed understanding of how attacks are performed, allowing security researchers to explore different attack methods and APT groups that utilize them. Many security professionals prefer ATT&CK over the Cyber Kill Chain due to its specificity, but some use a hybrid approach combining both frameworks for comprehensive threat identification and analysis.
 
 
 ___
@@ -134,5 +53,5 @@ ___
 | --------- | ---- |
 
 
-Created Date: May 31st 2023 (02:06 pm) 
-Last Modified Date: May 31st 2023 (02:06 pm)
+Created Date: June 19th 2023 (10:45 am) 
+Last Modified Date: June 19th 2023 (10:45 am)

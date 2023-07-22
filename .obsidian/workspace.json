@@ -4,35 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "9cd191e0759bd082",
+        "id": "1634e39a46e2fea5",
         "type": "tabs",
         "children": [
           {
-            "id": "39e0866c252aa702",
+            "id": "1c3124b282617dfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - SSH Enumeration.md",
+                "file": "03 - Content/03 - Basic Static Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "161854ed471666de",
+            "id": "9c9980fdbd81221b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Personal/Work Order Closeout Demo.md",
-                "mode": "preview",
+                "file": "03 - Content/03 - Protocols and Ports.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 - Personal/Work Order Closeout Demo.md",
+                "file": "03 - Content/03 - Basic Static Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 - Personal/Work Order Closeout Demo.md",
+                "file": "03 - Content/03 - Basic Static Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 - Personal/Work Order Closeout Demo.md"
+                "file": "03 - Content/03 - Basic Static Analysis.md"
               }
             }
           },
@@ -186,38 +185,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "161854ed471666de",
+  "active": "1c3124b282617dfc",
   "lastOpenFiles": [
-    "Pasted image 20230614135951.png",
-    "Pasted image 20230614135604.png",
-    "Pasted image 20230614135506.png",
-    "Pasted image 20230614135202.png",
-    "Pasted image 20230614135052.png",
-    "03 - Content/03 - SSH Enumeration.md",
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/03 - Basic Static Analysis.md",
+    "01 - Primary Categories/01 - Phishing Analysis.md",
+    "01 - Primary Categories/01 - Digital Forensics.md",
+    "01 - Primary Categories/01 - Incident Response.md",
+    "01 - Primary Categories/01 - Languages.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
+    "01 - Primary Categories/01 - Blue Team.md",
+    "01 - Primary Categories/01 - Red Team.md",
+    "03 - Content/03 - SMTP Enumeration.md",
+    "Templates/Attachments/Pasted image 20230706141349.png",
+    "03 - Content/03 - SNMP Enumeration.md",
+    "03 - Content/03 - SNMP - RCE.md",
+    "03 - Content/03 - Cisco-SNMP.md",
+    "03 - Content/03 - Protocols and Ports.md",
+    "Templates/Attachments/Pasted image 20230706134700.png",
+    "03 - Content/03 - FTP Enumeration.md",
+    "02 - Secondary Categories/02 - Networking.md",
+    "01 - Primary Categories/01 - Administration.md",
+    "02 - Secondary Categories/02 - Active Directory.md",
+    "03 - Content/03 - Networking Fundamentals.md",
+    "03 - Content/03 - Network Manipulation.md",
+    "03 - Content/03 - Common Ports.md",
+    "02 - Secondary Categories/02 - Windows.md",
+    "02 - Secondary Categories/02 - Linux.md",
+    "03 - Content/03 - Linux CLI.md",
     "05 - Personal/Work Order Closeout Demo.md",
     "05 - Personal/S1REN Notes.md",
-    "04 - Tools & Techniques/04 - Enum4Linux-NG.md",
-    "02 - Secondary Categories/03 - Network Service Discovery.md",
-    "03 - Content/03 - SMB Enumeration.md",
-    "03 - Content/03 - FTP Enumeration.md",
-    "01 - Primary Categories/01 - Red Team.md",
-    "02 - Secondary Categories/02 - Gaining Access.md",
-    "000 - Cybersecurity Materials.md",
-    "01 - Primary Categories/01 - Cyber Kill Chain.md",
-    "Reports/THM - Steel Mountain.md",
-    "Reports/THM - CyberLens.md",
-    "Reports/THM - HackPark.md",
-    "Reports/test.md",
-    "Reports/TEst.md",
-    "Reports/Test.md",
-    "Reports/Test report.md",
-    "03 - Content/Website Recon and Footprinting.md",
-    "03 - Content/Whois Enumeration.md",
-    "02 - Secondary Categories/02 - Reconnaissance.md",
-    "02 - Secondary Categories/02 - Windows.md",
-    "02 - Secondary Categories/02 - Networking.md",
-    "02 - Secondary Categories/02 - Windows Privilege Escalation.md",
-    "02 - Secondary Categories/02 - Active Directory.md",
+    "Templates/Attachments/Pasted image 20230618144138.png",
+    "Templates/Attachments/Pasted image 20230618144059.png",
+    "Templates/Attachments/Pasted image 20230618144029.png",
+    "Templates/Attachments/Pasted image 20230618140716.png",
+    "Templates/Attachments/Pasted image 20230618140443.png",
+    "Templates/Attachments/Pasted image 20230618140428.png",
+    "Templates/Attachments/Pasted image 20230618140344.png",
+    "Templates/Attachments/Pasted image 20230618140326.png",
     "Untitled",
     "Reports",
     "04 - Tools",
@@ -225,12 +230,6 @@
     "04 - Tools/04 - Tools & Techniques.D",
     "04 - Tools/04 - Tools & Techniques",
     "01 - Primary Categories/01 - Cyber Kill Chain",
-    "Templates/Attachments/Pasted image 20230604210515.png",
-    "Templates/Attachments/Pasted image 20230604210448.png",
-    "Templates/Attachments/Pasted image 20230605113837.png",
-    "Templates/Attachments/Pasted image 20230604203432.png",
-    "Templates/Attachments/Pasted image 20230604210335.png",
-    "Templates/Attachments/Pasted image 20230604202811.png",
     "Templates/Attachments",
     "Templates/04 - Structural Elements",
     "Templates"
