@@ -15,6 +15,9 @@ Search Tag: #📖
 
 ### Hashing the malware
 
+![[Pasted image 20230722125546.png]]
+
+
 
 
 
