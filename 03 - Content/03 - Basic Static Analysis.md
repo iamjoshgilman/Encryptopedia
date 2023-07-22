@@ -12,8 +12,8 @@ Search Tag: #📖
 
 # [[03 - Basic Static Analysis]]  
 
-
-### Hashing the malware
+---
+## Hashing Malware Samples
 
 ![[Pasted image 20230722125546.png]]
 ![[Pasted image 20230722125642.png]]
@@ -23,9 +23,26 @@ Search Tag: #📖
 1d8562c0adcaee734d63f7baaca02f7c *Malware.Unknown.exe
 ```
 
+---
+## Malware Repositories: VirusTotal
+
 Submitting to Virus total the SHA256
 
 ![[Pasted image 20230722130058.png]]
+
+---
+##  Strings & FLOSS: Static String Analysis
+
+
+
+
+
+
+
+
+
+
+
 
 
 
