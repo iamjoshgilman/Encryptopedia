@@ -36,6 +36,9 @@ Submitting to Virus total the SHA256
 Floss is a FlareVM tool made by FireEye that will pull out any strings over 4 characters.
 	This can sometimes show us interesting and telling information
 
+![[Pasted image 20230722131628.png]]
+
+
 
 
 Tip: FLOSS can be run with the "-n" argument to specify your desired minimum string length. Sometimes, longer strings can be more useful to an analyst than your standard string of len(4).
