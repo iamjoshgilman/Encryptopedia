@@ -5,13 +5,25 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[0]]
+Primary Categories: [[000 - Cybersecurity Materials]]
 Secondary Categories: [[01 - Malware Analysis]]
 Links: [[]] 
 Search Tag: #📖  
 
 # [[03 - Basic Static Analysis]]  
-{ document content boilerplate }
+
+
+### Hashing the malware
+
+
+
+
+
+
+
+
+
+
 
 
 

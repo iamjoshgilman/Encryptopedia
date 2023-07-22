@@ -11,13 +11,7 @@ Search Tag: #🗺
 
 ## Reconnaissance and Enumeration
 
-[[03 - FTP Enumeration]]
-[[03 - SSH Enumeration]]
-[[03 - SMB Enumeration]]
-[[03 - DNS Enumeration]]
-[[03 - SMTP Enumeration]]
-[[03 - SNMP Enumeration]]
-
+[[03 - Network Service Discovery]]
 
 ## Vulnerability Assessment
 

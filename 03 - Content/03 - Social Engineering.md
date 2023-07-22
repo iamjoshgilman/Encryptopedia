@@ -5,8 +5,8 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Phishing Analysis]] | [[000 - Global Index]] 
-Secondary Categories: [[]] 
+Primary Categories: [[01 - Phishing Analysis]] | [[000 - Cybersecurity Materials]] 
+Secondary Categories: [[01 - Red Team]] 
 Links: [[]] 
 Search Tag: #📖  
 
