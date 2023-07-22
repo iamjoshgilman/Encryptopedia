@@ -33,9 +33,16 @@ Submitting to Virus total the SHA256
 ---
 ##  Strings & FLOSS: Static String Analysis
 
+Floss is a FlareVM tool made by FireEye that will pull out any strings over 4 characters.
+	This can sometimes show us interesting and telling information
 
 
 
+Tip: FLOSS can be run with the "-n" argument to specify your desired minimum string length. Sometimes, longer strings can be more useful to an analyst than your standard string of len(4).
+
+For example, if I want to pull all strings of length 6 or greater, I can issue the following command:
+
+floss.exe -n 6 `malware_name.exe`
 
 
 
