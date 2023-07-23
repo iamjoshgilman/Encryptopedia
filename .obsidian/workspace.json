@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Red Team.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Red Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Red Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md"
+                "file": "01 - Primary Categories/01 - Red Team.md"
               }
             }
           },
@@ -175,9 +175,13 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
-    "01 - Primary Categories/01 - Administration.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
+    "03 - Content/03 - Windows Registry.md",
+    "02 - Secondary Categories/02 - Active Directory.md",
     "01 - Primary Categories/01 - Red Team.md",
+    "03 - Content/03 - Persistence.md",
+    "03 - Content/03 - OSINT vs Paid-for Sources.md",
+    "01 - Primary Categories/01 - Administration.md",
     "03 - Content/Admonition.md",
     "01 - Primary Categories/01 - Cheat Sheets.md",
     "03 - Content/03 - What Are APTs.md",
@@ -197,10 +201,6 @@
     "03 - Content/03 - Further Reading Material, Digital Forensics.md",
     "03 - Content/03 - HTML Styling.md",
     "03 - Content/03 - DNS Enumeration.md",
-    "03 - Content/03 - Email Header, Artifacts, and Body Content.md",
-    "03 - Content/03 - Email Security.md",
-    "03 - Content/03 - Endpoint Security.md",
-    "03 - Content/03 - Equipment.md",
     "Templates/Attachments/Pasted image 20230722211034.png",
     "Templates/Attachments/Pasted image 20230722210741.png",
     "Templates/Attachments/Pasted image 20230722210331.png",

@@ -8,9 +8,9 @@ Search Tag: #🗺
 ## Planning and Preparation
 
 ## Open-Source Intelligence Gathering (OSINT)
+[[03 - OSINT vs Paid-for Sources]]
 
 ## Reconnaissance and Enumeration
-
 [[03 - Network Service Discovery]]
 
 ## Vulnerability Assessment
@@ -18,6 +18,7 @@ Search Tag: #🗺
 ## Exploitation
 
 ## Post-Exploitation
+[[03 - Persistence]]
 
 ## Data Analysis and Reporting
 
