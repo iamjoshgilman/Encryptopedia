@@ -15,6 +15,8 @@ Search Tag: #📖
 ---
 ## Hashing Malware Samples
 
+Using Cmder on FlareVM we can get the Hash values for the "suspected"
+
 ![[Pasted image 20230722125546.png]]
 ![[Pasted image 20230722125642.png]]
 
