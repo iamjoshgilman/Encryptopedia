@@ -8,7 +8,7 @@ tags: #🧩
 Primary Categories: [[06 - TryHackMe]]
 Search Tag: #🧩  
 
-# [[03 - Attacking Kerberos]]  
+# [[THM - Attacking Kerberos]]  
 
 ## Initial/[[04 - Nmap|Nmap]]
 

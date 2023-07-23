@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md",
+                "file": "03 - Content/Admonition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b48b402474b18d0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Primary Categories/01 - Cheat Sheets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 247.5
   },
   "right": {
     "id": "efcca45e639a59e1",
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md",
+                "file": "01 - Primary Categories/01 - Cheat Sheets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md",
+                "file": "01 - Primary Categories/01 - Cheat Sheets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md"
+                "file": "01 - Primary Categories/01 - Cheat Sheets.md"
               }
             }
           },
@@ -173,8 +186,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1c3124b282617dfc",
+  "active": "b48b402474b18d0b",
   "lastOpenFiles": [
+    "03 - Content/Admonition.md",
+    "03 - Content/03 - What Are APTs.md",
+    "03 - Content/03 - What are Case Management Tools.md",
+    "03 - Content/03 - Whaling.md",
+    "03 - Content/03 - What is Logging.md",
+    "03 - Content/03 - What is Volatility.md",
+    "03 - Content/03 - What Went Well.md",
+    "03 - Content/03 - Recon.md",
+    "03 - Content/03 - Reactive - Blocking Web Artifacts.md",
+    "03 - Content/03 - Reactive - Blocking File Artifacts.md",
+    "03 - Content/03 - Reactive - Blocking Email Artifacts.md",
+    "03 - Content/03 - Python Fundamentals.md",
+    "03 - Content/03 - Further Reading, Threat Intelligence.md",
+    "03 - Content/03 - Further Reading Materials, Incident Response.md",
+    "03 - Content/03 - Further Reading Material, SIEM.md",
+    "03 - Content/03 - Further Reading Material, Digital Forensics.md",
+    "03 - Content/03 - HTML Styling.md",
+    "03 - Content/03 - DNS Enumeration.md",
+    "03 - Content/03 - Email Header, Artifacts, and Body Content.md",
+    "03 - Content/03 - Email Security.md",
+    "03 - Content/03 - Endpoint Security.md",
+    "03 - Content/03 - Equipment.md",
+    "03 - Content/03 - Disk Imager - FTK Imager.md",
+    "03 - Content/03 - Discovery.md",
+    "03 - Content/03 - Defense Evasion.md",
+    "03 - Content/03 - Credential Harvester.md",
     "Templates/Attachments/Pasted image 20230722211034.png",
     "Templates/Attachments/Pasted image 20230722210741.png",
     "Templates/Attachments/Pasted image 20230722210331.png",
@@ -183,34 +222,8 @@
     "Templates/Attachments/Pasted image 20230722130058.png",
     "Templates/Attachments/Pasted image 20230722125642.png",
     "Templates/Attachments/Pasted image 20230722125546.png",
-    "01 - Primary Categories/01 - Malware Analysis.md",
-    "03 - Content/03 - Basic Static Analysis.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
-    "01 - Primary Categories/01 - Administration.md",
-    "01 - Primary Categories/01 - Blue Team.md",
-    "01 - Primary Categories/01 - Red Team.md",
-    "03 - Content/03 - Privilege Escalation.md",
-    "03 - Content/03 - Lateral Movement.md",
-    "01 - Primary Categories/01 - Cyber Kill Chain.md",
-    "03 - Content/03 - Social Engineering.md",
-    "03 - Content/03 - FTP Enumeration.md",
-    "02 - Secondary Categories/03 - Network Service Discovery.md",
-    "Reports/THM - Steel Mountain.md",
-    "Reports/THM - HackPark.md",
-    "Reports/THM - CyberLens.md",
-    "README.md",
-    "01 - Primary Categories/01 - Phishing Analysis.md",
-    "01 - Primary Categories/01 - Digital Forensics.md",
-    "01 - Primary Categories/01 - Incident Response.md",
-    "01 - Primary Categories/01 - Languages.md",
-    "03 - Content/03 - SMTP Enumeration.md",
     "Templates/Attachments/Pasted image 20230706141349.png",
-    "03 - Content/03 - SNMP Enumeration.md",
-    "03 - Content/03 - SNMP - RCE.md",
-    "03 - Content/03 - Cisco-SNMP.md",
-    "03 - Content/03 - Protocols and Ports.md",
     "Templates/Attachments/Pasted image 20230706134700.png",
-    "Templates/Attachments/Pasted image 20230618144138.png",
     "Untitled",
     "Reports",
     "04 - Tools",

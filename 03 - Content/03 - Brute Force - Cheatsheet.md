@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
+Primary Categories: [[01 - Red Team]] | [[01 - Cheat Sheets]]
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  

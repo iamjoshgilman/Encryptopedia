@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
+Primary Categories: [[01 - Phishing Analysis]] | [[000 - Cybersecurity Materials]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
