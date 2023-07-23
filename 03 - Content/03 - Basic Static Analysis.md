@@ -65,10 +65,13 @@ PEview provides a quick and easy way to view the structure and content of 32-bit
 ![[Pasted image 20230722210741.png]]
 
 #### IMPORT Address Table
-
-	
+	This section is important for getting clues on the type of Windows API calls being made. 
 
 ![[Pasted image 20230722211034.png]]
+
+
+
+
 
 
 ___
