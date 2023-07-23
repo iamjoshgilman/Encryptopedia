@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "03 - Content/03 - Magic Bytes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "03 - Content/03 - Magic Bytes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "03 - Content/03 - Magic Bytes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md"
+                "file": "03 - Content/03 - Magic Bytes.md"
               }
             }
           },
@@ -175,10 +175,11 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/03 - Magic Bytes.md",
     "03 - Content/03 - Basic Static Analysis.md",
     "Templates/Attachments/Pasted image 20230723140048.png",
     "Templates/Attachments/Pasted image 20230723135601.png",
-    "01 - Primary Categories/01 - Malware Analysis.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
     "01 - Primary Categories/01 - Red Team.md",
     "03 - Content/03 - Windows Registry.md",
