@@ -48,6 +48,7 @@ For example, if I want to pull all strings of length 6 or greater, I can issue t
 
 floss.exe -n 6 `malware_name.exe`
 
+---
 ## Analyzing the Import Address Table
 
 PEview provides a quick and easy way to view the structure and content of 32-bit Portable Executable (PE) and Component Object File Format (COFF) files. This PE/COFF file viewer displays header, section, directory, import table, export table, and resource information within EXE, DLL, OBJ, LIB, DBG, and other file types.
@@ -69,6 +70,10 @@ PEview provides a quick and easy way to view the structure and content of 32-bit
 
 ![[Pasted image 20230722211034.png]]
 
+## malapi.io 
+	A Mitre Attack Framework type website that has various Windows API calls and if they are particularly interesting as far as malware is concerned.
+
+## Packed Malware Analysis
 
 
 
