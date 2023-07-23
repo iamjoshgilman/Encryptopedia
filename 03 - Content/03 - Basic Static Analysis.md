@@ -86,9 +86,13 @@ Packing is a common technique used by malware authors to hide their malicious co
 ![[Pasted image 20230723135601.png]]
  
 
+### Preferred Tools
 
+PEStudio
 
+	Does a lot of the manual work and multiple tools used outlined above into one nice program. 
 
+![[Pasted image 20230723140048.png]]
 
 
 
