@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/Admonition.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b48b402474b18d0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Primary Categories/01 - Cheat Sheets.md",
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Primary Categories/01 - Cheat Sheets.md",
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Primary Categories/01 - Cheat Sheets.md",
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Primary Categories/01 - Cheat Sheets.md"
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md"
               }
             }
           },
@@ -186,9 +173,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b48b402474b18d0b",
+  "active": "1c3124b282617dfc",
   "lastOpenFiles": [
     "03 - Content/Admonition.md",
+    "01 - Primary Categories/01 - Cheat Sheets.md",
     "03 - Content/03 - What Are APTs.md",
     "03 - Content/03 - What are Case Management Tools.md",
     "03 - Content/03 - Whaling.md",
@@ -213,7 +201,6 @@
     "03 - Content/03 - Disk Imager - FTK Imager.md",
     "03 - Content/03 - Discovery.md",
     "03 - Content/03 - Defense Evasion.md",
-    "03 - Content/03 - Credential Harvester.md",
     "Templates/Attachments/Pasted image 20230722211034.png",
     "Templates/Attachments/Pasted image 20230722210741.png",
     "Templates/Attachments/Pasted image 20230722210331.png",
