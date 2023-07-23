@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "04 - Tools & Techniques/04 - CAPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "04 - Tools & Techniques/04 - CAPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "04 - Tools & Techniques/04 - CAPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md"
+                "file": "04 - Tools & Techniques/04 - CAPA.md"
               }
             }
           },
@@ -175,8 +175,9 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
-    "03 - Content/03 - Magic Bytes.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
+    "04 - Tools & Techniques/04 - CAPA.md",
+    "03 - Content/03 - Magic Bytes.md",
     "03 - Content/03 - Basic Static Analysis.md",
     "Templates/Attachments/Pasted image 20230723140048.png",
     "Templates/Attachments/Pasted image 20230723135601.png",
@@ -202,7 +203,6 @@
     "03 - Content/03 - Python Fundamentals.md",
     "03 - Content/03 - Further Reading, Threat Intelligence.md",
     "03 - Content/03 - Further Reading Materials, Incident Response.md",
-    "03 - Content/03 - Further Reading Material, SIEM.md",
     "Templates/Attachments/Pasted image 20230722211034.png",
     "Templates/Attachments/Pasted image 20230722210741.png",
     "Templates/Attachments/Pasted image 20230722210331.png",
