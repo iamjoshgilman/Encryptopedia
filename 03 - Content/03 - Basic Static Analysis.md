@@ -15,14 +15,15 @@ Search Tag: #📖
 ---
 ## Hashing Malware Samples
 
-Using Cmder on FlareVM we can get the Hash values for the "suspected"
+Using Cmder on FlareVM we can get the Hash values for the "suspected" malware or known sample.
 
 ![[Pasted image 20230722125546.png]]
 ![[Pasted image 20230722125642.png]]
 
 ```text
-92730427321a1c4ccfc0d0580834daef98121efa9bb8963da332bfd6cf1fda8a *Malware.Unknown.exe
-1d8562c0adcaee734d63f7baaca02f7c *Malware.Unknown.exe
+SHA256SUM - 92730427321a1c4ccfc0d0580834daef98121efa9bb8963da332bfd6cf1fda8a *Malware.Unknown.exe
+
+MD5SUM - 1d8562c0adcaee734d63f7baaca02f7c *Malware.Unknown.exe
 ```
 
 ---
@@ -39,9 +40,7 @@ Floss is a FlareVM tool made by FireEye that will pull out any strings over 4 ch
 	This can sometimes show us interesting and telling information
 
 ![[Pasted image 20230722131628.png]]
-
-
-
+![[Pasted image 20230722204926.png]]
 
 Tip: FLOSS can be run with the "-n" argument to specify your desired minimum string length. Sometimes, longer strings can be more useful to an analyst than your standard string of len(4).
 
