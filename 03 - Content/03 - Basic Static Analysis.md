@@ -80,8 +80,21 @@ Packing is a common technique used by malware authors to hide their malicious co
 - **What is it?**: Packed malware is a malicious program that has been compressed or obfuscated with a "packer".
 - **Why is it used?**: Packing makes the malware's binary code harder to read and understand, which can make it more difficult for antivirus software to detect. It's like wrapping the malware in a layer of protective bubble wrap.
 - **How it works?**: When the packed malware is executed, a stub, which is a piece of code, decompresses the original code into memory, where it can then be executed.
-- **Detection**: Packed malware can often be detected because the packer leaves signs that analysts can look for, such as an unusually small size of the code section in relation to the program’s functionality, or entropy analysis can show high randomness in the packed section of the code.
+- **Detection**: Packed malware can often be detected because the packer leaves signs that analysts can look for, such as an unusually small size of the code section in relation to the program’s functionality, or entropy analysis can show high randomness in the packed section of the code. Can be identified by the `Size of Raw Data` not matching or reading zero vs `Virtual Size`.
 - **Unpacking**: To analyze packed malware, analysts usually have to "unpack" it first to expose the original code. This can be a complex process that involves using a debugger to find the point in the code where the unpacking process is finished, and the original code is exposed.
+
+![[Pasted image 20230723135601.png]]
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
