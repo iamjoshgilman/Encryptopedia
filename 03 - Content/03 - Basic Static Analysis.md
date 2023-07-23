@@ -50,9 +50,14 @@ floss.exe -n 6 `malware_name.exe`
 
 ## Analyzing the Import Address Table
 
-PEView
+PEview provides a quick and easy way to view the structure and content of 32-bit Portable Executable (PE) and Component Object File Format (COFF) files. This PE/COFF file viewer displays header, section, directory, import table, export table, and resource information within EXE, DLL, OBJ, LIB, DBG, and other file types.
 
+### After Opening a Sample
 
+Under Image NT Headers
+	Image File Header - this can give us a `time date stamp` for when the sample was compiled, though this is not always reliable.
+
+![[Pasted image 20230722210331.png]]
 
 
 
