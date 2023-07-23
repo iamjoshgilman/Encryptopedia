@@ -64,9 +64,11 @@ PEview provides a quick and easy way to view the structure and content of 32-bit
 
 ![[Pasted image 20230722210741.png]]
 
-#### IMPORT
+#### IMPORT Address Table
 
+	
 
+![[Pasted image 20230722211034.png]]
 
 
 ___

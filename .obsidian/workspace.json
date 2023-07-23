@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 244.5
   },
   "right": {
     "id": "efcca45e639a59e1",
@@ -175,6 +175,7 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
+    "Templates/Attachments/Pasted image 20230722211034.png",
     "Templates/Attachments/Pasted image 20230722210741.png",
     "Templates/Attachments/Pasted image 20230722210331.png",
     "Templates/Attachments/Pasted image 20230722204926.png",
@@ -210,7 +211,6 @@
     "03 - Content/03 - Protocols and Ports.md",
     "Templates/Attachments/Pasted image 20230706134700.png",
     "Templates/Attachments/Pasted image 20230618144138.png",
-    "Templates/Attachments/Pasted image 20230618144059.png",
     "Untitled",
     "Reports",
     "04 - Tools",
