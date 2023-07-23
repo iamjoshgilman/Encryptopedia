@@ -48,7 +48,9 @@ For example, if I want to pull all strings of length 6 or greater, I can issue t
 
 floss.exe -n 6 `malware_name.exe`
 
+## Analyzing the Import Address Table
 
+PEView
 
 
 
