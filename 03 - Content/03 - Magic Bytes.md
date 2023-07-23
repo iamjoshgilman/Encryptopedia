@@ -32,7 +32,9 @@ Magic bytes, also known as magic numbers, are specific numerical or string value
 3. **Malware Analysis**: In malware analysis, magic bytes can be used to identify the type of a file or a payload. For example, if a payload starts with the magic bytes of a .exe file, the analyst would know that the payload is an executable.
 
 ## Examples of Magic Bytes
-Sure, here are some of the commonly used magic bytes and their associated file types:
+
+Commonly used magic bytes and their associated file types:
+
 | File Format | Magic Bytes (Hexadecimal) | Magic Bytes (ASCII) |
 |-------------|---------------------------|---------------------|
 | JPEG        | FF D8 FF                  |                     |
@@ -51,8 +53,6 @@ Sure, here are some of the commonly used magic bytes and their associated file t
 | ISO         | 43 44 30 30 31            | CD001               |
 | BMP         | 42 4D                     | BM                  |
 | DOCX, XLSX, PPTX | 50 4B 03 04          | PK..                |
-
-Please remember that these are just some examples. The complete list of all magic numbers would be extensive and not all files have unique magic bytes. Also, keep in mind that the presence of expected magic bytes does not always guarantee that a file is of a specific type, as they can be faked or the file may be corrupted. It's one tool among many used to identify and analyze files.
 
 
 

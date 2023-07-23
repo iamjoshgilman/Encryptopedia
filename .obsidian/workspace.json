@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - Magic Bytes.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - Magic Bytes.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - Magic Bytes.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - Magic Bytes.md"
+                "file": "01 - Primary Categories/01 - Malware Analysis.md"
               }
             }
           },
@@ -175,8 +175,8 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
-    "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/03 - Magic Bytes.md",
+    "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/03 - Basic Static Analysis.md",
     "Templates/Attachments/Pasted image 20230723140048.png",
     "Templates/Attachments/Pasted image 20230723135601.png",
