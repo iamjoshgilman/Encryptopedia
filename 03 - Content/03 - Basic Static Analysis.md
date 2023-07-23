@@ -54,16 +54,17 @@ PEview provides a quick and easy way to view the structure and content of 32-bit
 
 ### After Opening a Sample
 
-Under Image NT Headers
+#### Image NT Headers
 	Image File Header - this can give us a `time date stamp` for when the sample was compiled, though this is not always reliable.
 
 ![[Pasted image 20230722210331.png]]
 
+#### Image Section Header
+	We can compare the `Virtual Size` and the `Size of Raw Data` fields to identity if the size is the same or perhaps the Virtual Size is larger and we are dealing with a packed binary.
 
+![[Pasted image 20230722210741.png]]
 
-
-
-
+#### IMPORT
 
 
 
