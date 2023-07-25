@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Tools & Techniques/04 - CAPA.md",
+                "file": "02 - Secondary Categories/02 - Active Directory.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - Tools & Techniques/04 - CAPA.md",
+                "file": "02 - Secondary Categories/02 - Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - Tools & Techniques/04 - CAPA.md",
+                "file": "02 - Secondary Categories/02 - Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 - Tools & Techniques/04 - CAPA.md"
+                "file": "02 - Secondary Categories/02 - Active Directory.md"
               }
             }
           },
@@ -175,6 +176,10 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
+    "04 - Tools & Techniques/04 - Evil-WinRM.md",
+    "02 - Secondary Categories/02 - Active Directory.md",
+    "03 - Content/03 - LLMNR Poisoning.md",
+    "04 - Tools & Techniques/04 - CAPA.md",
     "000 - Cybersecurity Materials.md",
     "03 - Content/03 - Attacking Kerberos.md",
     "03 - Content/Malware.Unknown.exe.md",
@@ -184,7 +189,6 @@
     "Templates/Attachments/Pasted image 20230614135604 2.png",
     "Templates/Attachments/Pasted image 20230614135951 2.png",
     "01 - Primary Categories/01 - Malware Analysis.md",
-    "04 - Tools & Techniques/04 - CAPA.md",
     "03 - Content/03 - Magic Bytes.md",
     "03 - Content/03 - Basic Static Analysis.md",
     "Templates/Attachments/Pasted image 20230723140048.png",
@@ -192,7 +196,6 @@
     "00 - Global Index/000 - Cybersecurity Materials.md",
     "01 - Primary Categories/01 - Red Team.md",
     "03 - Content/03 - Windows Registry.md",
-    "02 - Secondary Categories/02 - Active Directory.md",
     "03 - Content/03 - Persistence.md",
     "03 - Content/03 - OSINT vs Paid-for Sources.md",
     "01 - Primary Categories/01 - Administration.md",
@@ -206,8 +209,6 @@
     "03 - Content/03 - What Went Well.md",
     "03 - Content/03 - Recon.md",
     "03 - Content/03 - Reactive - Blocking Web Artifacts.md",
-    "03 - Content/03 - Reactive - Blocking File Artifacts.md",
-    "03 - Content/03 - Reactive - Blocking Email Artifacts.md",
     "Templates/Attachments/Pasted image 20230722211034.png",
     "Templates/Attachments/Pasted image 20230722210741.png",
     "Templates/Attachments/Pasted image 20230722210331.png",
