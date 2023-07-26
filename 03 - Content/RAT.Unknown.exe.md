@@ -10,7 +10,7 @@ Secondary Categories: [[]]
 Links: [[]] 
 Search Tag: #📖  
 
-# [[RAT.Unknown.exe]]  
+# [[RAT.Unknown.exe]]  | [RAT.CmdSocket.exe]
 
 ### Hashes
 
