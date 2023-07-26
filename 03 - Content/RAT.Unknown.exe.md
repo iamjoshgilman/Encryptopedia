@@ -70,8 +70,11 @@ Initial Run - Wireshark capture
 Potential File Download | msdcorelib.exe
 ![[Pasted image 20230725212419.png]]
 
-Listening port 5555
+Listening port TCP 5555
 ![[Pasted image 20230725213924.png]]
+
+Base64 Encoded data on TCP 5555
+![[Pasted image 20230725214943.png]]
 
 ### Host Signatures
 
@@ -83,6 +86,7 @@ Downloaded .EXE
 
 Persistence Binary 
 ![[Pasted image 20230725213503.png]]
+
 
 
 ___
