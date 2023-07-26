@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
+Primary Categories: [[01 - Malware Analysis]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
@@ -69,6 +69,9 @@ Initial Run - Wireshark capture
 
 Potential File Download | msdcorelib.exe
 ![[Pasted image 20230725212419.png]]
+
+Listening port 5555
+![[Pasted image 20230725213924.png]]
 
 ### Host Signatures
 
