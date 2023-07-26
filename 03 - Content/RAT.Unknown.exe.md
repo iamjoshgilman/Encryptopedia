@@ -75,9 +75,11 @@ Potential File Download | msdcorelib.exe
 Initial Detonation
 ![[Pasted image 20230725211522.png]]
 
+Downloaded .EXE
+![[Pasted image 20230725213342.png]]
 
-
-
+Persistence Binary 
+![[Pasted image 20230725213503.png]]
 
 
 ___
