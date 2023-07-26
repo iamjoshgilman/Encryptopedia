@@ -64,8 +64,11 @@ Windows API Calls
 
 ### Network Signatures
 
-
+Initial Run - Wireshark capture
 ![[Pasted image 20230725212006.png]]
+
+Potential File Download | msdcorelib.exe
+![[Pasted image 20230725212419.png]]
 
 ### Host Signatures
 
