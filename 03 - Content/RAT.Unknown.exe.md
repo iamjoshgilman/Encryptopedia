@@ -90,7 +90,10 @@ Downloaded .EXE
 Persistence Binary 
 ![[Pasted image 20230725213503.png]]
 
-
+### Program Execution Flow
+	- If URL is availible
+		- Connect & download http://serv1.ec2-102-95-13-2-ubuntu.local/msdcorelib.exe
+		- File created 
 
 ___
 
