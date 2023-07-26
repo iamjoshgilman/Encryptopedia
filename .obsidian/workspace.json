@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f891efa79af34fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Content/Malware.Unknown.exe.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md"
+                "file": "01 - Primary Categories/01 - Malware Analysis.md"
               }
             }
           },
@@ -175,24 +187,26 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
+    "03 - Content/03 - Basic Static Analysis.md",
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/03 - Basic Dynamic Analysis.md",
+    "03 - Content/Malware.Unknown.exe.md",
+    "Templates/Attachments/Pasted image 20230725115010.png",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
+    "000 - Cybersecurity Materials.md",
     "02 - Secondary Categories/02 - Active Directory.md",
     "04 - Tools & Techniques/04 - Evil-WinRM.md",
     "03 - Content/03 - LLMNR Poisoning.md",
     "04 - Tools & Techniques/04 - CAPA.md",
-    "000 - Cybersecurity Materials.md",
     "03 - Content/03 - Attacking Kerberos.md",
-    "03 - Content/Malware.Unknown.exe.md",
     "Templates/Attachments/Pasted image 20230614135052 2.png",
     "Templates/Attachments/Pasted image 20230614135202 2.png",
     "Templates/Attachments/Pasted image 20230614135506 2.png",
     "Templates/Attachments/Pasted image 20230614135604 2.png",
     "Templates/Attachments/Pasted image 20230614135951 2.png",
-    "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/03 - Magic Bytes.md",
-    "03 - Content/03 - Basic Static Analysis.md",
     "Templates/Attachments/Pasted image 20230723140048.png",
     "Templates/Attachments/Pasted image 20230723135601.png",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
     "01 - Primary Categories/01 - Red Team.md",
     "03 - Content/03 - Windows Registry.md",
     "03 - Content/03 - Persistence.md",
@@ -206,11 +220,8 @@
     "03 - Content/03 - What is Logging.md",
     "03 - Content/03 - What is Volatility.md",
     "03 - Content/03 - What Went Well.md",
-    "03 - Content/03 - Recon.md",
-    "03 - Content/03 - Reactive - Blocking Web Artifacts.md",
     "Templates/Attachments/Pasted image 20230722211034.png",
     "Templates/Attachments/Pasted image 20230722210741.png",
-    "Templates/Attachments/Pasted image 20230722210331.png",
     "Untitled",
     "Reports",
     "04 - Tools",

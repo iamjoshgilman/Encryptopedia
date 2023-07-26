@@ -8,7 +8,16 @@
     "Enlarge_Image_on_Hover",
     "External_Resource_Embed_Style",
     "Answer",
-    "styles"
+    "styles",
+    "center-images",
+    "checkbox",
+    "clutter-free-formatting",
+    "clutter-free-headings",
+    "inline-block-embeds",
+    "notation-colour-blocks",
+    "omega-hr",
+    "realistic-highlight",
+    "image-zoom"
   ],
   "cssTheme": ""
 }
