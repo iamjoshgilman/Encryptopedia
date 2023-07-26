@@ -29,9 +29,32 @@ MD5
 
 ### Virtus Total Analysis : [38/71](https://www.virustotal.com/gui/file/248d491f89a10ec3289ec4ca448b19384464329c442bac395f680c4f3a345c8c)
 
-| Strings & Floss Output | FLOSS static Unicode strings |
-| ---------------------- | ---------------------------- |
-|                        |                              |
+### Strings/Floss Output
+
+```
+@SSL support is not available. Cannot connect over SSL. Compile with -d:ssl to enable.
+@https
+@No uri scheme supplied.
+InternetOpenW
+InternetOpenUrlW
+@wininet
+@wininet
+MultiByteToWideChar
+@kernel32
+@kernel32
+MessageBoxW
+@user32
+@user32
+@[+] what command can I run for you
+@[+] online
+@NO SOUP FOR YOU
+@\mscordll.exe
+@Nim httpclient/1.0.6
+@/msdcorelib.exe
+@AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+@intrt explr
+@http://serv1.ec2-102-95-13-2-ubuntu.local
+```
 
 ### IAT & PEView
 
@@ -39,6 +62,13 @@ Windows API Calls
 
 
 
+### Network Signatures
+
+
+### Host Signatures
+
+Initial Detonation
+![[Pasted image 20230725211522.png]]
 
 
 
