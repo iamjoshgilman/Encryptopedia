@@ -76,6 +76,9 @@ Listening port TCP 5555
 Base64 Encoded data on TCP 5555
 ![[Pasted image 20230725214943.png]]
 
+Confirmed RCE with Base64 Encoding
+![[Pasted image 20230725215208.png]]
+
 ### Host Signatures
 
 Initial Detonation
