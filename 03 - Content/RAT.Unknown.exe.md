@@ -93,7 +93,11 @@ Persistence Binary
 ### Program Execution Flow
 	- If URL is availible
 		- Connect & download http://serv1.ec2-102-95-13-2-ubuntu.local/msdcorelib.exe
-		- File created 
+		- File created `mscordll.exe` in `C:\Users\PMAT\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` for persistence
+		- Open Listening/BindShell port TCP 5555 (Base64 Encode)
+		- Profit
+	- If URL is not availbile 
+		- Display Error `NO SOUP FOR YOU`
 
 ___
 
