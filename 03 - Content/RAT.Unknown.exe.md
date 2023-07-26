@@ -65,6 +65,8 @@ Windows API Calls
 ### Network Signatures
 
 
+![[Pasted image 20230725212006.png]]
+
 ### Host Signatures
 
 Initial Detonation
