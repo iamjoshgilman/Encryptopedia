@@ -51,8 +51,11 @@ ___
 - What is the SHA256 hash of the sample?
 	`0C82E654C09C8FD9FDF4899718EFA37670974C9EEC5A8FC18A167F93CEA6EE83`
 - What architecture is this binary?
+	`32bit`
 - Are there any results from submitting the SHA256 hash to VirusTotal?
+	`Score of 60/70`
 - Describe the results of pulling the strings from this binary. Record and describe any strings that are potentially interesting. Can any interesting information be extracted from the strings?
+	`Lot of reabible strings, seems to act like the real putty tool, was not many actionable results`
 - Describe the results of inspecting the IAT for this binary. Are there any imports worth noting?
 - Is it likely that this binary is packed?
 ---

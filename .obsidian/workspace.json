@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md",
+                "file": "03 - Content/SillyPutty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md",
+                "file": "03 - Content/SillyPutty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - Basic Static Analysis.md"
+                "file": "03 - Content/SillyPutty.md"
               }
             }
           },
@@ -187,11 +186,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f891efa79af34fc",
+  "active": "1c3124b282617dfc",
   "lastOpenFiles": [
-    "03 - Content/SillyPutty.md",
-    "03 - Content/03 - Basic Static Analysis.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/03 - Magic Bytes.md",
+    "03 - Content/03 - Basic Static Analysis.md",
+    "03 - Content/SillyPutty.md",
     "03 - Content/Malware.Unknown.exe.md",
     "03 - Content/RAT.Unknown2.exe.md",
     "Templates/Attachments/Pasted image 20230726203004.png",
@@ -213,7 +213,6 @@
     "03 - Content/03 - LLMNR Poisoning.md",
     "04 - Tools & Techniques/04 - CAPA.md",
     "03 - Content/03 - Attacking Kerberos.md",
-    "03 - Content/03 - Magic Bytes.md",
     "01 - Primary Categories/01 - Red Team.md",
     "03 - Content/03 - Windows Registry.md",
     "03 - Content/03 - Persistence.md",
