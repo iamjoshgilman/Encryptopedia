@@ -18,6 +18,8 @@ Search Tag: #📖
 A Record DNS: aaaa....kadusus.local
 ![[Pasted image 20230726201218.png]]
 
+Potential call out to specified A record HTTPS
+![[Pasted image 20230726202736.png]]
 
 ### Host Signatures
 
