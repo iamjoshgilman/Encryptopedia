@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/RAT.Unknown2.exe.md",
+                "file": "03 - Content/SillyPutty.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/RAT.Unknown2.exe.md",
+                "file": "03 - Content/SillyPutty.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/RAT.Unknown2.exe.md",
+                "file": "03 - Content/SillyPutty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/RAT.Unknown2.exe.md"
+                "file": "03 - Content/SillyPutty.md"
               }
             }
           },
@@ -188,13 +188,14 @@
   },
   "active": "1c3124b282617dfc",
   "lastOpenFiles": [
+    "03 - Content/Malware.Unknown.exe.md",
+    "03 - Content/SillyPutty.md",
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/RAT.Unknown2.exe.md",
     "Templates/Attachments/Pasted image 20230726203004.png",
     "Templates/Attachments/Pasted image 20230726202736.png",
     "Templates/Attachments/Pasted image 20230726201218.png",
-    "01 - Primary Categories/01 - Malware Analysis.md",
-    "03 - Content/RAT.Unknown2.exe.md",
     "03 - Content/RAT.Unknown.exe.md",
-    "03 - Content/Malware.Unknown.exe.md",
     "Templates/Attachments/Pasted image 20230725215208.png",
     "Templates/Attachments/Pasted image 20230725214943.png",
     "Templates/Attachments/Pasted image 20230725213924.png",
@@ -202,7 +203,6 @@
     "Templates/Attachments/Pasted image 20230725213342.png",
     "Templates/Attachments/Pasted image 20230725212419.png",
     "Templates/Attachments/Pasted image 20230725212006.png",
-    "Templates/Attachments/Pasted image 20230725211522.png",
     "03 - Content/03 - Basic Dynamic Analysis.md",
     "03 - Content/03 - Basic Static Analysis.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
