@@ -151,7 +151,7 @@ ___
  - What is the callback port number at detonation?
 	`2559`
  - What is the callback protocol at detonation?
-	HTTP
+	`HTTP`
  - How can you use host-based telemetry to identify the DNS record, port, and protocol?
  - Attempt to get the binary to initiate a shell on the localhost. Does a shell spawn? What is needed for a shell to spawn?
 
