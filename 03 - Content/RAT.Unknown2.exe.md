@@ -21,6 +21,9 @@ A Record DNS: aaaa....kadusus.local
 Potential call out to specified A record HTTPS
 ![[Pasted image 20230726202736.png]]
 
+Reverse shell using capabilities port 443
+![[Pasted image 20230726203004.png]]
+
 ### Host Signatures
 
 
