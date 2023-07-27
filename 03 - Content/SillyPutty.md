@@ -103,6 +103,9 @@ SetClipboardData,x,-,0x00123F6A,0x006C0064,806 (0x0326),data-exchange,T1115 | Cl
 
 ### Network Signatures
 
+Reaching out to A name bonus2.corporatebonusapplication.local
+![[Pasted image 20230726215855.png]]
+
 Potential download via GET on HTTP
 ![[Pasted image 20230726211639.png]]
 
@@ -148,7 +151,7 @@ ___
  - From the host-based indicators perspective, what is the main payload that is initiated at detonation? What tool can you use to identify this?
 	`Main payload is a powershell script - can be found using Procmon, Process tree`
  - What is the DNS record that is queried at detonation?
-	`http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?6762aad943aabeb6`
+	`bonus2.corporatebonusapplication.local`
  - What is the callback port number at detonation?
 	`2559`
  - What is the callback protocol at detonation?
