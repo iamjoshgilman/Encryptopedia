@@ -126,6 +126,8 @@ ___
 
 ### Basic Dynamic Analysis
  - Describe initial detonation. Are there any notable occurrences at first detonation? Without internet simulation? With internet simulation?
+	`Without Internet - We get a quick blue (powershell?) screen and then the typical putty config screen`
+	
  - From the host-based indicators perspective, what is the main payload that is initiated at detonation? What tool can you use to identify this?
  - What is the DNS record that is queried at detonation?
  - What is the callback port number at detonation?
