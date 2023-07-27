@@ -13,6 +13,13 @@ Search Tag: #📖
 # [[RAT.Unknown2.exe]]  
 
 
+### Network Signatures
+
+A Record DNS: aaaa....kadusus.local
+![[Pasted image 20230726201218.png]]
+
+
+### Host Signatures
 
 
 
