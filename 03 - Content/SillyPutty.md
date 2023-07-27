@@ -27,6 +27,7 @@ MD5
 334A10500FEB0F3444BF2E86AB2E76DA
 ```
 
+### Virtus Total Analysis: [60/70](https://www.virustotal.com/gui/file/0c82e654c09c8fd9fdf4899718efa37670974c9eec5a8fc18a167f93cea6ee83)
 
 FLOSS/Strings output
 
