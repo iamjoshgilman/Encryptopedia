@@ -16,8 +16,28 @@ Search Tag: #📖
 
 SHA256
 ```
+0C82E654C09C8FD9FDF4899718EFA37670974C9EEC5A8FC18A167F93CEA6EE83
+```
+SHA1
+```
+C6A97B63FBD970984B95AE79A2B2AEF5749EE463
+```
+MD5
+```
+334A10500FEB0F3444BF2E86AB2E76DA
+```
+
+
+FLOSS/Strings output
 
 ```
+PuTTY downstream no longer available
+SSHCONNECTION@putty.projects.tartarus.org-2.0-
+
+```
+
+
+
 
 
 
@@ -28,6 +48,7 @@ ___
 ---
 
 - What is the SHA256 hash of the sample?
+	`0C82E654C09C8FD9FDF4899718EFA37670974C9EEC5A8FC18A167F93CEA6EE83`
 - What architecture is this binary?
 - Are there any results from submitting the SHA256 hash to VirusTotal?
 - Describe the results of pulling the strings from this binary. Record and describe any strings that are potentially interesting. Can any interesting information be extracted from the strings?
