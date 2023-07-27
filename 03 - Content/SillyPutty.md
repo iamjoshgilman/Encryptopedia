@@ -145,8 +145,11 @@ ___
 	`Without Internet - We get a quick blue (powershell?) screen and then the typical putty config screen`
 	`With Internet - Potential download of 2nd payload`
  - From the host-based indicators perspective, what is the main payload that is initiated at detonation? What tool can you use to identify this?
+	`Main payload is a powershell script - can be found using Procmon, Process tree`
  - What is the DNS record that is queried at detonation?
+	`http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?6762aad943aabeb6`
  - What is the callback port number at detonation?
+	`2559`
  - What is the callback protocol at detonation?
  - How can you use host-based telemetry to identify the DNS record, port, and protocol?
  - Attempt to get the binary to initiate a shell on the localhost. Does a shell spawn? What is needed for a shell to spawn?
