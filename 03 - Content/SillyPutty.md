@@ -101,7 +101,15 @@ SetClipboardData,x,-,0x00123F6A,0x006C0064,806 (0x0326),data-exchange,T1115 | Cl
 
 ```
 
+### Network Signatures
 
+Potential download via GET on HTTP
+![[Pasted image 20230726211639.png]]
+
+### Host Signatures
+
+Putty Config on opening after powershell brief run
+![[Pasted image 20230726211759.png]]
 
 
 ___
@@ -127,7 +135,7 @@ ___
 ### Basic Dynamic Analysis
  - Describe initial detonation. Are there any notable occurrences at first detonation? Without internet simulation? With internet simulation?
 	`Without Internet - We get a quick blue (powershell?) screen and then the typical putty config screen`
-	
+	`With Internet - Potential download of 2nd payload`
  - From the host-based indicators perspective, what is the main payload that is initiated at detonation? What tool can you use to identify this?
  - What is the DNS record that is queried at detonation?
  - What is the callback port number at detonation?
