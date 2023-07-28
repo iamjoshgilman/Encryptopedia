@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "69b42ba2bd068862",
+            "id": "52fdbff4fd60a63c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/Dropper.DownloadFromurl.exe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1b0fd57fc705491",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 - Content/03 - ASM Fundamentals.md",
+                "file": "02 - Secondary Categories/02 - Splunk.md",
                 "mode": "source",
                 "source": false
               }
@@ -199,14 +187,16 @@
   },
   "active": "1f891efa79af34fc",
   "lastOpenFiles": [
-    "01 - Primary Categories/01 - Security Fundamentals.md",
+    "02 - Secondary Categories/02 - Splunk.md",
+    "01 - Primary Categories/01 - Blue Team.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
     "03 - Content/03 - Static Website Hosting.md",
+    "03 - Content/Dropper.DownloadFromurl.exe.md",
+    "01 - Primary Categories/01 - Security Fundamentals.md",
     "02 - Secondary Categories/02 - Amazon Web Services (AWS).md",
     "01 - Primary Categories/01 - Cloud.md",
     "01 - Primary Categories/01 - Cheat Sheets.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
     "03 - Content/03 - Advanced Static Analysis.md",
-    "03 - Content/Dropper.DownloadFromurl.exe.md",
     "03 - Content/03 - ASM Fundamentals.md",
     "01 - Primary Categories/01 - Languages.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
@@ -233,8 +223,6 @@
     "03 - Content/03 - LLMNR Poisoning.md",
     "04 - Tools & Techniques/04 - CAPA.md",
     "03 - Content/03 - Attacking Kerberos.md",
-    "01 - Primary Categories/01 - Red Team.md",
-    "03 - Content/03 - Windows Registry.md",
     "Untitled",
     "Reports",
     "04 - Tools",
