@@ -42,7 +42,9 @@ What is a S3 Bucket?
 
 We will need to create an S3 Bucket containing the pages of the website, then we will put the Bucket in public to make it accessible to all. We will make two separate S3 Buckets to capture the www name of the website and the www-less of the website, we will **redirect** to the **main Bucket**.
 
+Setting up this Bucket is easy, except we need to make a single change and that exposing it to the internet!
 
+![[Pasted image 20230727215916.png]]
 
 
 ### Configure Route 53 to link the domain name to the website
