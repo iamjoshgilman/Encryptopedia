@@ -51,7 +51,9 @@ Here are some popular decompilers:
 4. **Decompile the Binary**: If possible, decompile the binary to get a more readable representation of the code.
 5. **Analyze the Code**: Examine the code in detail, looking for operations like file manipulation, network communication, or system changes.
 
+---
 
+Using Cutter as our decompiler
 
 ___
 

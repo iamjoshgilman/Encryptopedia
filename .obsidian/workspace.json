@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1c3124b282617dfc",
+            "id": "1f891efa79af34fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/SillyPutty.md",
+                "file": "03 - Content/03 - Advanced Static Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1f891efa79af34fc",
+            "id": "69b42ba2bd068862",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "03 - Content/Dropper.DownloadFromurl.exe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1b0fd57fc705491",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Content/03 - ASM Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5,
-    "collapsed": true
+    "width": 247.5
   },
   "right": {
     "id": "efcca45e639a59e1",
@@ -106,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/SillyPutty.md",
+                "file": "03 - Content/03 - Advanced Static Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/SillyPutty.md",
+                "file": "03 - Content/03 - Advanced Static Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/SillyPutty.md"
+                "file": "03 - Content/03 - Advanced Static Analysis.md"
               }
             }
           },
@@ -186,10 +197,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1c3124b282617dfc",
+  "active": "1f891efa79af34fc",
   "lastOpenFiles": [
-    "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/Dropper.DownloadFromurl.exe.md",
+    "03 - Content/03 - ASM Fundamentals.md",
+    "01 - Primary Categories/01 - Languages.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
     "03 - Content/03 - Advanced Static Analysis.md",
+    "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/SillyPutty.md",
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
@@ -207,7 +222,6 @@
     "Templates/Attachments/Pasted image 20230726201218.png",
     "03 - Content/RAT.Unknown.exe.md",
     "Templates/Attachments/Pasted image 20230725215208.png",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
     "000 - Cybersecurity Materials.md",
     "02 - Secondary Categories/02 - Active Directory.md",
     "04 - Tools & Techniques/04 - Evil-WinRM.md",
@@ -221,9 +235,6 @@
     "01 - Primary Categories/01 - Administration.md",
     "03 - Content/Admonition.md",
     "01 - Primary Categories/01 - Cheat Sheets.md",
-    "03 - Content/03 - What Are APTs.md",
-    "03 - Content/03 - What are Case Management Tools.md",
-    "03 - Content/03 - Whaling.md",
     "Untitled",
     "Reports",
     "04 - Tools",
