@@ -47,6 +47,7 @@ Setting up this Bucket is easy, except we need to make a single change and that 
 ![[Pasted image 20230727215916.png]]
 
 
+
 ### Configure Route 53 to link the domain name to the website
 
 
