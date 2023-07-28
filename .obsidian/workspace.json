@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - Advanced Static Analysis.md",
+                "file": "03 - Content/03 - Static Website Hosting.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - Advanced Static Analysis.md",
+                "file": "03 - Content/03 - Static Website Hosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - Advanced Static Analysis.md",
+                "file": "03 - Content/03 - Static Website Hosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - Advanced Static Analysis.md"
+                "file": "03 - Content/03 - Static Website Hosting.md"
               }
             }
           },
@@ -199,11 +199,16 @@
   },
   "active": "1f891efa79af34fc",
   "lastOpenFiles": [
+    "01 - Primary Categories/01 - Security Fundamentals.md",
+    "03 - Content/03 - Static Website Hosting.md",
+    "02 - Secondary Categories/02 - Amazon Web Services (AWS).md",
+    "01 - Primary Categories/01 - Cloud.md",
+    "01 - Primary Categories/01 - Cheat Sheets.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
+    "03 - Content/03 - Advanced Static Analysis.md",
     "03 - Content/Dropper.DownloadFromurl.exe.md",
     "03 - Content/03 - ASM Fundamentals.md",
     "01 - Primary Categories/01 - Languages.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
-    "03 - Content/03 - Advanced Static Analysis.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/SillyPutty.md",
     "Templates/Attachments/Pasted image 20230726220835.png",
@@ -230,11 +235,6 @@
     "03 - Content/03 - Attacking Kerberos.md",
     "01 - Primary Categories/01 - Red Team.md",
     "03 - Content/03 - Windows Registry.md",
-    "03 - Content/03 - Persistence.md",
-    "03 - Content/03 - OSINT vs Paid-for Sources.md",
-    "01 - Primary Categories/01 - Administration.md",
-    "03 - Content/Admonition.md",
-    "01 - Primary Categories/01 - Cheat Sheets.md",
     "Untitled",
     "Reports",
     "04 - Tools",
