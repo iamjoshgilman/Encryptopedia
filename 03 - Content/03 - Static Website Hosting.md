@@ -37,9 +37,10 @@ Luckily for us, registering our domain name through Route 53 automatically gains
 
 ### Create S3 Buckets to host website pages
 
-We will need to create an S3 Bucket containing the pages of the website, then we will put the Bucket in public to make it accessible to all.
+What is a S3 Bucket?
+>*An Amazon S3 bucket is a storage space within Amazon's Simple Storage Service (S3) where data is stored as objects (akin to files) in the cloud. Each object consists of a file and optionally any metadata that describes that file. S3 buckets can be uniquely named and configured with rules for storage management and access control for security. They provide high scalability, data availability, and performance for various use-cases such as backup and restore, archive, enterprise applications, IoT devices, and websites.*
 
-We will need to make two separate S3 Buckets to capture the www. name of the we
+We will need to create an S3 Bucket containing the pages of the website, then we will put the Bucket in public to make it accessible to all. We will make two separate S3 Buckets to capture the www name of the website and the www-less of the website, we will **redirect** to the **main Bucket**.
 
 
 
