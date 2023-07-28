@@ -13,8 +13,8 @@ Search Tag: #📖
 # [[03 - Static Website Hosting]]  
 
 - [x] Buy domain on AWS using Route 53;
-- [ ] Create a hosted zone and manage its DNS records;
-- [ ] Create S3 Buckets to host website pages;
+- [x] Create a hosted zone and manage its DNS records;
+- [x] Create S3 Buckets to host website pages;
 - [ ] Configure Route 53 to link the domain name to the website;
 - [ ] Create an SSL certificate for the website using AWS Certificate Manager (ACM);
 - [ ] Create CloudFront distributions to secure the website in HTTPS.
