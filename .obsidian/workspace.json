@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "03 - Content/03 - Python Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "03 - Content/03 - Python Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "03 - Content/03 - Python Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md"
+                "file": "03 - Content/03 - Python Fundamentals.md"
               }
             }
           },
@@ -176,9 +176,9 @@
   "active": "1f891efa79af34fc",
   "lastOpenFiles": [
     "01 - Primary Categories/01 - Languages.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
     "03 - Content/03 - Python Fundamentals.md",
     "03 - Content/03 - ASM Fundamentals.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
     "01 - Primary Categories/01 - Administration.md",
     "02 - Secondary Categories/02 - Windows.md",
     "01 - Primary Categories/01 - Red Team.md",
