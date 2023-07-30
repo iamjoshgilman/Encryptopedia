@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - Python Fundamentals.md",
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - Python Fundamentals.md",
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - Python Fundamentals.md",
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - Python Fundamentals.md"
+                "file": "00 - Global Index/000 - Cybersecurity Materials.md"
               }
             }
           },
@@ -173,17 +173,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f891efa79af34fc",
+  "active": "e523a338327a0917",
   "lastOpenFiles": [
-    "01 - Primary Categories/01 - Languages.md",
+    "03 - Content/03 - Advanced Static Analysis.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
+    "01 - Primary Categories/01 - Languages.md",
     "03 - Content/03 - Python Fundamentals.md",
     "03 - Content/03 - ASM Fundamentals.md",
     "01 - Primary Categories/01 - Administration.md",
     "02 - Secondary Categories/02 - Windows.md",
     "01 - Primary Categories/01 - Red Team.md",
     "02 - Secondary Categories/03 - Network Service Discovery.md",
-    "03 - Content/03 - Advanced Static Analysis.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/03 - Static Website Hosting.md",
     "Templates/Attachments/Pasted image 20230727215916.png",
