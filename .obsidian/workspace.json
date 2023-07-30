@@ -11,11 +11,14 @@
             "id": "1f891efa79af34fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 - Primary Categories/01 - Red Team.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -256.84037435545827,
+                  "y": -143.27020727638967,
+                  "zoom": 0.3333333333333334
+                }
               }
             }
           }
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Primary Categories/01 - Red Team.md",
+                "file": "Templates/Attachments/Pasted image 20230730134807.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Primary Categories/01 - Red Team.md",
+                "file": "Templates/Attachments/Pasted image 20230730134807.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Primary Categories/01 - Red Team.md"
+                "file": "Templates/Attachments/Pasted image 20230730134807.png"
               }
             }
           },
@@ -175,22 +178,24 @@
   },
   "active": "1f891efa79af34fc",
   "lastOpenFiles": [
-    "01 - Primary Categories/01 - Blue Team.md",
-    "02 - Secondary Categories/02 - Splunk.md",
-    "02 - Secondary Categories/02 - WireShark.md",
-    "02 - Secondary Categories/02 - Autopsy.md",
+    "Templates/Attachments/Pasted image 20230730134807.png",
+    "03 - Content/03 - Advanced Static Analysis.md",
+    "Untitled.canvas",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
+    "Reports/THM - Attacking Kerberos.md",
     "Reports/THM - CyberLens.md",
     "Reports/THM - HackPark.md",
     "Reports/THM - Steel Mountain.md",
-    "Reports/THM - Attacking Kerberos.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
-    "03 - Content/03 - Advanced Static Analysis.md",
+    "01 - Primary Categories/01 - Blue Team.md",
+    "01 - Primary Categories/01 - Red Team.md",
+    "02 - Secondary Categories/02 - Splunk.md",
+    "02 - Secondary Categories/02 - WireShark.md",
+    "02 - Secondary Categories/02 - Autopsy.md",
     "01 - Primary Categories/01 - Languages.md",
     "03 - Content/03 - Python Fundamentals.md",
     "03 - Content/03 - ASM Fundamentals.md",
     "01 - Primary Categories/01 - Administration.md",
     "02 - Secondary Categories/02 - Windows.md",
-    "01 - Primary Categories/01 - Red Team.md",
     "02 - Secondary Categories/03 - Network Service Discovery.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/03 - Static Website Hosting.md",
@@ -204,7 +209,6 @@
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
     "Templates/Attachments/Pasted image 20230726215139.png",
-    "03 - Content/RAT.Unknown2.exe.md",
     "Templates/Attachments/Pasted image 20230726212137.png",
     "Templates/Attachments/Pasted image 20230726211759.png",
     "Templates/Attachments/Pasted image 20230726211639.png",

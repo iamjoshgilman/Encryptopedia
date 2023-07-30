@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"b2dcda71a52a999e","x":-200,"y":-340,"width":400,"height":350,"type":"file","file":"Templates/Attachments/Pasted image 20230730134807.png"},
+		{"id":"7b93e2fd6634b4d4","x":-520,"y":-340,"width":250,"height":60,"type":"text","text":"Commonly used to setup a call"}
+	],
+	"edges":[]
+}
