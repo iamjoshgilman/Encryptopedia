@@ -1,7 +1,9 @@
 {
 	"nodes":[
-		{"id":"b2dcda71a52a999e","x":-200,"y":-340,"width":400,"height":350,"type":"file","file":"Templates/Attachments/Pasted image 20230730134807.png"},
-		{"id":"7b93e2fd6634b4d4","x":-520,"y":-340,"width":250,"height":60,"type":"text","text":"Commonly used to setup a call"}
+		{"id":"b2dcda71a52a999e","x":-200,"y":-690,"width":800,"height":700,"type":"file","file":"Templates/Attachments/Pasted image 20230730134807.png"},
+		{"id":"7b93e2fd6634b4d4","x":-700,"y":-690,"width":240,"height":60,"type":"text","text":"Commonly used to setup a call"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"759f9e756ffb653d","fromNode":"7b93e2fd6634b4d4","fromSide":"right","toNode":"b2dcda71a52a999e","toSide":"left"}
+	]
 }
