@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Primary Categories/01 - Blue Team.md",
+                "file": "01 - Primary Categories/01 - Red Team.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Primary Categories/01 - Blue Team.md",
+                "file": "01 - Primary Categories/01 - Red Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Primary Categories/01 - Blue Team.md",
+                "file": "01 - Primary Categories/01 - Red Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Primary Categories/01 - Blue Team.md"
+                "file": "01 - Primary Categories/01 - Red Team.md"
               }
             }
           },
@@ -175,8 +175,8 @@
   },
   "active": "1f891efa79af34fc",
   "lastOpenFiles": [
-    "02 - Secondary Categories/02 - Splunk.md",
     "01 - Primary Categories/01 - Blue Team.md",
+    "02 - Secondary Categories/02 - Splunk.md",
     "02 - Secondary Categories/02 - WireShark.md",
     "02 - Secondary Categories/02 - Autopsy.md",
     "Reports/THM - CyberLens.md",
