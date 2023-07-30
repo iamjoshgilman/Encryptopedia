@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - Static Website Hosting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52fdbff4fd60a63c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - Secondary Categories/02 - Splunk.md",
+                "file": "03 - Content/03 - Advanced Static Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - Static Website Hosting.md",
+                "file": "03 - Content/03 - Advanced Static Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - Static Website Hosting.md",
+                "file": "03 - Content/03 - Advanced Static Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - Static Website Hosting.md"
+                "file": "03 - Content/03 - Advanced Static Analysis.md"
               }
             }
           },
@@ -187,11 +175,12 @@
   },
   "active": "1f891efa79af34fc",
   "lastOpenFiles": [
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
+    "03 - Content/03 - Static Website Hosting.md",
     "Templates/Attachments/Pasted image 20230727215916.png",
     "02 - Secondary Categories/02 - Splunk.md",
     "01 - Primary Categories/01 - Blue Team.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
-    "03 - Content/03 - Static Website Hosting.md",
     "03 - Content/Dropper.DownloadFromurl.exe.md",
     "01 - Primary Categories/01 - Security Fundamentals.md",
     "02 - Secondary Categories/02 - Amazon Web Services (AWS).md",
@@ -200,7 +189,6 @@
     "03 - Content/03 - Advanced Static Analysis.md",
     "03 - Content/03 - ASM Fundamentals.md",
     "01 - Primary Categories/01 - Languages.md",
-    "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/SillyPutty.md",
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
@@ -217,7 +205,6 @@
     "Templates/Attachments/Pasted image 20230726202736.png",
     "Templates/Attachments/Pasted image 20230726201218.png",
     "03 - Content/RAT.Unknown.exe.md",
-    "Templates/Attachments/Pasted image 20230725215208.png",
     "000 - Cybersecurity Materials.md",
     "02 - Secondary Categories/02 - Active Directory.md",
     "04 - Tools & Techniques/04 - Evil-WinRM.md",
