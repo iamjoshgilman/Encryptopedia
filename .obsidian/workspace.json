@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Blue Team.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Blue Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md",
+                "file": "01 - Primary Categories/01 - Blue Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Global Index/000 - Cybersecurity Materials.md"
+                "file": "01 - Primary Categories/01 - Blue Team.md"
               }
             }
           },
@@ -173,10 +173,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e523a338327a0917",
+  "active": "1f891efa79af34fc",
   "lastOpenFiles": [
-    "03 - Content/03 - Advanced Static Analysis.md",
+    "02 - Secondary Categories/02 - Splunk.md",
+    "01 - Primary Categories/01 - Blue Team.md",
+    "02 - Secondary Categories/02 - WireShark.md",
+    "02 - Secondary Categories/02 - Autopsy.md",
+    "Reports/THM - CyberLens.md",
+    "Reports/THM - HackPark.md",
+    "Reports/THM - Steel Mountain.md",
+    "Reports/THM - Attacking Kerberos.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
+    "03 - Content/03 - Advanced Static Analysis.md",
     "01 - Primary Categories/01 - Languages.md",
     "03 - Content/03 - Python Fundamentals.md",
     "03 - Content/03 - ASM Fundamentals.md",
@@ -187,8 +195,6 @@
     "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/03 - Static Website Hosting.md",
     "Templates/Attachments/Pasted image 20230727215916.png",
-    "02 - Secondary Categories/02 - Splunk.md",
-    "01 - Primary Categories/01 - Blue Team.md",
     "03 - Content/Dropper.DownloadFromurl.exe.md",
     "01 - Primary Categories/01 - Security Fundamentals.md",
     "02 - Secondary Categories/02 - Amazon Web Services (AWS).md",
@@ -199,18 +205,12 @@
     "Templates/Attachments/Pasted image 20230726215855.png",
     "Templates/Attachments/Pasted image 20230726215139.png",
     "03 - Content/RAT.Unknown2.exe.md",
-    "03 - Content/03 - Basic Dynamic Analysis.md",
-    "03 - Content/03 - Basic Static Analysis.md",
     "Templates/Attachments/Pasted image 20230726212137.png",
     "Templates/Attachments/Pasted image 20230726211759.png",
     "Templates/Attachments/Pasted image 20230726211639.png",
-    "03 - Content/03 - Magic Bytes.md",
-    "03 - Content/Malware.Unknown.exe.md",
     "Templates/Attachments/Pasted image 20230726203004.png",
     "Templates/Attachments/Pasted image 20230726202736.png",
     "Templates/Attachments/Pasted image 20230726201218.png",
-    "03 - Content/RAT.Unknown.exe.md",
-    "000 - Cybersecurity Materials.md",
     "Untitled",
     "Reports",
     "04 - Tools",
