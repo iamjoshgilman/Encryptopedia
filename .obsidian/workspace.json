@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ca1bf839488283af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Content/Malware.Stage0.exe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -176,15 +188,15 @@
   },
   "active": "d6c78616a1576bf5",
   "lastOpenFiles": [
+    "03 - Content/Malware.Stage0.exe.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
     "03 - Content/SikoMode.md",
     "03 - Content/03 - Advanced Dynamic Analysis.md",
     "Untitled 1.canvas",
     "04 - Tools & Techniques/04 - Debugger x32dbg.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
-    "03 - Content/Malware.Stage0.exe.md",
     "Templates/Attachments/Pasted image 20230730213033.png",
     "Templates/Attachments/Pasted image 20230730212527.png",
     "03 - Content/RAT.Unknown.exe.md",
