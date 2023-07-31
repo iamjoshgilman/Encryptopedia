@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/03 - Advanced Dynamic Analysis.md",
+                "file": "03 - Content/SikoMode.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/03 - Advanced Dynamic Analysis.md",
+                "file": "03 - Content/SikoMode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/03 - Advanced Dynamic Analysis.md",
+                "file": "03 - Content/SikoMode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/03 - Advanced Dynamic Analysis.md"
+                "file": "03 - Content/SikoMode.md"
               }
             }
           },
@@ -176,9 +176,10 @@
   },
   "active": "d6c78616a1576bf5",
   "lastOpenFiles": [
-    "Untitled 1.canvas",
-    "03 - Content/03 - Advanced Dynamic Analysis.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/SikoMode.md",
+    "03 - Content/03 - Advanced Dynamic Analysis.md",
+    "Untitled 1.canvas",
     "04 - Tools & Techniques/04 - Debugger x32dbg.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
     "Untitled.canvas",
