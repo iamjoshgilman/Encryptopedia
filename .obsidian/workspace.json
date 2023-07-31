@@ -21,8 +21,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "133f705349908e95",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Attachments/Pasted image 20230730203050.png",
+                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Attachments/Pasted image 20230730203050.png",
+                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Attachments/Pasted image 20230730203050.png"
+                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md"
               }
             }
           },
@@ -173,15 +184,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1f891efa79af34fc",
+  "active": "133f705349908e95",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
+    "Excalidraw",
     "Templates/Attachments/Pasted image 20230730203050.png",
     "Templates/Attachments/Pasted image 20230730134807.png",
     "03 - Content/03 - Advanced Static Analysis.md",
-    "Untitled.canvas",
     "00 - Global Index/000 - Cybersecurity Materials.md",
     "Reports/THM - Attacking Kerberos.md",
     "Reports/THM - CyberLens.md",
@@ -206,7 +220,6 @@
     "02 - Secondary Categories/02 - Amazon Web Services (AWS).md",
     "01 - Primary Categories/01 - Cloud.md",
     "01 - Primary Categories/01 - Cheat Sheets.md",
-    "03 - Content/SillyPutty.md",
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
     "Templates/Attachments/Pasted image 20230726215139.png",
@@ -214,7 +227,6 @@
     "Templates/Attachments/Pasted image 20230726211759.png",
     "Templates/Attachments/Pasted image 20230726211639.png",
     "Templates/Attachments/Pasted image 20230726203004.png",
-    "Templates/Attachments/Pasted image 20230726202736.png",
     "Untitled",
     "Reports",
     "04 - Tools",
@@ -223,7 +235,6 @@
     "04 - Tools/04 - Tools & Techniques",
     "01 - Primary Categories/01 - Cyber Kill Chain",
     "Templates/Attachments",
-    "Templates/04 - Structural Elements",
-    "Templates"
+    "Templates/04 - Structural Elements"
   ]
 }
