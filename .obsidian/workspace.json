@@ -15,9 +15,9 @@
               "state": {
                 "file": "Untitled.canvas",
                 "viewState": {
-                  "x": 25.921979287436784,
-                  "y": -332.4015157657652,
-                  "zoom": -0.3333333333333333
+                  "x": 96,
+                  "y": -481,
+                  "zoom": 0
                 }
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Templates/Attachments/Pasted image 20230730203050.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Templates/Attachments/Pasted image 20230730203050.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Templates/Attachments/Pasted image 20230730203050.png"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "1f891efa79af34fc",
   "lastOpenFiles": [
+    "Templates/Attachments/Pasted image 20230730203050.png",
     "Templates/Attachments/Pasted image 20230730134807.png",
     "03 - Content/03 - Advanced Static Analysis.md",
     "Untitled.canvas",
@@ -214,7 +215,6 @@
     "Templates/Attachments/Pasted image 20230726211639.png",
     "Templates/Attachments/Pasted image 20230726203004.png",
     "Templates/Attachments/Pasted image 20230726202736.png",
-    "Templates/Attachments/Pasted image 20230726201218.png",
     "Untitled",
     "Reports",
     "04 - Tools",
