@@ -11,9 +11,11 @@
             "id": "cf158f68bca1ea4b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md"
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md"
+                "file": "01 - Primary Categories/01 - Malware Analysis.md"
               }
             }
           },
@@ -174,14 +176,14 @@
   },
   "active": "cf158f68bca1ea4b",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
     "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
+    "Untitled.canvas",
     "Templates/Attachments/Pasted Image 20230730204059_098.png",
     "Excalidraw",
     "Templates/Attachments/Pasted image 20230730203050.png",
     "Templates/Attachments/Pasted image 20230730134807.png",
     "03 - Content/03 - Advanced Static Analysis.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
     "Reports/THM - Attacking Kerberos.md",
     "Reports/THM - CyberLens.md",
     "Reports/THM - HackPark.md",
