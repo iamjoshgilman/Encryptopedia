@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf158f68bca1ea4b",
+            "id": "d6c78616a1576bf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/Malware.Stage0.exe.md",
+                "file": "03 - Content/03 - Advanced Dynamic Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/Malware.Stage0.exe.md",
+                "file": "03 - Content/03 - Advanced Dynamic Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/Malware.Stage0.exe.md",
+                "file": "03 - Content/03 - Advanced Dynamic Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/Malware.Stage0.exe.md"
+                "file": "03 - Content/03 - Advanced Dynamic Analysis.md"
               }
             }
           },
@@ -174,16 +174,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf158f68bca1ea4b",
+  "active": "d6c78616a1576bf5",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "03 - Content/03 - Advanced Dynamic Analysis.md",
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "04 - Tools & Techniques/04 - Debugger x32dbg.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
+    "03 - Content/Malware.Stage0.exe.md",
     "Templates/Attachments/Pasted image 20230730213033.png",
     "Templates/Attachments/Pasted image 20230730212527.png",
-    "01 - Primary Categories/01 - Malware Analysis.md",
-    "03 - Content/Malware.Stage0.exe.md",
     "03 - Content/RAT.Unknown.exe.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
-    "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
-    "Untitled.canvas",
     "Templates/Attachments/Pasted Image 20230730204059_098.png",
     "Excalidraw",
     "Templates/Attachments/Pasted image 20230730203050.png",
@@ -207,13 +210,10 @@
     "03 - Content/03 - Static Website Hosting.md",
     "Templates/Attachments/Pasted image 20230727215916.png",
     "03 - Content/Dropper.DownloadFromurl.exe.md",
-    "01 - Primary Categories/01 - Security Fundamentals.md",
-    "02 - Secondary Categories/02 - Amazon Web Services (AWS).md",
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
     "Templates/Attachments/Pasted image 20230726215139.png",
     "Templates/Attachments/Pasted image 20230726212137.png",
-    "Templates/Attachments/Pasted image 20230726211759.png",
     "Untitled",
     "Reports",
     "04 - Tools",
