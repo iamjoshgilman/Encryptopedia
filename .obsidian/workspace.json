@@ -4,26 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1634e39a46e2fea5",
+        "id": "f47043d31965f358",
         "type": "tabs",
         "children": [
           {
-            "id": "1f891efa79af34fc",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 96,
-                  "y": -481,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "133f705349908e95",
+            "id": "cf158f68bca1ea4b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -32,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,11 +172,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "133f705349908e95",
+  "active": "cf158f68bca1ea4b",
   "lastOpenFiles": [
-    "Templates/Attachments/Pasted Image 20230730204059_098.png",
     "Untitled.canvas",
     "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
+    "Templates/Attachments/Pasted Image 20230730204059_098.png",
     "Excalidraw",
     "Templates/Attachments/Pasted image 20230730203050.png",
     "Templates/Attachments/Pasted image 20230730134807.png",
@@ -227,7 +211,6 @@
     "Templates/Attachments/Pasted image 20230726212137.png",
     "Templates/Attachments/Pasted image 20230726211759.png",
     "Templates/Attachments/Pasted image 20230726211639.png",
-    "Templates/Attachments/Pasted image 20230726203004.png",
     "Untitled",
     "Reports",
     "04 - Tools",
