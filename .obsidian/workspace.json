@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "03 - Content/Malware.Stage0.exe.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "03 - Content/Malware.Stage0.exe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
+                "file": "03 - Content/Malware.Stage0.exe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md"
+                "file": "03 - Content/Malware.Stage0.exe.md"
               }
             }
           },
@@ -176,6 +176,9 @@
   },
   "active": "cf158f68bca1ea4b",
   "lastOpenFiles": [
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/Malware.Stage0.exe.md",
+    "03 - Content/RAT.Unknown.exe.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
     "Excalidraw/Drawing 2023-07-30 20.39.44.excalidraw.md",
     "Untitled.canvas",
@@ -199,14 +202,12 @@
     "01 - Primary Categories/01 - Administration.md",
     "02 - Secondary Categories/02 - Windows.md",
     "02 - Secondary Categories/03 - Network Service Discovery.md",
-    "01 - Primary Categories/01 - Malware Analysis.md",
     "03 - Content/03 - Static Website Hosting.md",
     "Templates/Attachments/Pasted image 20230727215916.png",
     "03 - Content/Dropper.DownloadFromurl.exe.md",
     "01 - Primary Categories/01 - Security Fundamentals.md",
     "02 - Secondary Categories/02 - Amazon Web Services (AWS).md",
     "01 - Primary Categories/01 - Cloud.md",
-    "01 - Primary Categories/01 - Cheat Sheets.md",
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
     "Templates/Attachments/Pasted image 20230726215139.png",
