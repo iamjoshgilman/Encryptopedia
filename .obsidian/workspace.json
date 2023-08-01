@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/SikoMode.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 - Content/SikoMode.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 - Content/SikoMode.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 - Content/SikoMode.md"
+                "file": "01 - Primary Categories/01 - Malware Analysis.md"
               }
             }
           },
@@ -188,11 +188,12 @@
   },
   "active": "d6c78616a1576bf5",
   "lastOpenFiles": [
+    "03 - Content/03 - Binary Patching & Anti-analysis.md",
+    "01 - Primary Categories/01 - Malware Analysis.md",
+    "03 - Content/SikoMode.md",
     "Templates/Attachments/Pasted image 20230731203909.png",
     "03 - Content/Malware.Stage0.exe.md",
-    "01 - Primary Categories/01 - Malware Analysis.md",
     "00 - Global Index/000 - Cybersecurity Materials.md",
-    "03 - Content/SikoMode.md",
     "03 - Content/03 - Advanced Dynamic Analysis.md",
     "Untitled 1.canvas",
     "04 - Tools & Techniques/04 - Debugger x32dbg.md",
@@ -226,7 +227,6 @@
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
     "Templates/Attachments/Pasted image 20230726215139.png",
-    "Templates/Attachments/Pasted image 20230726212137.png",
     "Untitled",
     "Reports",
     "04 - Tools",
