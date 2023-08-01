@@ -94,11 +94,7 @@ getenv
 
 ### Network Signatures
 
-
-
-
-
-
+![[Pasted image 20230731203909.png]]
 
 
 ### Host Signatures
@@ -125,9 +121,9 @@ getenv
 - What is the first callback domain?
 	http://update.ec12-4-109-278-3-ubuntu20-04.local/
 - Under what conditions can you get the binary to exfiltrate data?
-	Internet present
+	Must be able to connect to the first callback domain
 - What is the exfiltration domain?
-	http://cdn.altimiter.local/feed?post=A8E437E8F0367592569A2870BBDD382A1DFBB01A15FC23999D7788C33502AD9256E481B402BDC6BC25167B6478F204C49A9BADD68C4AC2A617437ECCBBA9
+	http://cdn.altimiter.local
 - How does exfiltration take place?
 - What URI is used to exfiltrate data?
 	http://cdn.altimiter.local/feed?post=A8E437E8F0367592569A2870BBDD382A1DFBB01A15FC23999D7788C33502AD9256E481B402BDC6BC25167B6478F204C49A9BADD68C4AC2A617437ECCBBA9
