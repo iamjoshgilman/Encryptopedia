@@ -47,7 +47,34 @@ B9497FFB7E9C6F49823B95851EC874E3
 @No valid socket error code available
 @net.nim(1669, 9) `not socket.isClosed` Cannot `send` on a closed socket
 @Couldn't resolve address: 
-@net.nim(233, 10) `fd != osInvalidSocket` 
+@net.nim(233, 10) `fd != osInvalidSocket`
+@:houdini
+@Authorization
+@Host
+@httpclient.nim(1144, 15) `false` 
+@Transfer-Encoding
+@Content-Type
+@Content-Length
+@httpclient.nim(1082, 13) `not url.contains({'\r', '\n'})` url shouldn't contain any newline characters
+@http://cdn.altimiter.local/feed?post=
+@Nim httpclient/1.6.2
+@Desktop\cosmo.jpeg
+@SikoMode
+@iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it
+@ccc
+@Mozilla/5.0
+@C:\Users\Public\passwrd.txt
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><assembly xmlns="urn:schemas-microsoft-com:asm.v1" 
+manifestVersion="1.0"><assemblyIdentity version="1.0.0.0" processorArchitecture="*" name="winim" 
+type="win32"/><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" 
+version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" 
+language="*"/></dependentAssembly></dependency></assembly>
+
+./mingw-w64-crt/crt/crtexe.c
+./build/x86_64-w64-mingw32-x86_64-w64-mingw32-crt
+
+
 ```
 
 
@@ -62,6 +89,7 @@ RtlAddFunctionTable
 RtlLookupFunctionEntry
 getenv
 ```
+
 
 
 ### Network Signatures
@@ -87,8 +115,11 @@ getenv
 ## Challenge Questions:
 
 - What language is the binary written in?
+	NIM
 - What is the architecture of this binary?
+	x64
 - Under what conditions can you get the binary to delete itself?
+	No internet 
 - Does the binary persist? If so, how?
 - What is the first callback domain?
 - Under what conditions can you get the binary to exfiltrate data?
