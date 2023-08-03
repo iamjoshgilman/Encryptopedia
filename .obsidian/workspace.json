@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Primary Categories/01 - Malware Analysis.md",
-                "mode": "source",
+                "file": "03 - Content/03 - Endpoint Security.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "ca1bf839488283af",
+            "id": "34f10397c3fbe783",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 - Content/Malware.Stage0.exe.md",
+                "file": "01 - Primary Categories/01 - Malware Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,14 +187,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d6c78616a1576bf5",
+  "active": "34f10397c3fbe783",
   "lastOpenFiles": [
-    "03 - Content/03 - Binary Patching & Anti-analysis.md",
+    "03 - Content/03 - Basic Static Analysis.md",
     "01 - Primary Categories/01 - Malware Analysis.md",
+    "00 - Global Index/000 - Cybersecurity Materials.md",
+    "01 - Primary Categories/01 - Security Fundamentals.md",
+    "01 - Primary Categories/01 - Blue Team.md",
+    "03 - Content/03 - Binary Patching & Anti-analysis.md",
     "03 - Content/SikoMode.md",
     "Templates/Attachments/Pasted image 20230731203909.png",
     "03 - Content/Malware.Stage0.exe.md",
-    "00 - Global Index/000 - Cybersecurity Materials.md",
     "03 - Content/03 - Advanced Dynamic Analysis.md",
     "Untitled 1.canvas",
     "04 - Tools & Techniques/04 - Debugger x32dbg.md",
@@ -211,7 +215,6 @@
     "Reports/THM - CyberLens.md",
     "Reports/THM - HackPark.md",
     "Reports/THM - Steel Mountain.md",
-    "01 - Primary Categories/01 - Blue Team.md",
     "01 - Primary Categories/01 - Red Team.md",
     "02 - Secondary Categories/02 - Splunk.md",
     "02 - Secondary Categories/02 - WireShark.md",
@@ -221,8 +224,6 @@
     "03 - Content/03 - ASM Fundamentals.md",
     "01 - Primary Categories/01 - Administration.md",
     "02 - Secondary Categories/02 - Windows.md",
-    "02 - Secondary Categories/03 - Network Service Discovery.md",
-    "03 - Content/03 - Static Website Hosting.md",
     "Templates/Attachments/Pasted image 20230727215916.png",
     "Templates/Attachments/Pasted image 20230726220835.png",
     "Templates/Attachments/Pasted image 20230726215855.png",
