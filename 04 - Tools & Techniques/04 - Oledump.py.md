@@ -59,6 +59,36 @@ Here are some common usages:
    python oledump.py -a document.doc
    ```
 
+5. **Finding Strings in a Stream**: If you've found a stream that seems interesting and you'd like to extract human-readable strings from it, you can use the `-S` option to perform a strings operation on the selected stream:
+
+   ```bash
+   python oledump.py -s <index> -S document.doc
+   ```
+
+6. **Decompressing Corrupt VBA Macros**: Sometimes, the VBA macros might be compressed in a way that appears to be corrupt. The `-v` option normally decompresses VBA macros, but if it encounters what it thinks is corruption, it will stop. If you think the macros aren't actually corrupt, you can use the `--vbadecompresscorrupt` option to force decompression:
+
+   ```bash
+   python oledump.py -s <index> --vbadecompresscorrupt document.doc
+   ```
+
+7. **Applying a YARA Rule**: You can use `oledump.py` to apply a YARA rule to a document by using the `-y` option followed by the path to your rule:
+
+   ```bash
+   python oledump.py -y my_yara_rule.yara document.doc
+   ```
+
+8. **Selecting Multiple Streams**: If you're interested in more than one stream, you can select multiple by separating the stream indices with a `/`:
+
+   ```bash
+   python oledump.py -s <index1>/<index2> -d document.doc
+   ```
+
+9. **Creating an Analysis Report**: `oledump.py` has a built-in plug-in system. For example, the `plugin_http_heuristics` plugin can help identify URLs in a document by using `-p plugin_http_heuristics`:
+
+   ```bash
+   python oledump.py -p plugin_http_heuristics document.doc
+   ```
+
 ## Example 
 
 Assume we have a suspicious file named `suspicious.doc`.
