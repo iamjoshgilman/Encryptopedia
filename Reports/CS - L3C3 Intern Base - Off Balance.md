@@ -45,7 +45,7 @@ ___
 > - But we need a token to view the site while not in the app/IPhone
 > - We have this token
 
-> Lets swing by our terminal and use the tool `wget`
+> Lets swing by our terminal and use the tool `curl`
 
 
 
