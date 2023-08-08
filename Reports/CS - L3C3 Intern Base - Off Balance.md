@@ -23,9 +23,38 @@ ___
 
 ![[Pasted image 20230807204418.png]]
 
-> Now if we pull up the details of the `get-ba`
+> Now if we pull up the details of the `get-balances` we can see this in greater detail, most importantly the URL request. 
 
 ![[Pasted image 20230807204503.png]]
+
+> Lets see what a working request looks like...
+
+![[Pasted image 20230807204621.png]]
+
+> And if we visit this status `200` site we are greeted with an error...
+
+![[Pasted image 20230807204718.png]]
+
+> Easy enough, lets check the next tab to the `header`, `payload` and we find our token!
+
+![[Pasted image 20230807204821.png]]
+
+> Okay so we've done some digging...
+> - We know the `get-balances` url is not working
+> - We know the others are...
+> - But we need a token to view the site while not in the app/IPhone
+> - We have this token
+
+> Lets sw
+
+
+
+
+
+
+
+
+
 
 ___
 
