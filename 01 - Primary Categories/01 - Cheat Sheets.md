@@ -10,7 +10,6 @@ Search Tag: #🗺
 [[03 - Linux GREP Cheatsheet]]
 [[03 - Brute Force - Cheatsheet]]
 [[03 - Windows powershell cheatsheet]]
-[[[03 - Linux Permissions Cheatsheet]]
 
 
 ---
