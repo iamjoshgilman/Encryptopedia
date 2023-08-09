@@ -112,19 +112,22 @@ public class HelloWorld{
 
 #### For loop
 
+- for ( `initialization` ; `condition` ; `iteration` ){ }
+- Declare the initialize starting value, give stopping condition, change the value
+
 ```java
 public class HelloWorld{
 
 	public static void main(String []args){
 		for(int i = 0; i < 5; i++)
 		{
-			System.ou
+			System.out.println("Hello World " + i +"\n");
 		}
 	}
 }
 ```
 
-
+- Will iterate `Hello World 0` through `Hello World 4` 
 
 
 
