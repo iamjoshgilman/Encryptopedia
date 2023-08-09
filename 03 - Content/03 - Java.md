@@ -12,7 +12,7 @@ Search Tag: #📖
 
 # [[03 - Java]]  
 
-Basic Hello World
+### Basic Hello World
 
 ```java
 public class HelloWorld{
@@ -24,10 +24,23 @@ public class HelloWorld{
 }
 ```
 
-Creating a variable: Type name = value;
+### Creating a variable: Type name = value;
+
 - int | Any whole number, including negative
-- double | anything with decimal, even 2.0
-- String | any words, can be sin
+- double | Anything with decimal, even 2.0
+- String | Can be anything, think words and sentences
+- char | Can be a single letter or number
+- Boolean | Typical true or false
+
+### Data Types
+
+- Int: (-2,147,483,)
+- Long:
+- Short
+- Float
+- Double
+- Boolean
+- Char
 
 ___
 
