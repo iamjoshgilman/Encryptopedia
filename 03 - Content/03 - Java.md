@@ -34,13 +34,49 @@ public class HelloWorld{
 
 ### Data Types
 
-- Int: (-2,147,483,)
-- Long:
+#### Primitive Data Types
+- Int
+- Long
 - Short
 - Float
 - Double
 - Boolean
 - Char
+
+#### Non-Primitive Data Types (Objects)
+
+- String
+- Array
+
+### If Statments
+
+```java
+public class HelloWorld{
+
+	public static void main(string []args){
+		//this is a comment
+		int x = 3;
+		if(x == 3)
+		{
+			system.out.println("x is 3");
+		}
+		else if (x > 3)
+		{
+			system.out.println("x is greater than 3");
+		}
+		else
+		{
+		System.out.println("Hello World");
+	}
+}
+```
+
+
+
+
+
+
+
 
 ___
 
