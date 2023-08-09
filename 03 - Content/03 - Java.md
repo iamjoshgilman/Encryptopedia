@@ -75,9 +75,9 @@ public class HelloWorld{
 
 ### Switch Statements
 
-- "More" efficient way of doing an `if statement`
+- "More efficient" way of doing an `if statement` when there is many if and else statements needed
 - `break` is used as the "fall through" or as an "if"
-- Default 
+- Default is not required
 
 ```java
 import java.util.Scanner;
@@ -107,6 +107,31 @@ public class HelloWorld{
 	}
 }
 ```
+
+### Loops
+
+#### For loop
+
+```java
+public class HelloWorld{
+
+	public static void main(String []args){
+		for(int i = 0; i < 5; i++)
+		{
+			System.ou
+		}
+	}
+}
+```
+
+
+
+
+
+
+
+
+
 
 
 
