@@ -53,7 +53,7 @@ public class HelloWorld{
 ```java
 public class HelloWorld{
 
-	public static void main(string []args){
+	public static void main(String []args){
 		//this is a comment
 		int x = 3;
 		if(x == 3)
