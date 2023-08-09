@@ -73,7 +73,11 @@ public class HelloWorld{
 ```
 
 
-Switch Statements 
+### Switch Statements
+
+- "More" efficient way of doing an `if statement`
+- `break` is used as the "fall through" or as an "if"
+- Default 
 
 ```java
 import java.util.Scanner;
@@ -85,9 +89,22 @@ public class HelloWorld{
 		int number;
 		System.out.println("Please enter a letter a, b, or c\n");
 		input = scanny.next();
-		}
-
-
+		
+		switch(input)
+		{
+		case "a":
+			number = 0;
+			break;
+		case "b":
+			number = 1;
+			break;
+		case "c";
+			number = 3;
+			break;
+		default:
+			number = -1;
+		}	
+	}
 }
 ```
 
