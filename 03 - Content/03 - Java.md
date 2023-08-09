@@ -48,7 +48,7 @@ public class HelloWorld{
 - String
 - Array
 
-### If Statments
+### If Statements
 
 ```java
 public class HelloWorld{
@@ -66,7 +66,8 @@ public class HelloWorld{
 		}
 		else
 		{
-		System.out.println("Hello World");
+			System.out.println("Hello World");
+		}
 	}
 }
 ```
