@@ -24,7 +24,10 @@ public class HelloWorld{
 }
 ```
 
-
+Creating a variable: Type name = value;
+- int | Any whole number, including negative
+- double | anything with decimal, even 2.0
+- String | any words, can be sin
 
 ___
 
