@@ -73,7 +73,23 @@ public class HelloWorld{
 ```
 
 
+Switch Statements 
 
+```java
+import java.util.Scanner;
+public class HelloWorld{
+
+	public static void main(String []args){
+		Scanner scanny = new Scanner(system.in);
+		String input;
+		int number;
+		System.out.println("Please enter a letter a, b, or c\n");
+		input = scanny.next();
+		}
+
+
+}
+```
 
 
 
