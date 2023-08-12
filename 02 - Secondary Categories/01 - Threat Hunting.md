@@ -107,6 +107,34 @@ https://www.activecountermeasures.com/ac-hunter-installation/
 
 [RITA Free Tool](https://www.activecountermeasures.com/free-tools/rita/) - Detection tool for C2
 
+# Safe listing
+- Not all persistence is "evil"
+- Could be part of normal operations
+	- Keep computer time in sync
+	- Checking for patches
+	- Checking on an external service
+- When business need can be identified, we should safelist the connection
+	- Keep it out of future hunts
+	- Don't make safelists any broader than necessary
+
+### Identifying business need
+- Do you recognize the domain?
+	- microsoft.com
+	- windows.com
+	- ntp.org
+- Can you relate the services to a specific department?
+- The purchasing group can be helpful
+	- Find the company behind the domain
+	- Are we purchasing services from them?
+
+
+
+
+
+
+
+
+
 
 
 
