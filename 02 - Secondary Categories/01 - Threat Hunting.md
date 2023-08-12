@@ -440,7 +440,19 @@ TV._device-info._tcp.local.,model=J105aA
 ### Datamash example
 ![[Pasted image 20230812135422.png]]
 
+Beacon/Threat Simulator
+- Permits you to test your C2 detection setup
+- Target any TCP or UDP port
+- Can jitter timing
+- Can jitter payload size
+- Not designed to exfiltrate data!
+- How to get it?
+	- https://github.com/activecm/threat-tools
 
+```
+beacon-simulator.sh <target IP> 80 300 10 tcp 5000
+```
+- Connect to TCP/80 on target IP every 300 seconds, +/-10 seconds, vary payload between 0-5,000 bytes
 
 
 
