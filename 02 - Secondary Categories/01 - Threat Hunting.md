@@ -431,11 +431,14 @@ TV._device-info._tcp.local.,model=J105aA
 - Where to get it
 	- https://www.gnu.org/software/datamash/
 	- `sudo apt install datamash`
-
-
-
-
-
+- Used for processing raw data at the command line
+- Great for sifting through tabulated data
+	- Like Zeek logs
+- Can perform statistical analysis
+	- Min, max, mean, etc.
+	- Can add together values
+### Datamash example
+![[Pasted image 20230812135422.png]]
 
 
 
