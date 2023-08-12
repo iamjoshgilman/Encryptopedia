@@ -174,5 +174,54 @@ ___
 	- This is sometimes done as "a feature"
 	- Example: SSH listening on TCP/2222
 
+### Unexpected protocol use
+- Attackers may bend but not break rules
+- This can result in:
+	- Full protocol compliance
+	- Abnormal behaviour
+- Need to understand "normal"
+	- For the protocol
+	- For your environment
+
+![[Pasted image 20230812124934.png]]
+## Example: Too many FQDNs
+- How many FQDNs do domains expose?
+	- Most is < 10
+	- Recognizable Internet based vendors 200 - 600
+		- Microsoft
+		- Akamai
+		- Google
+		- Amazon
+- Greater than 1,000 is suspicious
+- Could be an indication of C2 traffic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
