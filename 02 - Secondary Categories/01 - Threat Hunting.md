@@ -94,9 +94,18 @@ https://www.activecountermeasures.com/ac-hunter-installation/
 
 ![[Pasted image 20230812115356.png]]
 
+Beacon detection based on timing
+- May follow an exact time interval
+	- Technique is less common today
+	- Detectable by k-means 
+	- Potential false positives
+- May introduce "jitter"
+	- Vary connection sleep delta
+	- Avoids k-means detection
+	- False positives are extremely rare
+- Short enough delta for terminal activities
 
-
-
+[RITA Free Tool](https://www.activecountermeasures.com/free-tools/rita/)
 
 
 
