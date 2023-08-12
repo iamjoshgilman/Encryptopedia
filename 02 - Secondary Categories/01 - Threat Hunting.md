@@ -57,13 +57,36 @@ Malware is usually controlled
 - Analyze communications in pairs
 	- Every outbound session passing the firewall
 	- Ignore internal to internal (high false positive)
+### AC-Hunter typical deployment
 
+https://www.activecountermeasures.com/ac-hunter-installation/
+![[Pasted image 20230812114400.png]]
+### Does targeting C2 have blind spots?
 
+- Attackers motivated by gain
+	- Information
+	- Control of resources
+- Sometimes "gain" does not require C2
+	- Just looking to destroy the target
+	- Equivalent to dropping a cyber bomb
+	- We are talking nation state at this level
+- NotPetya
+	- Worm with no C2 designed to seek and destroy
 
+# Start by checking persistency
+- Focus on persistent connections
+	- Internal system in constantly initiating connections with an outside "system"
+	- Long connections
+	- Beacons
 
-
-
-
+Long connections
+▷ You are looking for:
+▷ Total time for each connection
+○ Which ones have gone on the longest?
+▷ Cumulative time for all pair connections
+○ Total amount of time the pair has been in contact
+▷ Can be useful to ignore ports or protocols
+○ C2 can change channels
 
 
 
