@@ -275,7 +275,6 @@ mkdir -p /opt/pcaps
 screen -S capture -t capture -d -m bash -c "tcpdump -i eth0 -G
 3600 -w '/opt/pcaps/`hostname -s`.%Y%m%d%H%M%S.pcap' -z bzip2"
 ```
-
 ## tshark
 - What's it good for?
 	- Extracting interesting fields from packet captures
@@ -286,7 +285,6 @@ screen -S capture -t capture -d -m bash -c "tcpdump -i eth0 -G
 	- Both major and minor attributes
 - Where to get it
 	- https://www.wireshark.org/
-
 ### Tshark example - DNS queries
 
 ```bash
@@ -314,14 +312,12 @@ $ tshark -r sample.pcap -T fields -e http.user_agent tcp.dstport==80 | sort | un
 12 Microsoft-CryptoAPI/6.1
 104 PCU
 ```
-
 ## capinfos (Comes with Tshark)
 - Print summary info regarding pcaps
 - For a decent hunt you want 12+ hours
 - 86,400 seconds = 24 hours
 
 ![[Pasted image 20230812133941.png]]
-
 ## Wireshark
 - What's it good for?
 	- Packet analysis with guardrails
@@ -334,7 +330,6 @@ $ tshark -r sample.pcap -T fields -e http.user_agent tcp.dstport==80 | sort | un
 	- https://www.wireshark.org/
 
 ![[Pasted image 20230812134131.png]]
-
 ## Zeek
 - Network recorder
 - What's it good for?
@@ -357,6 +352,52 @@ certificate chain
 71.6.167.142 192.168.88.2 9943 self signed certificate in
 certificate chain
 ```
+### -d for human readable times
+- Zeek-cut prints epoch time by default
+- "-d" converts to human readable
+![[Pasted image 20230812134413.png]]
+## zcutter.py
+- zeek-cut limited to CSV format
+- What if you use JSON?
+- zcutter.py to the rescue!
+- Like zeek-cut, but supports CSV & JSON
+- Will also process multiple log files simultaneously
+- Where to get it?
+	- [Github - zcutter](https://raw.githubusercontent.com/activecm/zcutter/main/zcutter.py)
+### Passer
+```bash
+TC,172.1.199.23,TCP_43,open,
+TC,172.16.199.23,TCP_55443,open,
+UC,172.16.199.23,UDP_626,open,serialnumberd/clientscanner likely nmap
+scan Warnings:scan
+UC,172.16.199.23,UDP_1194,open,openvpn/client Warnings:tunnel
+UC,172.16.199.23,UDP_3386,open,udp3386/client
+UC,172.16.199.23,UDP_5632,open,pcanywherestat/clientscanner
+Warnings:scan
+UC,172.16.199.23,UDP_64738,open,shodan_host/clientscanner abcdefgh
+Unlisted host Warnings:scan
+DN,2001:db8:1001:0000:0000:0000:0000:0015,AAAA,ns3.markmonitor.com.,
+DN,fe80:0000:0000:0000:189f:545b:7d4c:eeb8,PTR,Apple
+TV._device-info._tcp.local.,model=J105aA
+```
+### Smudge
+
+![[Pasted image 20230812134700.png]]
+- Can run it alone or integrated with Passer
+
+## ngrep
+- Pattern match on passing packets
+- Like "grep" for network traffic
+- Useful for quick checks
+	- NIDS with signature better choice for long term
+- Useful switches
+	- "-q" = Don't print "#" for non-matches
+	- "-I" = Read a pcap file
+https://github.com/jpr5/ngrep
+sudo apt install ngrep
+
+
+
 
 
 
