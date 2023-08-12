@@ -12,19 +12,17 @@ Search Tag: #🗺
 ![[Pasted image 20230812111539.png]]
 
 # Networking
-
-The network is the great equalizer
-- You see everything, regardless of platform
-- Desktop, servers, IIoT, etc all reviewed the same
 #### <u>You can hide processes but not packets</u>
 
-Malware is usually controlled
-- Which makes targeting C2 extremely effective
-- Identify compromise when C2 "calls home"
-- Must be frequent enough to be useful
+- The network is the great equalizer
+	- You see everything, regardless of platform
+	- Desktop, servers, IIoT, etc all reviewed the same
+- Malware is usually controlled
+	- Which makes targeting C2 extremely effective
+	- Identify compromise when C2 "calls home"
+	- Must be frequent enough to be useful
 
 # Threat hunting process order
-
 - Identify connection persistency
 - Business need for connection?
 	- Reputation check of external IP
@@ -35,7 +33,6 @@ Malware is usually controlled
 	- Compromised = Trigger incident handling
 
 ### Don't cross "the passive/active line"
-
 - All threat hunting activity should be undetectable to an adversary
 - Passive in nature
 	- Review packets
@@ -47,7 +44,6 @@ Malware is usually controlled
 # C2 Detection Techniques
 
 ### Where to Start
-
 - Traffic to and from the Internet
 	- Monitor internal interface of firewall
 - Packet captures or Zeek data
@@ -62,7 +58,6 @@ Malware is usually controlled
 https://www.activecountermeasures.com/ac-hunter-installation/
 ![[Pasted image 20230812114400.png]]
 ### Does targeting C2 have blind spots?
-
 - Attackers motivated by gain
 	- Information
 	- Control of resources
@@ -78,20 +73,24 @@ https://www.activecountermeasures.com/ac-hunter-installation/
 	- Internal system in constantly initiating connections with an outside "system"
 	- Long connections
 	- Beacons
+### Long connections
+- Total time for each connection
+	- Which ones have gone on the longest?
+- Cumulative time for all pair connections
+	- Total amount of time the pair has been in contact
+- Can be useful to ignore ports or protocols
+	- C2 can change channels
 
-Long connections
-▷ You are looking for:
-▷ Total time for each connection
-○ Which ones have gone on the longest?
-▷ Cumulative time for all pair connections
-○ Total amount of time the pair has been in contact
-▷ Can be useful to ignore ports or protocols
-○ C2 can change channels
+### What is a beacon?
+- Repetitive connection establishment between two IP addresses
+	- Easiest to detect
+- Repetitive connection establishment between internal IP and FQDN
+	- Target can be spread across multiple IP's
+		- Usually a CDN provider
+- Target IPs also destination for legitimate traffic
+- Far more difficult to detect
 
-
-
-
-
+![[Pasted image 20230812115302.png]]
 
 
 
