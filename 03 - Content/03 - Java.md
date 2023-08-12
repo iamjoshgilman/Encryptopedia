@@ -127,17 +127,97 @@ public class HelloWorld{
 }
 ```
 
-- Will iterate `Hello World 0` through `Hello World 4` 
+- Will iterate `Hello World 0` through `Hello World 4` (Because it starts counting at 0, why it wont hit 5)
 
+#### While Loop
 
+- while ( `condition`) { }
 
+```java
+public class HelloWorld{
 
+	public static void main(String []args){
+		int i = o;
+		while(i < 5){
+			System.out println("Hello World " + i + "\n");
+			i++; //Don't forget to increment value
+		}
+	}
+}
+```
 
+#### Do-While Loop
 
+- do { `Code to execute` } while ( `Condition` )
 
+```java
+public class HelloWorld{
 
+	public static void main(String []args){
+		int i = 0
+		do{
+			System.out.println("Hello World " + i + "\n");
+			i++;
+		}while(i < 5);
+	}
+}
+```
 
+- Since the condition is at the bottom, the loop will always run at least once.
 
+#### How to pick the "right" loop
+
+- <u>For Loops</u> : When you know the exact number of times you need to run the loop
+	- <u>Example</u> : Wanting to print somethin exactly 7 times
+- <u>While Loops</u> : When you don't know the the exact number of times but know the stopping condition
+	- <u>Example</u> : Print something while user input is **Yes**, stop once it is **No**.
+- <u>Do While Loops</u> : When you for sure want to run through the code at least once before checking the condition
+	- <u>Example</u> : Main Menus
+
+### User Input
+
+#### Scanner
+
+- Most commonly used method for input
+
+1. Import Scanner Library
+2. Create a Scanner object
+	1. next( ) or nextLine( ) | strings
+	2. nextInt( ) | ints
+	3. nextDouble( ) | doubles
+3. Close the Scanner object
+
+- Scanner interrupts the code - improper input can cause program crash
+
+```java
+import java.util.Scanner; //1
+public class HelloWorld{
+
+	public static void main(String []args){
+
+		Scanner scanny = new Scanner(System.in); //2
+
+		System.out.println("Please enter an integer: ");
+		int num = scanny.nextInt(); //3
+		System.out.println("You entered the integer: " + num + "\n");
+
+		System.out.println("please enter a decimal: ");
+		double dubl = scanny.nextDouble(); //3
+		System.out.println("You entered the deimal: " + dubl + "\n");
+
+		System.out.println("Please enter a string: ");
+		String str = scanny.next(); //3
+		System.out.println("You entered the string: " + str + "\n");
+
+		scanny.close(); //4
+	}
+}
+```
+
+### Array
+
+- Object that contains a fixed number of values of a single type
+ 
 
 
 ___
