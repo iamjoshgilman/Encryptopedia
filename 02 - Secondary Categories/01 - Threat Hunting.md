@@ -97,7 +97,7 @@ https://www.activecountermeasures.com/ac-hunter-installation/
 ### Beacon detection based on timing
 - May follow an exact time interval
 	- Technique is less common today
-	- Detectable by k-means 
+	- Detectable by k-means (Large patterns, algorithm done through machine learning)
 	- Potential false positives
 - May introduce "jitter"
 	- Vary connection sleep delta
