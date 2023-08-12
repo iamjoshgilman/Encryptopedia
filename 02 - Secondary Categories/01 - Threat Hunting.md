@@ -456,17 +456,21 @@ beacon-simulator.sh <target IP> 80 300 10 tcp 5000
 
 ### What if I need specific app data?
 
+![[Pasted image 20230812144347.png]]
 
 Then run this command with screen:
 ```bash
 screen -S c2 -d -m /bin/beacon-test <Target IP or FQDN>
 ```
 
+### Create your own scripts!
 
+![[Pasted image 20230812144433.png]]
 
-
-
-
+Example script you can create to make life easier 
+"fq" check dns.log, http.log and ssl.log in the local directory 
+Returns info on specified IP address of FQDN 
+Use "zcat" if logs are in compressed format
 
 
 
