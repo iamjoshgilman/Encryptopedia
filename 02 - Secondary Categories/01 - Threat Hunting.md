@@ -11,7 +11,7 @@ Search Tag: #🗺
 
 ![[Pasted image 20230812111539.png]]
 
-### Networking
+## Networking
 
 The network is the great equalizer
 - You see everything, regardless of platform
@@ -23,8 +23,16 @@ Malware is usually controlled
 - Identify compromise when C2 "calls home"
 - Must be frequent enough to be useful
 
-Wide view so you can target from there
+## Threat hunting process order
 
+- Identify connection persistency
+- Business need for connection?
+	- Reputation check of external IP
+- Abnormal protocol behavior
+- Investigation of internal IP
+- Disposition
+	- No threat detected = add to safelist
+	- Compromised = Trigger incident handling
 
 
 
