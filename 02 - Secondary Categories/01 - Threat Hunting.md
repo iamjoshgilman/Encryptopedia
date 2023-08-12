@@ -454,10 +454,13 @@ beacon-simulator.sh <target IP> 80 300 10 tcp 5000
 ```
 - Connect to TCP/80 on target IP every 300 seconds, +/-10 seconds, vary payload between 0-5,000 bytes
 
+### What if I need specific app data?
 
 
-
-
+Then run this command with screen:
+```bash
+screen -S c2 -d -m /bin/beacon-test <Target IP or FQDN>
+```
 
 
 
