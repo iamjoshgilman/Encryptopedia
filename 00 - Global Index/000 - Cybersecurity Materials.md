@@ -4,7 +4,7 @@ tags: #🗺
 
 ***
 
-# Primary Categories
+ # Main Categories
 
 [[01 - Administration]]
 [[01 - Languages]]
