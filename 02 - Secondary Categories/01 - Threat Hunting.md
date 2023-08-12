@@ -223,22 +223,33 @@ ___
 - Login events
 - Passive fingerprinting
 
-### Leverage internal host logging (Maintain passive/active protocols)
+### Leverage internal host logging
+
+- Maintain passive - connecting to computer can give us away with an active thread
 - Network shows suspicious traffic patterns
 - Use this data to pivot to host logs
 - Filter your logs based on:
 	- Suspect internal host
-○ Timeframe being analyzed
-▷ Anything stand out as unique or odd?
+	- Timeframe being analyzed
+- Anything stand out as unique or odd?
 
-
-
-
-
-
-
-
-
+- Map outbound connections to the applications that created them.
+![[Pasted image 20230812132920.png]]
+### But I have no system logs!
+- Good time to start collecting them
+- Full packet captures from system
+- Apply additional network tools to collect more data
+- **Just remember, no detectable actions until we trigger incident response mode!**
+#### What next?
+- Disposition session
+	- "I think it's safe" = add to safelist
+	- "I think we've detected a compromise" = Incident response mode
+- Remember to leave no footprints
+	- All actions undetectable to potential adversaries
+	- Passive activities only
+- Incident response may include active tasks
+___
+# Network Threat Hunting Tools
 
 
 
