@@ -251,13 +251,68 @@ ___
 ___
 # Network Threat Hunting Tools
 
+## tcpdump
+- What's it good for?
+	- Lightweight packet capturing tool
+	- Cross platform support (windump on Windows)
+- When to use it
+	- Audit trail of all traffic
+	- Can also filter to see only specific traffic
+	- Can be fully automated
+- Where to get it
+	- https://www.tcpdump.org/
+### tcpdump example
+- Debian/Ubuntu
+	- Place the following in /etc/rc.local
+- Red Hat/CentOS, Fedora
+	- Place the following in /etc/rc.d/rc.local
+- Grabs all traffic and rotates every 60 min
+	- Date/time stamped and compressed
 
+```bash
+#Place _above_ any "exit" line
+mkdir -p /opt/pcaps
+screen -S capture -t capture -d -m bash -c "tcpdump -i eth0 -G
+3600 -w '/opt/pcaps/`hostname -s`.%Y%m%d%H%M%S.pcap' -z bzip2"
+```
 
+## tshark
+- What's it good for?
+	- Extracting interesting fields from packet captures
+	- Multiple passes to focus on different attributes
+	- Combine with text manipulation tools
+	- Can be automated
+- When to use it
+	- Both major and minor attributes
+- Where to get it
+	- https://www.wireshark.org/
 
+### Tshark example - DNS queries
 
+```bash
+$ tshark -r thunt-lab.pcapng -T fields -e dns.qry.name udp.port==53 | head -10
+6dde0175375169c68f.dnsc.r-1x.com
+6dde0175375169c68f.dnsc.r-1x.com
+0b320175375169c68f.dnsc.r-1x.com
+0b320175375169c68f.dnsc.r-1x.com
+344b0175375169c68f.dnsc.r-1x.com
+344b0175375169c68f.dnsc.r-1x.com
+0f370175375169c68f.dnsc.r-1x.com
+0f370175375169c68f.dnsc.r-1x.com
+251e0175375169c68f.dnsc.r-1x.com
+251e0175375169c68f.dnsc.r-1x.com
+```
 
+### Tshark example - user agents
+```bash
+$ tshark -r sample.pcap -T fields -e http.user_agent tcp.dstport==80 | sort | uniq -c | sort -n | head -10
 
-
-
-
+2 Microsoft Office/16.0
+2 Valve/Steam HTTP Client 1.0 (client;windows;10;1551832902)
+3 Valve/Steam HTTP Client 1.0
+11 Microsoft BITS/7.5
+11 Windows-Update-Agent
+12 Microsoft-CryptoAPI/6.1
+104 PCU
+```
 
