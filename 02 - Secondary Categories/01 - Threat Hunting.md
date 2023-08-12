@@ -127,14 +127,52 @@ https://www.activecountermeasures.com/ac-hunter-installation/
 	- Find the company behind the domain
 	- Are we purchasing services from them?
 
+### Check destination IP address
+- Start simple
+	- Who manages ASN?
+	- Geolocation info?
+	- IP delegation
+	- PTR records
+- Do you recognize the target organization?
+	- Business partner or field office
+	- Current vendor (active status)
+## Some helpful links check IPs
 
+```txt
+https://www.abuseipdb.com/check/<IP Address>
+https://otx.alienvault.com/indicator/ip/<IP Address>
+https://search.censys.io/hosts/<IP Address>
+https://dns.google/query?name=<IP Address>
+https://www.google.com/search?q=<IP Address>
+https://www.onyphe.io/search/?query=<IP Address>
+https://securitytrails.com/list/ip/<IP Address>
+https://www.shodan.io/host/<IP Address>
+https://www.virustotal.com/gui/ip-address/<IP Address>/relations
+```
 
-
-
-
-
-
-
+___
+# What next?
+- You've identified connection persistence
+- You can't identify a business need
+- Next steps
+	- Protocol analysis
+	- Reputation check of external target
+	- Investigate internal IP address
+### Unexpected app or port usage
+- There should be a business need for all outbound protocols
+- Research non-standard or unknown ports
+	- TCP/5222 (Chrome remote desktop)
+	- TCP/5800 & 590X (VNC)
+	- TCP/502 (Modbus)
+### Unknown app on standard port
+- C2 wants to tunnel out of environment
+	- Pick a port likely to be permitted outbound
+	- Does not always worry about protocol compliance
+- Check standard ports for unexpected apps
+	- Indication of tunneling
+- Different than app on non-standard port
+	- This is sometimes done as "a feature"
+	- Example: SSH listening on TCP/2222
 
 
 
