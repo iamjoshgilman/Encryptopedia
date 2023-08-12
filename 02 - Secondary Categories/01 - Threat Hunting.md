@@ -302,7 +302,6 @@ $ tshark -r thunt-lab.pcapng -T fields -e dns.qry.name udp.port==53 | head -10
 251e0175375169c68f.dnsc.r-1x.com
 251e0175375169c68f.dnsc.r-1x.com
 ```
-
 ### Tshark example - user agents
 ```bash
 $ tshark -r sample.pcap -T fields -e http.user_agent tcp.dstport==80 | sort | uniq -c | sort -n | head -10
@@ -315,4 +314,49 @@ $ tshark -r sample.pcap -T fields -e http.user_agent tcp.dstport==80 | sort | un
 12 Microsoft-CryptoAPI/6.1
 104 PCU
 ```
+
+## capinfos (Comes with Tshark)
+- Print summary info regarding pcaps
+- For a decent hunt you want 12+ hours
+- 86,400 seconds = 24 hours
+
+![[Pasted image 20230812133941.png]]
+
+## Wireshark
+- What's it good for?
+	- Packet analysis with guardrails
+	- Stream level summaries
+	- Useful when you have a target
+- When to use it
+	- As part of a manual analysis
+	- When steps cannot be automated
+- Where to get it
+	- https://www.wireshark.org/
+
+![[Pasted image 20230812134131.png]]
+
+## Zeek
+- Network recorder
+- What's it good for?
+	- Near real time analysis (1+ hour latency)
+	- More storage friendly than pcaps
+- When to use it
+	- When you need to scale
+	- When you know what attributes to review
+- Where to get it
+	- https://www.zeek.org/
+	- `sudo apt -y install zeek`
+### Zeek example - cert check
+```bash
+$ cat ssl* | zeek-cut id.orig_h id.resp_h id.resp_p
+validation_status | grep 'self signed' | sort | uniq
+122.228.10.51 192.168.88.2 9943 self signed certificate in
+certificate chain
+24.111.1.134 192.168.88.2 9943 self signed certificate in
+certificate chain
+71.6.167.142 192.168.88.2 9943 self signed certificate in
+certificate chain
+```
+
+
 
