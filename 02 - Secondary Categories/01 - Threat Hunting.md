@@ -213,9 +213,23 @@ ___
 - Windows 10 when speaking to 27 different IP's on the Internet
 - Windows XP when speaking to one specific IP on the Internet
 
+### Internal system
+- Info available varies greatly between orgs
+- Inventory management systems
+- Security tools like Carbon Black
+- OS projects like [BeaKer](https://www.activecountermeasures.com/free-tools/beaker/)
+- Internal security scans
+- DHCP logs
+- Login events
+- Passive fingerprinting
 
-
-
+### Leverage internal host logging (Maintain passive/active protocols)
+- Network shows suspicious traffic patterns
+- Use this data to pivot to host logs
+- Filter your logs based on:
+	- Suspect internal host
+○ Timeframe being analyzed
+▷ Anything stand out as unique or odd?
 
 
 
