@@ -206,9 +206,12 @@ ___
 	- But no one ever connects to these systems
 
 
+## Look for odd HTTP user agents
 
-
-
+![[Pasted image 20230812125907.png]]
+10.0.2.15 identifies itself as:
+- Windows 10 when speaking to 27 different IP's on the Internet
+- Windows XP when speaking to one specific IP on the Internet
 
 
 
