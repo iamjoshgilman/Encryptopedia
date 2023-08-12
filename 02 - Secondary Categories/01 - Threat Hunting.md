@@ -393,8 +393,61 @@ TV._device-info._tcp.local.,model=J105aA
 - Useful switches
 	- "-q" = Don't print "#" for non-matches
 	- "-I" = Read a pcap file
-https://github.com/jpr5/ngrep
-sudo apt install ngrep
+- Where to get it?
+	- https://github.com/jpr5/ngrep
+	- `sudo apt install ngrep`
+![[Pasted image 20230812134926.png]]
+
+## RITA
+- What's it good for?
+	- Beacon & long conn at scale
+	- Some secondary attributes
+- When to use it
+	- Can better organize Zeek data
+	- Good when you are comfortable scripting
+	- Will scale but can be time consuming
+- Where to get it
+	- https://github.com/activecm/rita
+
+### RITA example - beacons
+
+![[Pasted image 20230812135056.png]]
+- Scale is 0 - 1 with 1.0 being a perfect beacon score
+### RITA can also check
+- Beacons based on HTTP/host or TLS/SNI
+- Beacons based on FQDN
+- Beacons through SOCKS server
+- Long connections
+- Still open (not yet logged) connections
+- C2 over DNS
+- Matches against your threat intel list
+## Datamash
+- What's it good for?
+	- Similar to the R-base tools, but more extensive
+	- Performing simple calculation on data
+- When to use it
+	- Performing calculations on multiple lines
+	- Statistical analysis
+- Where to get it
+	- https://www.gnu.org/software/datamash/
+	- `sudo apt install datamash`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
