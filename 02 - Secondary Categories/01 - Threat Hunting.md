@@ -86,13 +86,13 @@ https://www.activecountermeasures.com/ac-hunter-installation/
 	- Easiest to detect
 - Repetitive connection establishment between internal IP and FQDN
 	- Target can be spread across multiple IP's
-		- Usually a CDN provider
+		- Usually a CDN (Content Delivery Network) provider
 - Target IPs also destination for legitimate traffic
 - Far more difficult to detect
 
 ![[Pasted image 20230812115302.png]]
 
-
+![[Pasted image 20230812115356.png]]
 
 
 
