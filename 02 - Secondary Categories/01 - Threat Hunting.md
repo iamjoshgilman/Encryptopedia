@@ -184,7 +184,7 @@ ___
 	- For your environment
 
 ![[Pasted image 20230812124934.png]]
-## Example: Too many FQDNs
+### Example: Too many FQDNs
 - How many FQDNs do domains expose?
 	- Most is < 10
 	- Recognizable Internet based vendors 200 - 600
@@ -195,7 +195,15 @@ ___
 - Greater than 1,000 is suspicious
 - Could be an indication of C2 traffic
 
-
+### Bonus checks on DNS
+- Check domains with a lot of FQDNs
+- Get a list of the IPs returned
+- Compare against traffic patterns
+	- Are internal hosts visiting this domain?
+	- Is it just your name servers?
+- Unique trait of C2 over DNS
+	- Lots or FQDN queries
+	- But no one ever connects to these systems
 
 
 
