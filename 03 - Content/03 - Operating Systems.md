@@ -5,14 +5,19 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
+Primary Categories: [[02 - GFACT]] | [[000 - Cybersecurity Materials]]
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
 
 # [[03 - Operating Systems]]  
 
-## What is an Operating System?
+
+[[#What is an Operating System?]]
+[[#What is the Kernel?]]
+
+
+# What is an Operating System?
 
 - An **Operating System (OS)** is the foundational software on a computer.
 - It **manages** the computer's operations and **interacts** with hardware components.
@@ -20,8 +25,6 @@ Search Tag: #📖
   - **Window Management**: Ability to organize, resize, and move application windows.
   - **Copy and Paste**: Facilitating data transfer within or between applications.
   - **Peripheral Management**: Recognizes and communicates with external devices like mice, keyboards, printers, etc.
-  
----
 
 ## Different Operating Systems:
 
@@ -50,9 +53,6 @@ Search Tag: #📖
 - Primarily for mobile devices like smartphones and tablets.
 - Developed by Google; open-source.
 - Most widely used OS for mobile devices due to its versatility and extensive app ecosystem.
-
----
-
 ## Selection Considerations:
 
 1. **Personal Preference**: The feel and user experience of an OS is subjective; some people might prefer one OS's interface over another.
@@ -66,6 +66,32 @@ Search Tag: #📖
 5. **Security and Updates**: The frequency of security patches and the general security architecture can be crucial for certain users.
 
 ---
+# What is the Kernel?
+
+- The **Kernel** is the fundamental component of an operating system.
+- It is the **first** segment of the OS code to be loaded during the booting process.
+- Acts as a bridge between **applications** and the **actual data processing** done at the hardware level.
+
+## Key Responsibilities:
+
+1. **Protection**: Positioned in a safeguarded memory region to ensure its integrity against unintended or malevolent interference from other software components.
+
+2. **Resource Management**: Oversees shared hardware resources such as:
+   - **RAM (Random Access Memory)**: Allocates memory for processes, ensuring efficient use and preventing memory leaks or overlaps.
+   - **Hard Drive**: Manages file operations, storing, retrieving, and organizing data.
+   
+3. **Process Management**: Handles:
+   - Process **creation**, **termination**, and **scheduling**.
+   - Maintaining the **Process Control Block (PCB)**, which contains vital process information like its current state, priority, etc.
+   
+4. **I/O Management**: Directs the flow of input and output between the computer and external peripherals. This includes devices like keyboards, mice, printers, and more.
+
+## A Simple Graphic Representation:
+
+![[Pasted image 20230816183544.png]]
+
+---
+
 
 
 
