@@ -48,8 +48,52 @@ Search Tag: #📖
 2. For tasks with security implications (like malware analysis), always use a VM to maintain a safe environment.
 
 ---
+# Hypervisors
 
+## **What is a Hypervisor?**
 
+- A hypervisor is a layer of code that facilitates multiple operating systems to share the same hardware resources.
+- It acts as the traffic director, determining memory allocation for virtual machines, storage locations for VM hard disks, and more.
+## **Types of Hypervisors**
+
+### 1. **Type 2 Hypervisor** 
+
+- **Definition**: Virtualization performed by software that operates on an existing operating system.
+- **Use in Course**: This type of virtualization will be primarily used throughout this course.
+  
+**Popular Type 2 Hypervisor Softwares**:
+  - VMware Workstation
+  - Virtualbox
+
+**Key Point**: Convenient for regular users and desktop environments.
+### 2. **Type 1 Hypervisor**
+
+- **Definition**: Virtualization that takes place at the firmware level. In this type, there's no host operating system; the virtualization software itself acts as the host.
+- **Usage**: Widely used in server settings, especially data centers that are part of 'the cloud'.
+  
+**Key Point**: More efficient than Type 2 but not typically used for personal computers.
+
+**Popular Type 1 Hypervisor Softwares**:
+  - VMware vSphere
+  - Proxmox
+
+**Things to Remember**:
+
+1. **Type 2 Hypervisor**:
+   - Virtualization via software on an existing OS.
+   - Suited for regular users.
+   - Examples: VMware Workstation, Virtualbox.
+
+2. **Type 1 Hypervisor**:
+   - Virtualization at the firmware level; it is essentially the host OS.
+   - Primarily for servers and data centers.
+   - Examples: VMware vSphere, Proxmox.
+
+**Diagram to Visualize**:
+
+![[Pasted image 20230816185951.png]]
+
+---
 
 
 
