@@ -9,7 +9,9 @@ Search Tag: #㊙️
 
 # [[02 - GFACT]]  
 
-Part 1
+
+
+### Logic and Data Manipulation
 
 [[03 - Logic and Truth Tables]]
 [[03 - Encryption with XOR]]
