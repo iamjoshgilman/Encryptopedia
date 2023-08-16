@@ -22,7 +22,7 @@ tags: #🗺
 
 # SANS BACS
 
-[[05 - GFACT]]
+[[02 - GFACT]]
 
 ___
 
