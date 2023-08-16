@@ -9,21 +9,19 @@ Search Tag: #㊙️
 
 # [[02 - GFACT]]  
 
-
-
-### Logic and Data Manipulation
+# Logic and Data Manipulation
 
 [[03 - Logic and Truth Tables]]
 [[03 - Encryption with XOR]]
 
-### Storing Data and Files
+# Storing Data and Files
 
 [[03 - File Systems]]
 [[03 - Cloud Computing]]
 
+# OS and Virtualization
 
-
-
+[[03 - Operating Systems]]
 
 
 
