@@ -17,20 +17,13 @@ Search Tag: #㊙️
 ### The Language of Logic
 
 There are still a few important terms that you don't know so in this section we will go over them.
-## Tautology
-
-A tautology is an assertion or formula which is always true no matter the inputs. If you craft a logical statement that no matter the inputs is always true then this is a tautology.
-
-Another way of saying this would be if you have a logical statement where the truth table for it always produces only true results then this is a tautology.
-
-## Contradiction
-
-A contradiction is the opposite of a tautology. This is where all the results of a logical statement are always false no matter the inputs. If your truth table only produces false results then you have crafted a contradiction.
-
-## Contingency
-
-A contingency is essentially anything that isn't a tautology or contradiction. In other words a logical statement where the outcomes could be true or false **contingent** on the inputs.
-
+- #### Tautology
+	- A tautology is an assertion or formula which is always true no matter the inputs. If you craft a logical statement that no matter the inputs is always true then this is a tautology.
+	- Another way of saying this would be if you have a logical statement where the truth table for it always produces only true results then this is a tautology.
+- #### Contradiction
+	- A contradiction is the opposite of a tautology. This is where all the results of a logical statement are always false no matter the inputs. If your truth table only produces false results then you have crafted a contradiction.
+- #### Contingency
+	- A contingency is essentially anything that isn't a tautology or contradiction. In other words a logical statement where the outcomes could be true or false **contingent** on the inputs.
 
 ## Basic Logical Operators:
 
