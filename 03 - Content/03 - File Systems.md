@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Digital Forensics]] | [[000 - Global Index]] 
+Primary Categories: [[01 - Digital Forensics]] | [[000 - Cybersecurity Materials]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
@@ -34,13 +34,24 @@ Search Tag: #📖
 - FAT32 is a revised version of FAT16.
 - It supports larger partitions and has native support for long filenames.
 - The "32" in the name refers to the use of 32 bits for identifying data clusters.
-- Advantages of FAT32:
+- Advantages:
   - Compatibility with a wide range of devices and operating systems.
-- Disadvantages of FAT32:
+- Disadvantages:
   - Limitation on file size (less than 4 GB).
   - Limitation on partition capacity (maximum 8 TB).
   - No data protection in case of power loss.
   - No built-in file compression or encryption features.
+### exFAT
+
+- **Full Name**: Extended File Allocation Table
+- **Introduced**: 2006
+- **Maximum File Size**: ~16EB (exabyte)
+- **Maximum Volume Size**: ~64ZB (zettabyte)
+- **Pros**:
+    - Suitable for flash drives and SD cards.
+    - Removes the file size limitations of FAT32.
+- **Cons**:
+    - Not as universally compatible as FAT32 (though still broadly supported).
 
 ## NTFS
 
