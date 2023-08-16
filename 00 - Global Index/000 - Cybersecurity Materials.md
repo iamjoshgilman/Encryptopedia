@@ -20,6 +20,10 @@ tags: #🗺
 [[05 - INE eJPT Notes]]
 [[05 - eJPT Notes Dump]]
 
+# SANS BACS
+
+[[05 - GFACT]]
+
 ___
 
 ## Resources:
