@@ -5,5 +5,8 @@ Search Tag: #🗺
 # [[ASU-CSE110]]  
 ***
 
+# Chapter 1
+
 [[CSE-110 History and components of computers]]
+[[CSE-110 What is an Algorithm and Flowchart]]
 

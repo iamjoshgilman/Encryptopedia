@@ -68,18 +68,39 @@ ___
 - Computers typically run multiple programs simultaneously.
 - The **Operating System (OS)** manages these multiple simultaneous programs.
 
+## Transition from Computers to ICs
+1. **Initial Computers**: Large devices that occupied entire rooms.
+2. **Invention of Transistors**: Smaller switches that replaced bulky vacuum tubes used in earlier computers.
+3. **Integrated Circuit (IC)** (1958): Transistors were integrated onto a single chip.
+
+## Moore's Law
+- **Statement**: Doubling of IC capacity roughly every 18 months for several decades.
+- **Clarification**:
+    - Moore originally stated the doubling occurred every 2 years.
+    - The trend varied, sometimes occurring in 18 months.
+    - Key takeaway: Significant improvement over time.
+    - **Source**: Intel's documentation on Moore's Law.
+
+## The Rise of Microprocessors
+1. **First Microprocessor**: In 1971, Intel introduced the 4004.
+    - Called a "microprocessor" (with "micro-" indicating its small size).
+    - Contained 2,300 transistors.
+2. **Progression**: More powerful microprocessors developed every few years.
+3. **2012 Benchmark**:
+    - Single ICs housed several billion transistors.
+    - Contained multiple processors, each termed a "core."
+
 ---
 
 **Key Points to Remember**:
+
 1. The term 'computer' has evolved over time, from humans doing manual computations to advanced electronic devices.
 2. Distinct separation between hardware (physical machine) and software (programs).
 3. Computers consist of I/O devices, storage, memory, a processor, and a clock.
 4. The OS allows and manages multitasking.
-
-**Study Tips**:
-1. Familiarize yourself with the evolution of computers to understand modern terminologies better.
-2. Understand the roles of different computer components.
-3. Remember the differences between volatile (RAM) and non-volatile (Hard Drive) storage.
+5. Transition from room-sized computers to the invention of transistors and integrated circuits.
+6. The significance and implications of Moore's Law.
+7. Evolution of microprocessors, from the first 4004 by Intel to multi-core processors with billions of transistors by 2012.
 
 
 
