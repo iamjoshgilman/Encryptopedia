@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
+Primary Categories: [[ASU-CSE110]] | [[000 - Cybersecurity Materials]]
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
@@ -83,8 +83,6 @@ Output a
 ```
 
 ![[Pasted image 20230817200248.png]]
-
-
 ### Pseudocode vs. Flowcharts
 - **Flowcharts**: Ideal for visualizing, designing, and understanding algorithms.
 - **Pseudocode**: Closer to actual code, making it easier to translate into a programming language.
