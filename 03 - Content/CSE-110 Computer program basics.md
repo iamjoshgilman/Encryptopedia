@@ -45,7 +45,7 @@ z: 7
 ### 4. Understanding Programming Instructions:
 
 - The instruction `z = x + y` in programming is an assignment
-- Unlike alg
+- Unlike algebra (where = signifies equality), in programming, = is used to assign values.
 - If `x = 10` and `y = 20`, then `z` will be assigned the value `30`.
 
 ### 5. Computer Programs as Recipes:
