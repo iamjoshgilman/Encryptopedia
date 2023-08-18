@@ -53,31 +53,6 @@ z: 7
 - A computer program can be thought of as a recipe.
 - Just like a chef follows step-by-step instructions in a recipe, a computer follows the instructions in a program.
 
-### 6. First Programming Activity:
-
-- Experiment with rearranging instructions to observe how the output changes.
-- For example:
-  ```python
-  m = 5
-  put m
-  m = m * 2
-  put m
-  m = m * m
-  put m
-  m = m + 15
-  put m
-  ```
-
-### 7. Computational Thinking:
-
-- In the information age, computational thinking, or creating step-by-step instructions to solve a problem, is crucial.
-- An algorithm is a sequence of instructions designed to solve a problem.
-  
-#### Turtle Graphics:
-
-- A method to learn about algorithms.
-- Use simple commands like "Turn left", "Walk forward", "Pen down" to guide a turtle and draw shapes.
-- Experimenting with these instructions can yield various shapes, like triangles or squares.
 
 **Key Points to Remember**:
 - The order of instructions in a program matters.
@@ -85,8 +60,6 @@ z: 7
 - Variables store data and their values can change.
 - Computational thinking is an essential skill for the information age.
 - Algorithms are sequences of instructions that solve specific problems.
-
-I hope these notes are helpful for your revision! Please let me know if you need further assistance or clarification on any topic.
 
 
 ___
