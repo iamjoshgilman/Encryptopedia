@@ -5,9 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Phishing Analysis]] [[000 - Global Index]]
-Secondary Categories: [[]] 
-Links: [[]] 
+Primary Categories: [[01 - Phishing Analysis]] | [[000 - Cybersecurity Materials]]
 Search Tag: #📖  
 
 # [[03 - How Email Works]]  
@@ -46,6 +44,8 @@ Search Tag: #📖
 ## Webmail
 - While we can access emails via an email client such as the Outlook application or Mozilla's Thunderbird program, a more convenient method is to use webmail. These are web-based email accounts, such as those offered by Hotmail/Outlook, Gmail, and Yahoo Mail.
 	- As with any web application, webmail's main advantage over the use of a desktop email client is the ability to send and receive email from anywhere via a web browser, such as your laptop, desktop, phone, or tablet. The main disadvantage is that email cannot be accessed without an internet connection, which can be done with an email client, where emails are downloaded and stored locally.
+
+
 
 
 

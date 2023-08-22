@@ -15,6 +15,9 @@ Search Tag: #📖
 [[03 - TCP Protocol]]
 [[03 - UDP Protocol]]
 [[03 - Protocols and Ports]]
+[[03 - How Email Works]]
+[[03 - Email Spoofing, SPF and DKIM]]
+
 # OSI/TCP Model
 
 - 1 - **Physical** - Cabling
