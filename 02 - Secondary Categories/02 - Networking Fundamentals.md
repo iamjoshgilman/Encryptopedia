@@ -24,7 +24,7 @@ Search Tag: #📖
 - 2 - **Data** - Switching, MAC Addresses
 - 3 - **Network** - Routing, IP Addresses
 - 4 - **Transport** - TCP/UDP
-- 5 - **Session** - Session managment
+- 5 - **Session** - Session management
 - 6 - **Presentation** - WMV, JPEG, MOV
 - 7 - **Application** - HTTP(s), SMTP
 

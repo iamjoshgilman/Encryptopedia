@@ -11,16 +11,16 @@ Links: [[]]
 Search Tag: #📖  
 
 # [[03 - Email Spoofing, SPF and DKIM]]  
-## Overview
+
+___
+# Overview
 
 Email security is paramount due to the potential threat of email spoofing. Modern solutions like SPF and DKIM have been developed to counter these threats.
-
 ## Email Spoofing
 - **What is it?** Email spoofing is the act of sending emails with a fake or "spoofed" FROM address.
 - **Problem**: SMTP, being an older protocol, lacks native mechanisms to prevent this.
   
   🔑 **Key Point**: SMTP authentication only controls access to the SMTP server. Once authenticated, the sender can set any FROM address.
-
 ## SPF (Sender Policy Framework)
 - **Function**: Lists valid IP addresses allowed to send emails from a domain. 
 - **Mechanism**: A receiving mail server will check the SPF record of a domain when an email claims to be from that domain.
@@ -29,7 +29,6 @@ Email security is paramount due to the potential threat of email spoofing. Moder
 - **Limitation**: Outsourcing email to third parties (like Google) can undermine SPF because anyone using that third party might be seen as legitimate.
 
 🔑 **Key Point**: SPF is effective but can be bypassed if attackers use a trusted third-party mail server listed in the SPF record.
-
 ## DKIM (DomainKeys Identified Mail)
 - **Function**: Ensures that received emails are unmodified and actually come from the claimed sender/domain.
 - **Mechanism**: Uses asymmetric cryptography.
@@ -41,7 +40,6 @@ Email security is paramount due to the potential threat of email spoofing. Moder
 - **Advantage over SPF**: Email hosts can maintain separate private keys for every domain, ensuring individual domain security.
 
 🔑 **Key Point**: DKIM offers more security than SPF as it validates the legitimacy of an email through cryptographic signatures.
-
 ## Things to Remember:
 1. **Email Spoofing**: A major security concern where attackers can fake the 'FROM' address.
 2. **SPF**: Uses a list of valid IP addresses to verify the sender. Good but can be bypassed.
@@ -57,7 +55,6 @@ ___
 
 - **Purpose**: Validates whether a mail server is authorized to send emails for a specific domain.
 - **Mechanism**: Uses DNS to check SPF records set up by the domain owner.
-
 ## Process of SPF Validation
 
 1. **Initial Connection**:
@@ -79,7 +76,6 @@ ___
      - Blocked.
      - Marked as suspicious.
      - Allowed but logged for monitoring.
-
 ## Points to Note:
 
 - **Configuration is Key**: SPF relies on correct domain record configurations. Mistakes can lead to false positives or negatives.
@@ -91,8 +87,55 @@ ___
 3. SPF acts as a first line of defense against email spoofing.
 4. Always ensure your domain's DNS settings are secure to maximize SPF's effectiveness.
 
+___
+# How DKIM Works
 
+## DKIM (DomainKeys Identified Mail)
 
+- **Purpose**: Authenticates the identity of an email sender and ensures the integrity of the email content during transmission.
+## The DKIM Signing Process
+
+1. **Signing the Email**:
+   - The sending server signs the email using a private key.
+   - A hash is generated for the email header and a portion (or all) of the email body.
+   
+2. **Header Inclusions**:
+   - **d**: Domain signing the message. (e.g., sans.org)
+   - **b**: Unique signature of the email, produced using the sending server's private key.
+   - **bh**: A hash of the email for validation.
+## The DKIM Verification Process
+
+1. **Email Arrival**:
+   - The email arrives at the recipient server.
+   - The server extracts headers for verification.
+
+2. **DNS Query for Public Key**:
+   - The recipient server queries DNS to obtain the public key to verify the signature.
+   - The domain key selector (specified in the DKIM header) allows multiple DKIM entries for a domain (e.g., SES, own mail server, O365).
+   - The query is made to `selector._domainkey.domain`.
+
+3. **Retrieve Public Key**:
+   - The DNS query returns a TXT record containing a 'p' value, which is the public key used for validation.
+
+4. **Validation**:
+   - Using the obtained public key, the recipient server validates the email's DKIM signature.
+   - Successful validation confirms the authenticity of the sender and the integrity of the email's content.
+## Points to Note:
+
+- **Out-of-band Verification**: The verification process occurs independently of the email transmission itself, adding an extra layer of security.
+  
+- **Potential Vulnerabilities**: 
+   - If an attacker compromises the sending server, they can manipulate DKIM values.
+   - If an attacker gains control over the domain's DNS, they can inject their own DKIM records.
+## Integrated Email Security:
+
+- **SPF + DKIM + DMARC**: Integrating DKIM with SPF and DMARC frameworks drastically reduces email spoofing risks, enhancing the overall email security ecosystem.
+
+🔑 **Key Takeaways**:
+1. DKIM uses cryptographic methods to validate the sender and email content.
+2. Verification involves retrieving the sender's public key from DNS and matching it with the email's signature.
+3. Proper DKIM configuration is crucial to prevent vulnerabilities.
+4. An integrated approach using SPF, DKIM, and DMARC offers robust protection against email spoofing.
 
 
 ___
