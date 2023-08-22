@@ -17,13 +17,13 @@ Search Tag: #📖
 
 # OSI/TCP Model
 
-- 1 - Physical - Cabling
-- 2 - Data - Switching, MAC Addresses
-- 3 - Network - Routing, IP Addresses
-- 4 - Transport - TCP/UDP
-- 5 - Session - Session managment
-- 6 - Presentation - WMV, JPEG, MOV
-- 7 - Application - HTTP(s), SMTP
+- 1 - **Physical** - Cabling
+- 2 - **Data** - Switching, MAC Addresses
+- 3 - **Network** - Routing, IP Addresses
+- 4 - **Transport** - TCP/UDP
+- 5 - **Session** - Session managment
+- 6 - **Presentation** - WMV, JPEG, MOV
+- 7 - **Application** - HTTP(s), SMTP
 
 ## Please Do Not Throw Sausage Pizza Away
 
