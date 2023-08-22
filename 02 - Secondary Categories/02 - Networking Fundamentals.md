@@ -10,7 +10,10 @@ Secondary Categories: [[02 - Networking]]
 Links: [[]] 
 Search Tag: #📖  
 
-# [[03 - Networking Fundamentals]]  
+# [[02 - Networking Fundamentals]]  
+
+
+
 
 ### TCP, UDP, 3-Way-Handshake
 
