@@ -18,6 +18,9 @@ Search Tag: #📖
 [[03 - How Email Works]]
 [[03 - Email Spoofing, SPF and DKIM]]
 [[03 - DNS]]
+[[03 - DNS Records]]
+[[03 - DNS Lookups]]
+
 # OSI/TCP Model
 
 - 1 - **Physical** - Cabling
