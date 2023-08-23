@@ -27,6 +27,7 @@ Search Tag: #📖
 - [Registry Monitoring and Intrusion Detection](#registry-monitoring-and-intrusion-detection)
 - [Registry Remote Access](#registry-remote-access)
 - [Registry Backup and Recovery](#registry-backup-and-recovery)
+
 ---
 ## Introduction
 
