@@ -10,7 +10,7 @@ Secondary Categories: [[02 - Networking]]
 Links: [[]] 
 Search Tag: #📖  
 
-# [[03 - Protocols and Ports]]  
+# [[03 - Ports and Protocols]]  
 ---
 
 In computer networking, a port is a communication endpoint. At the software level, a port identifies a specific process or a type of network service. The port numbers are divided into three ranges; well-known ports, registered ports, and private ports.

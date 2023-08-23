@@ -18,7 +18,7 @@ Search Tag: #🗺
 - [[03 - The OSI Model]]
 - [[03 - Network Devices]]
 - [[03 - Network Tools]]
-- [[03 - Protocols and Ports]]
+- [[03 - Ports and Protocols]]
 
 ## Management Principles
 

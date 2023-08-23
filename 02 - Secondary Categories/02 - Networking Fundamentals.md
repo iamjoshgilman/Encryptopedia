@@ -14,13 +14,17 @@ Search Tag: #📖
 
 [[03 - TCP Protocol]]
 [[03 - UDP Protocol]]
-[[03 - Protocols and Ports]]
+[[03 - Ports and Protocols]]
+
 [[03 - How Email Works]]
 [[03 - Email Spoofing, SPF and DKIM]]
+
 [[03 - DNS]]
 [[03 - DNS Records]]
 [[03 - DNS Lookups]]
 
+[[03 - ICMP]]
+[[03 - DHCP]]
 # OSI/TCP Model
 
 - 1 - **Physical** - Cabling
