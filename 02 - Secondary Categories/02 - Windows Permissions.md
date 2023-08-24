@@ -10,8 +10,9 @@ Secondary Categories: [[]]
 Links: [[]] 
 Search Tag: #📖  
 
-# [[03 - Windows Permissions]]  
+# [[02 - Windows Permissions]]  
 
+[[03 - Windows User Accounts]]
 
 
 
