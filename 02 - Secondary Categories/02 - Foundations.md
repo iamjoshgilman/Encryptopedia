@@ -7,7 +7,7 @@ tags: #㊙️
 
 Search Tag: #㊙️  
 
-# [[02 - GFACT]]  
+# [[02 - Foundations]]  
 
 # Logic and Data Manipulation
 

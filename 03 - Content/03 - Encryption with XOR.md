@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[02 - GFACT]] 
+Primary Categories: [[02 - Foundations]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  

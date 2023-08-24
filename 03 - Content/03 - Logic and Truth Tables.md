@@ -5,7 +5,7 @@ aliases: []
 tags: #㊙️
 ---
 
-[[02 - GFACT]]
+[[02 - Foundations]]
 Search Tag: #㊙️  
 
 # [[03 - Logic and Truth Tables]]  

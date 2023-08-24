@@ -22,7 +22,7 @@ tags: #🗺
 
 # SANS BACS
 
-[[02 - GFACT]]
+[[02 - Foundations]]
 
 ___
 
