@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Incident Response]] | [[000 - Global Index]] 
+Primary Categories: [[01 - Incident Response]] | [[000 - Cybersecurity Materials]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
