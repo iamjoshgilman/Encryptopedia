@@ -9,7 +9,7 @@ Search Tag: #🗺
 [[02 - Windows]]
 [[02 - Networking]]
 [[03 - Pacman Cheatsheet]]
-[[03 - Windows powershell]]
+[[03 - Windows Powershell]]
 [[02 - Windows]]
 
 # Frameworks

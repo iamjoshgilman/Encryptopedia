@@ -5,8 +5,8 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[02 - Active Directory]] 
-Secondary Categories: [[]] 
+Primary Categories: [[000 - Global Index]] [[01 - Administration]] 
+Secondary Categories: [[02 - Windows]] 
 Links: [[]] 
 Search Tag: #📖  
 

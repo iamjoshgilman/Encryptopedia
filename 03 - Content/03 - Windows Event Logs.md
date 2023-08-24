@@ -5,8 +5,8 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Security Information and Event Management]] | [[000 - Global Index]] 
-Secondary Categories: [[]] 
+Primary Categories: [[01 - Security Information and Event Management]] | [[000 - Global Index]]
+Secondary Categories: [[02 - Windows]] | [[01 - Administration]]
 Links: [[]] 
 Search Tag: #📖  
 

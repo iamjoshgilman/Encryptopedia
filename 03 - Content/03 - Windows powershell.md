@@ -5,12 +5,12 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
-Secondary Categories: [[]] 
+Primary Categories: [[000 - Global Index]] | [[01 - Administration]] 
+Secondary Categories: [[02 - Windows]] 
 Links: [[]] 
 Search Tag: #📖  
 
-# [[03 - Windows powershell]]  
+# [[03 - Windows Powershell]]  
 { document content boilerplate }
 
 

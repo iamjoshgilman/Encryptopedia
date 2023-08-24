@@ -41,7 +41,7 @@ Search Tag: #㊙️
 # Windows Overview
 
 [[03 - Windows Registry]]
-[[02 - Windows Permissions]]
+[[02 - Windows]]
 
 
 

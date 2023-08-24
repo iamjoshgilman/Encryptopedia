@@ -4,6 +4,13 @@ Search Tag: #🗺
 
 # [[02 - Windows]]  
 ***
+# Windows Overview
 
-[[03 - Windows powershell cheatsheet]]
+[[03 - Windows Registry]]
+[[03 - Windows Event Logs]]
+[[03 - Windows Powershell]]
 
+
+# Windows Permissions
+
+[[03 - Windows User Accounts]]
