@@ -6,7 +6,7 @@ tags: #📖
 ---
 
 Primary Categories: [[01 - Languages]] 
-Secondary Categories: [[000 - Cybersecurity Materials]] 
+Secondary Categories: [[000 - Global Index]] 
 Links: [[]] 
 Search Tag: #📖  
 

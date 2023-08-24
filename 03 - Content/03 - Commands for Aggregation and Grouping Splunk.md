@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[02 - Splunk]] | [[000 - Cybersecurity Materials]]
+Primary Categories: [[02 - Splunk]] | [[000 - Global Index]]
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  

@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
+Primary Categories: [[01 - Administration]] | [[000 - Global Index]]
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  

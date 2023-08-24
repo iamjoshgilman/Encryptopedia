@@ -6,7 +6,7 @@ tags: #📖
 ---
 
 Primary Categories: [[03 - Network Fundamentals]] | [[01 - Administration]] 
-Secondary Categories: [[02 - Networking]] | [[000 - Cybersecurity Materials]]
+Secondary Categories: [[02 - Networking]] | [[000 - Global Index]]
 Links: [[]] 
 Search Tag: #📖  
 

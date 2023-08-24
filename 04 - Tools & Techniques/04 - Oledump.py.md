@@ -5,7 +5,7 @@ aliases: []
 tags: #🧰
 ---
 
-Primary Categories: [[01 - Malware Analysis]] | [[000 - Cybersecurity Materials]] 
+Primary Categories: [[01 - Malware Analysis]] | [[000 - Global Index]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #🧰  

@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Administration]] | [[000 - Cybersecurity Materials]]
+Primary Categories: [[01 - Administration]] | [[000 - Global Index]]
 Secondary Categories: [[02 - Networking]] 
 Links: [[]] 
 Search Tag: #📖  

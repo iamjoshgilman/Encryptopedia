@@ -1,4 +1,4 @@
-Primary Categories: [[01 - Administration]] | [[000 - Cybersecurity Materials]] 
+Primary Categories: [[01 - Administration]] | [[000 - Global Index]] 
 Secondary Categories: [[]] 
 Search Tag: #🗺  
 

@@ -1,4 +1,4 @@
-Primary Categories: [[000 - Cybersecurity Materials]] 
+Primary Categories: [[000 - Global Index]] 
 Search Tag: #🗺  
 
 # [[01 - Cloud]]  

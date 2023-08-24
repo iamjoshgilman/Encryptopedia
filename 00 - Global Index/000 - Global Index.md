@@ -1,6 +1,6 @@
 tags: #🗺
 
-# [[000 - Cybersecurity Materials]]  
+# [[000 - Global Index]]  
 
 ***
 

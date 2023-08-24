@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Digital Forensics]] | [[000 - Cybersecurity Materials]] 
+Primary Categories: [[01 - Digital Forensics]] | [[000 - Global Index]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  

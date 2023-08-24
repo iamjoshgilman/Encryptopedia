@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[01 - Phishing Analysis]] | [[000 - Cybersecurity Materials]]
+Primary Categories: [[01 - Phishing Analysis]] | [[000 - Global Index]]
 Search Tag: #📖  
 
 # [[03 - How Email Works]]  

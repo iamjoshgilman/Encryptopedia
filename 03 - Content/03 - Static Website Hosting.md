@@ -6,7 +6,7 @@ tags: #📖
 ---
 
 Primary Categories: [[02 - Amazon Web Services (AWS)]] 
-Secondary Categories: [[01 - Cloud]] | [[000 - Cybersecurity Materials]] 
+Secondary Categories: [[01 - Cloud]] | [[000 - Global Index]] 
 Links: [[]] 
 Search Tag: #📖  
 

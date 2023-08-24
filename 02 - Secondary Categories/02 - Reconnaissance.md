@@ -1,5 +1,5 @@
 Primary Categories: [[01 - Red Team]] 
-Secondary Categories: [[000 - Cybersecurity Materials]] 
+Secondary Categories: [[000 - Global Index]] 
 Search Tag: #🗺  
 
 # [[02 - Reconnaissance]]  

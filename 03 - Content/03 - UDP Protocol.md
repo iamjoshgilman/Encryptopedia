@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[02 - Networking Fundamentals]] | [[000 - Cybersecurity Materials]] 
+Primary Categories: [[02 - Networking Fundamentals]] | [[000 - Global Index]] 
 Secondary Categories: [[01 - Administration]] 
 Links: [[]] 
 Search Tag: #📖  

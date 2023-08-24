@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[02 - Foundations]] | [[000 - Cybersecurity Materials]]
+Primary Categories: [[02 - Foundations]] | [[000 - Global Index]]
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  

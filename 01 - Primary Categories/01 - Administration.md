@@ -1,4 +1,4 @@
-Links: [[000 - Cybersecurity Materials]]
+Links: [[000 - Global Index]]
 Search Tag: #🗺 
 
 # [[01 - Administration]]
@@ -10,7 +10,7 @@ Search Tag: #🗺
 [[02 - Networking]]
 [[03 - Pacman Cheatsheet]]
 [[03 - Windows powershell]]
-
+[[02 - Windows]]
 
 # Frameworks
 ---

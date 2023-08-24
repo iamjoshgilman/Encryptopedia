@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
+Primary Categories: [[02 - Windows Permissions]] | [[000 - Global Index]] 
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
@@ -24,7 +24,7 @@ ___
 ### **Guest**:
   - For users without a permanent account on the system.
   - Limited capabilities; needs to be secure against misuse.
-### **DefaultAccount**:
+### **Default Account**:
   - Template for new user accounts.
   - Alterations affect all subsequent user accounts created.
 - *Note*: All these accounts are **disabled** by default.

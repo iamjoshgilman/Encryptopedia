@@ -1,4 +1,4 @@
-Primary Categories: [[01 - Blue Team]] | [[000 - Cybersecurity Materials]] 
+Primary Categories: [[01 - Blue Team]] | [[000 - Global Index]] 
 Secondary Categories: [[]] 
 Search Tag: #🗺  
 

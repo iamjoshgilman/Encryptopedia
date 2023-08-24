@@ -5,7 +5,7 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[ASU-CSE110]] | [[000 - Cybersecurity Materials]]
+Primary Categories: [[ASU-CSE110]] | [[000 - Global Index]]
 Secondary Categories: [[]] 
 Links: [[]] 
 Search Tag: #📖  
