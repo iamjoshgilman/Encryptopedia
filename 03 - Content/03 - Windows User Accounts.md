@@ -5,8 +5,8 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[02 - Windows Permissions]] | [[000 - Global Index]] 
-Secondary Categories: [[]] 
+Primary Categories: [[01 - Administration]] | [[000 - Global Index]] 
+Secondary Categories: [[02 - Windows]] 
 Links: [[]] 
 Search Tag: #📖  
 
