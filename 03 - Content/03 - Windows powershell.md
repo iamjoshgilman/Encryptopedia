@@ -116,13 +116,22 @@ Handles NPM(K)  PM(K)   WS(K)   CPU(s)  Id      SI  ProcessName
 - Start a new process or application.
 - The `-FilePath` parameter specifies the program to run.
 - Check out all the options by using `Start-Process -?` to display the help file.
-- Example
 ### 6. **Stop-Process**
 - Ends one or multiple processes.
 - Can target processes by name or by their unique ID.
 ### 7. **Aliases**
 - Shortcut names for cmdlets.
 - You can create, delete, or modify aliases with `Set-Alias`.
+- If you want to check out what other commands have an alias set, or if you want to set your own, you can do so by using the `Get-Alias` and `Set-Alias` cmdlets.
+- Running `Get-Alias` will print a list of all currently set aliases, or if you want to see which command is behind the alias you can use the '-Name' argument like this:
+```PS
+PS C:\Users\User\Demo> Get-Alias -Name cat
+CommandType Name                Version Source
+----------- ----                ------- ------
+Alias       cat->Get-Content
+```
+- Setting an alias is done by using the following arguments: `Set-Alias -Name <alias_name> -Value <cmdlet_to_run>`
+- So if you wanted to add "list" as an alias of `Get-ChildItem` the command would look like: `Set-Alias -Name list -Value Get-ChildItem`
 
 | Alias | Cmdlet         | Description                          |
 |-------|----------------|--------------------------------------|
