@@ -43,12 +43,51 @@ The CPU (Central Processing Unit) is the primary component responsible for execu
   - **Faster than RAM**: Due to their location inside the CPU, electrical signals have minimal distance to travel.
   - **Limited Capacity**: There are few registers, and they can hold a very restricted amount of data.
   - Explored in detail in the section on CPU registers.
-## Key Takeaways
-1. **Control Unit (CU)**: Directs and manages the flow of operations within the CPU.
-2. **Arithmetic Logic Unit (ALU)**: Executes mathematical and logical computations.
-3. **Registers**: On-CPU memory units that provide quick data access, but with extremely limited capacity.
+## Register Capacity based on Architecture
+- **32-bit architecture**: 
+  - Register capacity: 32 bits of data
+  - Equivalent to: 4 bytes or 4 characters (using ASCII encoding)
+- **64-bit architecture**: 
+  - Register capacity: 64 bits of data
+  - Equivalent to: 8 bytes or 8 characters (using ASCII encoding)
+## General Purpose Registers
 
-___
+### For 32-bit Intel CPU (x86)
+Four primary registers that can be divided into sub-registers:
+1. **EAX**: 
+   - Divided into AX, AL (lower 8 bits of AX), and AH (higher 8 bits of AX)
+2. **EBX**: 
+   - Similar to EAX, it can be split as BX, BL, BH
+3. **ECX**
+4. **EDX**
+
+|_8 bits_|_8 bits_|_8 bits_|_8 bits_|
+|---|---|---|---|
+|EAX|EAX|EAX|EAX|
+|||AX|AX|
+|||AH|AL|
+
+> Note: Accessing different sections of a register (like AH or AL) doesn't change the overall register. You're just viewing specific portions of it.
+### Other General Purpose Registers
+These are less divisible than the primary ones:
+1. **ESP (Stack Pointer)**: Points to the top of the current stack frame in RAM.
+2. **EBP (Base Pointer)**: Points to the bottom of the current stack frame in RAM.
+3. **ESI (Source Index)**: Holds the memory address of source data in operations.
+4. **EDI (Destination Index)**: Contains the destination memory address for operations.
+
+> Caution: While named 'general purpose', some registers serve specific functions. Indiscriminate data storage in them can lead to issues.
+## Special Purpose Registers
+Registers reserved for specific tasks and can't be freely manipulated by most programs.
+- **EIP (Instruction Pointer)**: 
+  - Specific to 32-bit Intel x86 processors.
+  - Holds the memory address of the next CPU instruction.
+
+> Note: There are more special purpose registers, but they are omitted here for simplicity.
+## Key Takeaways
+1. **General Purpose Registers**:
+   - Primary registers on 32-bit CPUs are divisible, and each segment refers to a specific portion.
+   - There are registers with specific functions like stack pointers and index holders.
+2. **Special Purpose Registers**: Reserved for crucial tasks, the most prominent being the instruction pointer.
 
 
 
