@@ -41,7 +41,74 @@ To open PowerShell ISE:
 PowerShell ISE is invaluable when writing long scripts, as it provides debugging capabilities, syntax highlighting, and tab completion.
 
 ___
+# Key Commands
 
+### 1. **Get-Command**
+- Discover commands available to you.
+- Filter results using `-Noun` and `-Verb` parameters.
+### 2. **Get-ChildItem**
+- View contents of a directory or a specific path.
+- Alias: `dir` and `ls` (borrowed from Linux).
+### 3. **Get-Content**
+- Displays the content of a file.
+- Alias: `cat` (borrowed from Linux).
+### 4. **Get-Process**
+- Retrieves a list of all running processes on a computer.
+- Each process is represented by a unique process ID (PID).
+### 5. **Start-Process**
+- Start a new process or application.
+- The `-FilePath` parameter specifies the program to run.
+### 6. **Stop-Process**
+- Ends one or multiple processes.
+- Can target processes by name or by their unique ID.
+### 7. **Aliases**
+- Shortcut names for cmdlets.
+- You can create, delete, or modify aliases with `Set-Alias`.
+
+| Alias | Cmdlet         | Description                          |
+|-------|----------------|--------------------------------------|
+| cat   | Get-Content    | Display file contents                |
+| cd    | Set-Location   | Change directory                     |
+| dir   | Get-ChildItem  | List directory contents              |
+| ls    | Get-ChildItem  | List directory contents (alternative)|
+| rm    | Remove-Item    | Delete files or folders              |
+## Additional Insights:
+
+### Parameter Help
+
+PowerShell cmdlets often have many parameters. To see all parameters and get detailed help for a cmdlet, use:
+
+```powershell
+Get-Help <cmdlet-name> -Detailed
+```
+### Pipelines
+
+A hallmark feature of PowerShell is the pipeline, represented by `|`. It allows you to take the output of one cmdlet and send it as input to another cmdlet. For example, to stop all processes named "Notepad", you could do:
+
+```powershell
+Get-Process -Name notepad | Stop-Process
+```
+### Profile
+
+If you find yourself setting certain aliases or configurations every time you open PowerShell, consider setting up a profile. This is a script that runs every time you open a PowerShell session. You can check if you already have a profile with:
+
+```powershell
+Test-Path $profile
+```
+
+If it returns `False`, you can create one with:
+
+```powershell
+New-Item -Type file -Path $profile -Force
+```
+
+Then, edit your profile with:
+
+```powershell
+notepad.exe $profile
+```
+
+Here, you can add cmdlets or scripts that you want to run at the start of each session.
 
 
 
