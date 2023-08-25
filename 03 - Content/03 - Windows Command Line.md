@@ -88,7 +88,6 @@ Directory of C:\Users\User\Demo
 
 ---
 
-When used in Obsidian, the linked index at the top will allow you to quickly navigate between sections.
 
 
 
