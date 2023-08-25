@@ -46,18 +46,77 @@ ___
 ### 1. **Get-Command**
 - Discover commands available to you.
 - Filter results using `-Noun` and `-Verb` parameters.
+- Example:
+```PS
+PS C:\Users\User> Get-Command -Noun Computer
+
+CommandType Name                    Version Source
+----------- ----                    ------- ------
+Cmdlet      Add-Computer            3.1.0.0 Microsoft.PowerShell.Management
+Cmdlet      Checkpoint-Computer     3.1.0.0 Microsoft.PowerShell.Management
+Cmdlet      Remove-Computer         3.1.0.0 Microsoft.PowerShell.Management
+Cmdlet      Rename-Computer         3.1.0.0 Microsoft.PowerShell.Management
+Cmdlet      Restart-Computer        3.1.0.0 Microsoft.PowerShell.Management
+Cmdlet      Restore-Computer        3.1.0.0 Microsoft.PowerShell.Management
+Cmdlet      Stop-Computer           3.1.0.0 Microsoft.PowerShell.Management
+```
+
+```PS
+PS C:\Users\User> Get-Command -Verb Stop
+CommandType Name                             Version     Source
+----------- ----                             -------     ------
+Function    Stop-DscConfiguration            1.1         PSDesiredStateConfiguration
+Function    Stop-Dtc                         1.0.0.0     MsDtc
+Function    Stop-DtcTransactionsTraceSession 1.0.0.0     MsDtc
+Function    Stop-EtwTraceSession             1.0.0.0     EventTracingManagement
+Function    Stop-NetEventSession             1.0.0.0     NetEventPacketCapture
+...
+```
 ### 2. **Get-ChildItem**
 - View contents of a directory or a specific path.
 - Alias: `dir` and `ls` (borrowed from Linux).
+- Example:
+```PS
+PS C:\Users\User\Demo> Get-ChildItem
+
+    Directory: C:\Users\User\Demo
+Mode        LastWriteTime   Length  Name
+----        -------------   ------  ----
+d-----   30/01/2018 22:28           dest_dir
+d-----   30/01/2018 22:28           source_dir
+-a----   30/01/2018 15:07         8 file1.txt
+-a----   30/01/2018 15:07         8 file2.txt
+-a----   30/01/2018 15:07        16 file3.txt
+-a----   30/01/2018 16:14        10 new
+```
 ### 3. **Get-Content**
 - Displays the content of a file.
 - Alias: `cat` (borrowed from Linux).
+- Example:
+```PS
+PS C:\Users\User\Demo> Get-Content \file1.txt
+"one"
+```
 ### 4. **Get-Process**
 - Retrieves a list of all running processes on a computer.
 - Each process is represented by a unique process ID (PID).
+- Example:
+```PS
+PS C:\Users\User\Demo> Get-Process
+Handles NPM(K)  PM(K)   WS(K)   CPU(s)  Id      SI  ProcessName
+------- ------  -----   -----   ------  --      --  -----------
+299         18  8936    24372    0.13   3540    1 ApplicationFrameHost
+256         13  4572    18416    2.47   3280    1 conhost
+513         19  1600    4864             452    0 csrss
+346         16  1636    4848             556    1 csrss
+346         15  2816    12824    0.17   5280    1 ctfmon
+...
+```
 ### 5. **Start-Process**
 - Start a new process or application.
 - The `-FilePath` parameter specifies the program to run.
+- Check out all the options by using `Start-Process -?` to display the help file.
+- Example
 ### 6. **Stop-Process**
 - Ends one or multiple processes.
 - Can target processes by name or by their unique ID.
