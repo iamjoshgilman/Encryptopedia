@@ -178,9 +178,57 @@ notepad.exe $profile
 
 Here, you can add cmdlets or scripts that you want to run at the start of each session.
 
+___
+# PowerShell Objects
 
-
-
+## Overview
+- In PowerShell, cmdlets interact with **objects** rather than mere text.
+- Objects carry additional information and functionalities than typical command-line interfaces.
+## PowerShell Object Properties
+- **Properties** contain information about the object.
+  - For example, with the `Get-ChildItem` cmdlet, properties can show data like:
+    - Time last accessed
+    - Parent directories
+    - Root directories
+- Use `Get-Member` cmdlet to inspect the properties and methods of an object.
+  ```powershell
+  Get-ChildItem | Get-Member
+  ```
+## PowerShell Object Methods
+- **Methods** are functionalities that allow manipulation of the object and its data.
+  - For instance, the `Delete` method will delete the directory an object represents.
+## Storing Objects in Variables
+- The result of a cmdlet can be stored in a variable.
+- Variables are declared using the `$` symbol.
+  ```powershell
+  $child_items = Get-ChildItem
+  ```
+- Accessing stored objects:
+  ```powershell
+  $child_items
+  ```
+  This will display the content of the variable.
+## Accessing Object's Properties and Methods through Variables
+- Properties can be accessed with the following syntax:
+  ```powershell
+  $child_items.PropertyName
+  ```
+  Example:
+  ```powershell
+  $child_items.Name
+  ```
+  This will display a list of file names from the stored result.
+  
+- Methods can be accessed similarly:
+  ```powershell
+  $child_items.MethodName()
+  ```
+  Ensure you add parentheses to invoke the method.
+## Key Takeaways
+1. **Objects** in PowerShell are powerful as they contain both data (properties) and functionalities (methods).
+2. Inspect objects using the `Get-Member` cmdlet.
+3. Store command results in **variables** for further manipulation.
+4. Access and manipulate stored data using properties and methods of the object via the variable.
 
 ___
 
