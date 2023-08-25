@@ -5,8 +5,8 @@ aliases: []
 tags: #📖
 ---
 
-Primary Categories: [[]] 
-Secondary Categories: [[]] 
+Primary Categories: [[000 - Global Index]] | [[01 - Administration]] 
+Secondary Categories: [[02 - Windows]] 
 Links: [[]] 
 Search Tag: #📖  
 
@@ -16,6 +16,7 @@ Search Tag: #📖
 - [1. Changing Directory (cd)](#1-changing-directory-cd)
 - [2. Changing Drives](#2-changing-drives)
 - [3. Viewing Directory Contents](#3-viewing-directory-contents)
+- [4. Common Commands](#Common-Commands)
 
 ---
 ### 1. Changing Directory (cd)
@@ -87,7 +88,19 @@ Directory of C:\Users\User\Demo
 ```
 
 ---
+## 4. Common Commands
 
+| Command  | Usage                                    | Example                   | Additional Notes                                        |
+|----------|------------------------------------------|---------------------------|---------------------------------------------------------|
+| `mkdir`  | Create a new directory.                   | `mkdir new_dir`           | Can create nested directories in one go.                |
+| `copy`   | Copy files from source to destination.    | `copy file1.txt file2.txt`| Cannot copy directories, only files.                     |
+| `robocopy`| Robust file copy including directories.  | `robocopy source_dir dest_dir /s`| Use `/S` for non-empty directories, `/E` for all.  |
+| `move`   | Move files or directories.                | `move source_dir dest_dir`| Can move both files and directories.                    |
+| `del`    | Delete files.                             | `del file1.txt`           | Use `/P` to prompt before deleting, can't delete directories.|
+| `rmdir`  | Remove directories.                       | `rmdir directory_name`    | Use `/S` to remove non-empty directories.                |
+| `more`   | Display file content one page at a time.  | `dir \| more`             | Good for paging through large outputs.                   |
+| `find`   | Search inside files for text.             | `find "hello"`            | Can use wildcards, `2>nul` to hide errors.               |
+| `where`  | Locate files on the system.               | `where "file*.txt"`       | Use `/R` to search in a directory and its subdirectories, checks PATH by default.|
 
 
 
