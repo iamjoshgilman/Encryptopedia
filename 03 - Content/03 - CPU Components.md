@@ -89,7 +89,75 @@ Registers reserved for specific tasks and can't be freely manipulated by most pr
    - There are registers with specific functions like stack pointers and index holders.
 2. **Special Purpose Registers**: Reserved for crucial tasks, the most prominent being the instruction pointer.
 
+___
+# Fetch - Decode - Execute
 
+## Introduction
+The Fetch-Decode-Execute Cycle is the fundamental process a CPU follows to carry out program instructions. This sequence ensures that a CPU functions systematically, carrying out instructions step-by-step from the RAM to execution.
+## Breakdown
+
+### 1. **Fetch**
+The Control Unit (CU) of the CPU initiates the cycle by:
+- Fetching the next instruction from RAM.
+- This is essentially "retrieving" or "picking up" the next command to be executed.
+### 2. **Decode**
+Once fetched, the instruction isn't immediately actionable. Therefore:
+- The Control Unit decodes or translates the fetched instruction into a form the CPU can understand.
+- If necessary, the CU retrieves relevant data from the memory and sends it to the Arithmetic Logic Unit (ALU).
+### 3. **Execute**
+After decoding, the instruction is ready for action:
+- The ALU takes charge, executing the decoded instruction using the data provided.
+- Depending on the instruction, the ALU performs arithmetic or logical operations.
+### 4. **Store**
+Post execution, the result is stored:
+- The ALU then saves the result of its computation.
+- This result is stored either back in a specific memory register within the CPU or in RAM.
+## Cycle Continuation
+- After the completion of these steps, the process restarts.
+- The cycle will continue, fetching the next instruction and repeating the process as long as the program is running.
+## Quick Recap
+1. **Fetch**: CU retrieves instruction from RAM.
+2. **Decode**: CU decodes the instruction and sends relevant data to ALU.
+3. **Execute**: ALU performs the required action.
+4. **Store**: The result of the action is stored in memory.
+
+---
+# RAM: Stack and Heap
+
+## Introduction
+RAM (Random Access Memory) is a form of volatile memory that provides fast access to stored data. It's separated into different sections for different purposes: the Stack and the Heap.
+## The Stack
+
+### 1. **Structure and Order**
+- The stack is an organized, Last-In-First-Out (LIFO) section of memory.
+- Every time a function is called, it's allocated a stack frame.
+### 2. **Stack Frame**
+- Contains local variables and control data for functions.
+- For instance, if a function prompts user input, the input would be stored in the stack frame.
+### 3. **Return Pointer**
+- It's the memory address the CPU should jump back to after the function has finished executing.
+- When a function is called, the CPU saves the address of the next instruction on the stack. This address is then used to return to the original flow of execution after the function completes.
+## The Heap
+### 1. **Lack of Structure**
+- The heap is more free-form and lacks the orderly structure of the stack.
+### 2. **Dynamic Memory Allocation**
+- Allows for memory to be allocated on the fly, without prior knowledge of the data's size.
+- Useful for data with unpredictable size.
+## Instructions vs Data
+### 1. **Indistinguishable to the CPU**
+- To the CPU, both instructions and data look the same (binary). The differentiation arises from how they're used.
+### 2. **Execution Context**
+- If the instruction pointer points to a location, the CPU treats that location's content as instructions.
+### 3. **Data Context**
+- If a memory operation is performed on a location, the content is treated as data.
+### 4. **Potential for Exploitation**
+- Misleading the CPU to treat data as instructions (or vice versa) can lead to unintended behaviors or system vulnerabilities. This concept is a cornerstone of various cyber attacks, such as buffer overflows.
+
+## Key Takeaways
+
+- **Stack**: Structured, used for function calls, and contains local variables.
+- **Heap**: Unstructured, used for dynamic memory allocation.
+- **Instructions vs Data**: The CPU treats memory content based on the context (instruction pointer for instructions, memory operations for data). Mistaking one for the other can be exploited.
 
 
 ___
