@@ -100,11 +100,6 @@ There are two primary approaches to breaching encryption:
 
 Given the constraints of hash algorithms, it's possible (though statistically improbable with good algorithms) for two different inputs to produce the same hash (a **collision**). This is especially conceivable when considering a large dataset being represented by a significantly smaller hash value. While rare, these collisions can affect use cases where unique representation is crucial.
 
----
-
-
-
-
 
 
 ___
