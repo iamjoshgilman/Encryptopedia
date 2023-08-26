@@ -44,6 +44,35 @@ There are two primary approaches to breaching encryption:
 2. **Key Guessing:** Attempting to determine the encryption key. This approach is effective only with outdated algorithms like DES, which have a small encryption key size. For instance, DES, from the 1970s, had a maximum key size of 56 bits, making it vulnerable to brute-force attacks on modern computers.
 
 ---
+# Symmetric Encryption Study Notes
+
+## Definition
+
+**Symmetric Encryption** is a method where the same key is used for both encrypting and decrypting data.
+## Historical Context
+
+- **Caesar Cipher**: An ancient form of symmetric encryption used by Romans.
+  - **Working**: Letters in a message are shifted by a specific number of places.
+  - **Key**: The number by which letters are shifted.
+  - **Example**: 
+    - **Plaintext**: "Caesar Cipher in action"
+    - **Key**: 8
+    - **Encrypted**: "Kimaiz Kqxpmz qv ikbqwv"
+    - **Decrypted**: Shift the letters 8 places left to retrieve "Caesar Cipher in action".
+  - **Flaw**: Only 26 possible shifts, making it easily breakable today.
+## Modern Symmetric Encryption
+
+- **AES (Advanced Encryption Standard)**:
+  - Prominent modern symmetric encryption algorithm.
+  - Supports keys of sizes: 128, 192, or 256 bits.
+  - **Key Size Significance**:
+    - A 256-bit key has \(2^{256}\) or \(1.1579 \times 10^{77}\) possible combinations. This is an astronomically large number, providing immense security.
+  - **Encryption Speed**:
+    - A balance between speed and security is crucial. Encryption shouldn't be so slow that it's impractical, but if decryption is too fast, brute force attacks become feasible.
+
+---
+
+
 
 
 
