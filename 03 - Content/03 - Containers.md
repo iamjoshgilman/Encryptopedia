@@ -72,7 +72,85 @@ Docker has revolutionized how applications are developed, tested, and deployed. 
 - **Rapid Deployment:** Quickly deploy applications, databases, or services without the overhead of setting up an entire infrastructure.
 - **Versatility:** Use Docker for database clustering, real-time big data analytics, serverless computing, and more.
 
+### Docker CLI Basics
 
+Docker CLI (Command-Line Interface) provides commands for interacting with Docker components such as images, containers, networks, and volumes. Understanding the basics of Docker CLI is fundamental to effectively utilizing Docker for any application.
+
+#### Getting Started with Docker CLI:
+
+1. **Pulling an Image:**
+
+   The `docker pull` command allows you to download Docker images from a repository, such as Docker Hub. For instance, to download the latest version of Ubuntu:
+
+   ```bash
+   docker pull ubuntu:latest
+   ```
+
+   If you want to download a specific version of Ubuntu:
+
+   ```bash
+   docker pull ubuntu:18.04
+   ```
+
+2. **Listing Images:**
+
+   To see all images stored on your local system:
+
+   ```bash
+   docker images
+   ```
+
+3. **Running a Container:**
+
+   The `docker run` command creates and starts a container from an image. For example, to run a bash shell inside an Ubuntu container:
+
+   ```bash
+   docker run -it ubuntu:latest /bin/bash
+   ```
+
+   Here, `-it` allows interactive input with the container. 
+
+4. **Listing Running Containers:**
+
+   To see all running containers:
+
+   ```bash
+   docker ps
+   ```
+
+   To see all containers (running and stopped):
+
+   ```bash
+   docker ps -a
+   ```
+
+5. **Stopping and Removing Containers:**
+
+   To stop a container:
+
+   ```bash
+   docker stop [CONTAINER ID or NAME]
+   ```
+
+   To remove a container:
+
+   ```bash
+   docker rm [CONTAINER ID or NAME]
+   ```
+
+6. **Removing Images:**
+
+   To remove an image from your local system:
+
+   ```bash
+   docker rmi [IMAGE ID or NAME]
+   ```
+
+   Please note, if a container was created from the image, the container needs to be removed first before the image can be deleted.
+
+#### Conclusion:
+
+While the above commands just scratch the surface of Docker's capabilities, they provide a foundational understanding to get started. As you become more comfortable with these commands, you'll find that Docker offers a vast set of functionalities that can greatly enhance your development and deployment processes. It's recommended to dive deeper into the Docker documentation or explore tutorials to further your expertise.
 
 
 
