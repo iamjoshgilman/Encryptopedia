@@ -71,7 +71,36 @@ There are two primary approaches to breaching encryption:
     - A balance between speed and security is crucial. Encryption shouldn't be so slow that it's impractical, but if decryption is too fast, brute force attacks become feasible.
 
 ---
+# Hashing
+## Definition
 
+**Hashing** is a one-way encryption technique where data is transformed into a fixed-size value, known as a hash. This technique is irreversible, meaning one cannot retrieve the original data from the hash.
+## Key Properties
+
+1. **Deterministic**: Same input will always produce the same hash.
+2. **High Sensitivity**: A minuscule change in input will result in a vastly different hash.
+3. **Uniqueness**: Different inputs should not produce the same hash. When this does happen, it's called a "collision".
+4. **Fixed Length**: Regardless of input size, the hash size remains consistent.
+## Applications
+
+1. **Data Integrity**:
+    - Verifying if files are identical by comparing their hashes.
+    - In computer forensics, ensuring evidence remains unaltered.
+  
+2. **Password Storage**:
+    - Storing password hashes instead of plain text passwords for security.
+    - During login, a user's input is hashed and matched against stored hash.
+## Common Hashing Algorithms
+
+- **MD5**: Older and now considered broken due to vulnerabilities.
+- **SHA1**: A successor to MD5, also considered broken and insecure.
+- **SHA2, SHA3**: Modern, more secure hashing algorithms.
+- **SHA256, SHA512**: Variants specifying the bit-length of the hash.
+## Philosophical Note
+
+Given the constraints of hash algorithms, it's possible (though statistically improbable with good algorithms) for two different inputs to produce the same hash (a **collision**). This is especially conceivable when considering a large dataset being represented by a significantly smaller hash value. While rare, these collisions can affect use cases where unique representation is crucial.
+
+---
 
 
 
